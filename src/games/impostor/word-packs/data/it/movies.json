@@ -1,0 +1,446 @@
+[
+  {
+    "crewWord": "Guerre Stellari",
+    "spyWord": "Star Trek"
+  },
+  {
+    "crewWord": "Batman",
+    "spyWord": "Superman"
+  },
+  {
+    "crewWord": "Marvel",
+    "spyWord": "DC"
+  },
+  {
+    "crewWord": "Harry Potter",
+    "spyWord": "Il Signore degli Anelli"
+  },
+  {
+    "crewWord": "Friends",
+    "spyWord": "Seinfeld"
+  },
+  {
+    "crewWord": "Il Trono di Spade",
+    "spyWord": "House of the Dragon"
+  },
+  {
+    "crewWord": "Breaking Bad",
+    "spyWord": "Better Call Saul"
+  },
+  {
+    "crewWord": "The Office",
+    "spyWord": "Parks and Recreation"
+  },
+  {
+    "crewWord": "Stranger Things",
+    "spyWord": "Dark"
+  },
+  {
+    "crewWord": "James Bond",
+    "spyWord": "Mission Impossible"
+  },
+  {
+    "crewWord": "Indiana Jones",
+    "spyWord": "Tomb Raider"
+  },
+  {
+    "crewWord": "Jurassic Park",
+    "spyWord": "King Kong"
+  },
+  {
+    "crewWord": "Titanic",
+    "spyWord": "Avatar"
+  },
+  {
+    "crewWord": "Forrest Gump",
+    "spyWord": "Cast Away"
+  },
+  {
+    "crewWord": "Il Padrino",
+    "spyWord": "Scarface"
+  },
+  {
+    "crewWord": "Pulp Fiction",
+    "spyWord": "Reservoir Dogs"
+  },
+  {
+    "crewWord": "Inception",
+    "spyWord": "Interstellar"
+  },
+  {
+    "crewWord": "Matrix",
+    "spyWord": "Blade Runner"
+  },
+  {
+    "crewWord": "Lo Squalo",
+    "spyWord": "Alien"
+  },
+  {
+    "crewWord": "Rocky",
+    "spyWord": "Rambo"
+  },
+  {
+    "crewWord": "Terminator",
+    "spyWord": "RoboCop"
+  },
+  {
+    "crewWord": "Ritorno al Futuro",
+    "spyWord": "Ghostbusters"
+  },
+  {
+    "crewWord": "Mamma ho perso l'aereo",
+    "spyWord": "Die Hard"
+  },
+  {
+    "crewWord": "Shrek",
+    "spyWord": "Monsters and Co"
+  },
+  {
+    "crewWord": "Frozen",
+    "spyWord": "Oceania"
+  },
+  {
+    "crewWord": "Il Re Leone",
+    "spyWord": "Tarzan"
+  },
+  {
+    "crewWord": "Alla ricerca di Nemo",
+    "spyWord": "Alla ricerca di Dory"
+  },
+  {
+    "crewWord": "Toy Story",
+    "spyWord": "Cars"
+  },
+  {
+    "crewWord": "Spider-Man",
+    "spyWord": "Iron Man"
+  },
+  {
+    "crewWord": "Captain America",
+    "spyWord": "Thor"
+  },
+  {
+    "crewWord": "Avengers",
+    "spyWord": "Justice League"
+  },
+  {
+    "crewWord": "X-Men",
+    "spyWord": "Fantastici Quattro"
+  },
+  {
+    "crewWord": "Fast and Furious",
+    "spyWord": "Need for Speed"
+  },
+  {
+    "crewWord": "Transformers",
+    "spyWord": "Pacific Rim"
+  },
+  {
+    "crewWord": "Pirati dei Caraibi",
+    "spyWord": "L'isola del tesoro"
+  },
+  {
+    "crewWord": "Twilight",
+    "spyWord": "Hunger Games"
+  },
+  {
+    "crewWord": "Il Signore degli Anelli",
+    "spyWord": "Lo Hobbit"
+  },
+  {
+    "crewWord": "Sherlock Holmes",
+    "spyWord": "Poirot"
+  },
+  {
+    "crewWord": "Doctor Who",
+    "spyWord": "Star Trek"
+  },
+  {
+    "crewWord": "Grey's Anatomy",
+    "spyWord": "Dr House"
+  },
+  {
+    "crewWord": "Lost",
+    "spyWord": "Survivor"
+  },
+  {
+    "crewWord": "Il Cavaliere Oscuro",
+    "spyWord": "Batman Begins"
+  },
+  {
+    "crewWord": "Gladiatore",
+    "spyWord": "Braveheart"
+  },
+  {
+    "crewWord": "Titanic",
+    "spyWord": "Notebook"
+  },
+  {
+    "crewWord": "La La Land",
+    "spyWord": "Greatest Showman"
+  },
+  {
+    "crewWord": "Oppenheimer",
+    "spyWord": "Barbie"
+  },
+  {
+    "crewWord": "Dune",
+    "spyWord": "Guerre Stellari"
+  },
+  {
+    "crewWord": "Top Gun",
+    "spyWord": "Top Gun Maverick"
+  },
+  {
+    "crewWord": "Black Panther",
+    "spyWord": "Wonder Woman"
+  },
+  {
+    "crewWord": "Deadpool",
+    "spyWord": "Wolverine"
+  },
+  {
+    "crewWord": "Men in Black",
+    "spyWord": "Ghostbusters"
+  },
+  {
+    "crewWord": "The Walking Dead",
+    "spyWord": "Fear the Walking Dead"
+  },
+  {
+    "crewWord": "Squid Game",
+    "spyWord": "Alice in Borderland"
+  },
+  {
+    "crewWord": "Wednesday",
+    "spyWord": "Famiglia Addams"
+  },
+  {
+    "crewWord": "Peaky Blinders",
+    "spyWord": "Boardwalk Empire"
+  },
+  {
+    "crewWord": "La Casa di Carta",
+    "spyWord": "Ocean's Eleven"
+  },
+  {
+    "crewWord": "The Crown",
+    "spyWord": "Downton Abbey"
+  },
+  {
+    "crewWord": "Bridgerton",
+    "spyWord": "Gossip Girl"
+  },
+  {
+    "crewWord": "Euphoria",
+    "spyWord": "Skins"
+  },
+  {
+    "crewWord": "Westworld",
+    "spyWord": "Black Mirror"
+  },
+  {
+    "crewWord": "True Detective",
+    "spyWord": "Mindhunter"
+  },
+  {
+    "crewWord": "Narcos",
+    "spyWord": "Breaking Bad"
+  },
+  {
+    "crewWord": "The Witcher",
+    "spyWord": "Il Trono di Spade"
+  },
+  {
+    "crewWord": "Vichinghi",
+    "spyWord": "Il Trono di Spade"
+  },
+  {
+    "crewWord": "Casino",
+    "spyWord": "Quei Bravi Ragazzi"
+  },
+  {
+    "crewWord": "Scarface",
+    "spyWord": "Carlito's Way"
+  },
+  {
+    "crewWord": "Le Ali della Libertà",
+    "spyWord": "The Green Mile"
+  },
+  {
+    "crewWord": "Fight Club",
+    "spyWord": "American Psycho"
+  },
+  {
+    "crewWord": "Iron Man",
+    "spyWord": "Captain America"
+  },
+  {
+    "crewWord": "Guardians of the Galaxy",
+    "spyWord": "Thor"
+  },
+  {
+    "crewWord": "Ant-Man",
+    "spyWord": "Wasp"
+  },
+  {
+    "crewWord": "Doctor Strange",
+    "spyWord": "Scarlet Witch"
+  },
+  {
+    "crewWord": "Black Widow",
+    "spyWord": "Hawkeye"
+  },
+  {
+    "crewWord": "Loki",
+    "spyWord": "Thor"
+  },
+  {
+    "crewWord": "WandaVision",
+    "spyWord": "Agatha"
+  },
+  {
+    "crewWord": "Mandalorian",
+    "spyWord": "Boba Fett"
+  },
+  {
+    "crewWord": "Obi-Wan",
+    "spyWord": "Anakin"
+  },
+  {
+    "crewWord": "Luke Skywalker",
+    "spyWord": "Darth Vader"
+  },
+  {
+    "crewWord": "Han Solo",
+    "spyWord": "Chewbacca"
+  },
+  {
+    "crewWord": "Yoda",
+    "spyWord": "Obi-Wan"
+  },
+  {
+    "crewWord": "Frodo",
+    "spyWord": "Sam"
+  },
+  {
+    "crewWord": "Gandalf",
+    "spyWord": "Dumbledore"
+  },
+  {
+    "crewWord": "Hermione",
+    "spyWord": "Ron"
+  },
+  {
+    "crewWord": "Snape",
+    "spyWord": "Dumbledore"
+  },
+  {
+    "crewWord": "Voldemort",
+    "spyWord": "Sauron"
+  },
+  {
+    "crewWord": "Gollum",
+    "spyWord": "Yoda"
+  },
+  {
+    "crewWord": "Legolas",
+    "spyWord": "Aragorn"
+  },
+  {
+    "crewWord": "Gimli",
+    "spyWord": "Legolas"
+  },
+  {
+    "crewWord": "Neo",
+    "spyWord": "Morpheus"
+  },
+  {
+    "crewWord": "Trinity",
+    "spyWord": "Neo"
+  },
+  {
+    "crewWord": "Agent Smith",
+    "spyWord": "Neo"
+  },
+  {
+    "crewWord": "John Wick",
+    "spyWord": "Jason Bourne"
+  },
+  {
+    "crewWord": "Taken",
+    "spyWord": "John Wick"
+  },
+  {
+    "crewWord": "Mad Max",
+    "spyWord": "Blade Runner"
+  },
+  {
+    "crewWord": "Alien",
+    "spyWord": "Predator"
+  },
+  {
+    "crewWord": "King Kong",
+    "spyWord": "Godzilla"
+  },
+  {
+    "crewWord": "Godzilla",
+    "spyWord": "Mothra"
+  },
+  {
+    "crewWord": "Jurassic World",
+    "spyWord": "Jurassic Park"
+  },
+  {
+    "crewWord": "ET",
+    "spyWord": "Close Encounters"
+  },
+  {
+    "crewWord": "Cast Away",
+    "spyWord": "Robinson Crusoe"
+  },
+  {
+    "crewWord": "Cast Away",
+    "spyWord": "Forrest Gump"
+  },
+  {
+    "crewWord": "Cinema Paradiso",
+    "spyWord": "La vita è bella"
+  },
+  {
+    "crewWord": "Il Gladiatore",
+    "spyWord": "Troy"
+  },
+  {
+    "crewWord": "Interstellar",
+    "spyWord": "Arrival"
+  },
+  {
+    "crewWord": "Il Miglio Verde",
+    "spyWord": "Le Ali della Libertà"
+  },
+  {
+    "crewWord": "Il Silenzio degli Innocenti",
+    "spyWord": "Seven"
+  },
+  {
+    "crewWord": "Kill Bill",
+    "spyWord": "Pulp Fiction"
+  },
+  {
+    "crewWord": "Django",
+    "spyWord": "Kill Bill"
+  },
+  {
+    "crewWord": "C'era una volta a Hollywood",
+    "spyWord": "Pulp Fiction"
+  },
+  {
+    "crewWord": "Il Grande Lebowski",
+    "spyWord": "Fargo"
+  },
+  {
+    "crewWord": "No Country",
+    "spyWord": "Fargo"
+  }
+]

@@ -4,16 +4,26 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.join(__dirname, "../src/games/impostor/word-packs/data");
-const MIN_PAIRS = 200;
+
+const CORE_MIN_PAIRS = 200;
+const THEME_MIN_PAIRS = 50;
 
 const locales = ["en", "it"];
-const categories = ["general", "food", "animals", "places"];
+const coreCategories = ["general", "food", "animals", "places"];
+const themeCategories = ["anime", "movies", "music"];
+const categories = [...coreCategories, ...themeCategories];
+
+function minPairsFor(category) {
+  return themeCategories.includes(category) ? THEME_MIN_PAIRS : CORE_MIN_PAIRS;
+}
 
 let failed = false;
 
 for (const locale of locales) {
   for (const category of categories) {
     const file = path.join(dataDir, locale, `${category}.json`);
+    const minPairs = minPairsFor(category);
+
     if (!fs.existsSync(file)) {
       console.error(`Missing: ${locale}/${category}.json`);
       failed = true;
@@ -28,9 +38,9 @@ for (const locale of locales) {
     }
 
     const count = pairs.length;
-    if (count < MIN_PAIRS) {
+    if (count < minPairs) {
       console.error(
-        `${locale}/${category}.json: ${count} pairs (need >= ${MIN_PAIRS})`,
+        `${locale}/${category}.json: ${count} pairs (need >= ${minPairs})`,
       );
       failed = true;
       continue;
@@ -52,7 +62,7 @@ for (const locale of locales) {
       }
     }
 
-    console.log(`OK ${locale}/${category}.json (${count})`);
+    console.log(`OK ${locale}/${category}.json (${count}, min ${minPairs})`);
   }
 }
 
@@ -60,4 +70,6 @@ if (failed) {
   process.exit(1);
 }
 
-console.log(`All word packs have at least ${MIN_PAIRS} pairs.`);
+console.log(
+  `All word packs valid (core >= ${CORE_MIN_PAIRS}, theme >= ${THEME_MIN_PAIRS}).`,
+);

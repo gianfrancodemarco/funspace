@@ -143,7 +143,10 @@
         "general": "General",
         "food": "Food",
         "animals": "Animals",
-        "places": "Places"
+        "places": "Places",
+        "anime": "Anime & Animation",
+        "movies": "Movies & TV",
+        "music": "Music"
       },
       "validation": {
         "emptyRoster": "Add players on the Players page before starting.",
@@ -245,7 +248,10 @@
         "general": "General",
         "food": "Food",
         "animals": "Animals",
-        "places": "Places"
+        "places": "Places",
+        "anime": "Anime & Animation",
+        "movies": "Movies & TV",
+        "music": "Music"
       },
       "validation": {
         "emptyRoster": "Add players on the Players page before starting.",

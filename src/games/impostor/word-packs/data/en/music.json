@@ -1,0 +1,466 @@
+[
+  {
+    "crewWord": "Rock",
+    "spyWord": "Pop"
+  },
+  {
+    "crewWord": "Jazz",
+    "spyWord": "Blues"
+  },
+  {
+    "crewWord": "Hip Hop",
+    "spyWord": "Rap"
+  },
+  {
+    "crewWord": "Country",
+    "spyWord": "Folk"
+  },
+  {
+    "crewWord": "Classical",
+    "spyWord": "Opera"
+  },
+  {
+    "crewWord": "Metal",
+    "spyWord": "Punk"
+  },
+  {
+    "crewWord": "Reggae",
+    "spyWord": "Ska"
+  },
+  {
+    "crewWord": "Guitar",
+    "spyWord": "Piano"
+  },
+  {
+    "crewWord": "Drums",
+    "spyWord": "Violin"
+  },
+  {
+    "crewWord": "Bass",
+    "spyWord": "Guitar"
+  },
+  {
+    "crewWord": "Trumpet",
+    "spyWord": "Saxophone"
+  },
+  {
+    "crewWord": "Flute",
+    "spyWord": "Clarinet"
+  },
+  {
+    "crewWord": "Microphone",
+    "spyWord": "Speaker"
+  },
+  {
+    "crewWord": "Concert",
+    "spyWord": "Festival"
+  },
+  {
+    "crewWord": "Album",
+    "spyWord": "Single"
+  },
+  {
+    "crewWord": "Beatles",
+    "spyWord": "Rolling Stones"
+  },
+  {
+    "crewWord": "Elvis",
+    "spyWord": "Beatles"
+  },
+  {
+    "crewWord": "Michael Jackson",
+    "spyWord": "Prince"
+  },
+  {
+    "crewWord": "Madonna",
+    "spyWord": "Lady Gaga"
+  },
+  {
+    "crewWord": "Beyoncé",
+    "spyWord": "Rihanna"
+  },
+  {
+    "crewWord": "Drake",
+    "spyWord": "Kanye"
+  },
+  {
+    "crewWord": "Eminem",
+    "spyWord": "Jay-Z"
+  },
+  {
+    "crewWord": "Taylor Swift",
+    "spyWord": "Adele"
+  },
+  {
+    "crewWord": "Ed Sheeran",
+    "spyWord": "Bruno Mars"
+  },
+  {
+    "crewWord": "Queen",
+    "spyWord": "AC/DC"
+  },
+  {
+    "crewWord": "Pink Floyd",
+    "spyWord": "Led Zeppelin"
+  },
+  {
+    "crewWord": "Nirvana",
+    "spyWord": "Pearl Jam"
+  },
+  {
+    "crewWord": "Metallica",
+    "spyWord": "Iron Maiden"
+  },
+  {
+    "crewWord": "U2",
+    "spyWord": "Coldplay"
+  },
+  {
+    "crewWord": "Radiohead",
+    "spyWord": "Oasis"
+  },
+  {
+    "crewWord": "Bob Marley",
+    "spyWord": "Bob Dylan"
+  },
+  {
+    "crewWord": "Frank Sinatra",
+    "spyWord": "Elvis"
+  },
+  {
+    "crewWord": "Whitney Houston",
+    "spyWord": "Mariah Carey"
+  },
+  {
+    "crewWord": "Ariana Grande",
+    "spyWord": "Billie Eilish"
+  },
+  {
+    "crewWord": "Justin Bieber",
+    "spyWord": "Shawn Mendes"
+  },
+  {
+    "crewWord": "Post Malone",
+    "spyWord": "Travis Scott"
+  },
+  {
+    "crewWord": "Kendrick Lamar",
+    "spyWord": "Drake"
+  },
+  {
+    "crewWord": "Snoop Dogg",
+    "spyWord": "Dr Dre"
+  },
+  {
+    "crewWord": "Tupac",
+    "spyWord": "Biggie"
+  },
+  {
+    "crewWord": "Mozart",
+    "spyWord": "Beethoven"
+  },
+  {
+    "crewWord": "Bach",
+    "spyWord": "Mozart"
+  },
+  {
+    "crewWord": "Vivaldi",
+    "spyWord": "Bach"
+  },
+  {
+    "crewWord": "Chopin",
+    "spyWord": "Liszt"
+  },
+  {
+    "crewWord": "Opera",
+    "spyWord": "Ballet"
+  },
+  {
+    "crewWord": "Orchestra",
+    "spyWord": "Band"
+  },
+  {
+    "crewWord": "Choir",
+    "spyWord": "Orchestra"
+  },
+  {
+    "crewWord": "DJ",
+    "spyWord": "Producer"
+  },
+  {
+    "crewWord": "Vinyl",
+    "spyWord": "CD"
+  },
+  {
+    "crewWord": "Spotify",
+    "spyWord": "Apple Music"
+  },
+  {
+    "crewWord": "YouTube",
+    "spyWord": "TikTok"
+  },
+  {
+    "crewWord": "Karaoke",
+    "spyWord": "Concert"
+  },
+  {
+    "crewWord": "Grammy",
+    "spyWord": "Oscar"
+  },
+  {
+    "crewWord": "Billboard",
+    "spyWord": "Grammy"
+  },
+  {
+    "crewWord": "Woodstock",
+    "spyWord": "Coachella"
+  },
+  {
+    "crewWord": "Glastonbury",
+    "spyWord": "Coachella"
+  },
+  {
+    "crewWord": "Rock",
+    "spyWord": "Metal"
+  },
+  {
+    "crewWord": "Pop",
+    "spyWord": "Dance"
+  },
+  {
+    "crewWord": "EDM",
+    "spyWord": "House"
+  },
+  {
+    "crewWord": "Techno",
+    "spyWord": "House"
+  },
+  {
+    "crewWord": "Disco",
+    "spyWord": "Funk"
+  },
+  {
+    "crewWord": "Soul",
+    "spyWord": "R&B"
+  },
+  {
+    "crewWord": "Gospel",
+    "spyWord": "Soul"
+  },
+  {
+    "crewWord": "Blues",
+    "spyWord": "Rock"
+  },
+  {
+    "crewWord": "Banjo",
+    "spyWord": "Ukulele"
+  },
+  {
+    "crewWord": "Harmonica",
+    "spyWord": "Accordion"
+  },
+  {
+    "crewWord": "Cello",
+    "spyWord": "Violin"
+  },
+  {
+    "crewWord": "Harp",
+    "spyWord": "Piano"
+  },
+  {
+    "crewWord": "Synthesizer",
+    "spyWord": "Piano"
+  },
+  {
+    "crewWord": "Electric Guitar",
+    "spyWord": "Acoustic Guitar"
+  },
+  {
+    "crewWord": "Amplifier",
+    "spyWord": "Microphone"
+  },
+  {
+    "crewWord": "Studio",
+    "spyWord": "Stage"
+  },
+  {
+    "crewWord": "Composer",
+    "spyWord": "Lyricist"
+  },
+  {
+    "crewWord": "Singer",
+    "spyWord": "Rapper"
+  },
+  {
+    "crewWord": "Band",
+    "spyWord": "Solo Artist"
+  },
+  {
+    "crewWord": "Boy Band",
+    "spyWord": "Girl Group"
+  },
+  {
+    "crewWord": "One Direction",
+    "spyWord": "BTS"
+  },
+  {
+    "crewWord": "BTS",
+    "spyWord": "Blackpink"
+  },
+  {
+    "crewWord": "ABBA",
+    "spyWord": "Bee Gees"
+  },
+  {
+    "crewWord": "Spice Girls",
+    "spyWord": "Destiny's Child"
+  },
+  {
+    "crewWord": "Backstreet Boys",
+    "spyWord": "NSYNC"
+  },
+  {
+    "crewWord": "Elton John",
+    "spyWord": "Freddie Mercury"
+  },
+  {
+    "crewWord": "David Bowie",
+    "spyWord": "Elton John"
+  },
+  {
+    "crewWord": "Stevie Wonder",
+    "spyWord": "Ray Charles"
+  },
+  {
+    "crewWord": "Aretha Franklin",
+    "spyWord": "Nina Simone"
+  },
+  {
+    "crewWord": "Bob Dylan",
+    "spyWord": "Neil Young"
+  },
+  {
+    "crewWord": "Johnny Cash",
+    "spyWord": "Willie Nelson"
+  },
+  {
+    "crewWord": "Dolly Parton",
+    "spyWord": "Shania Twain"
+  },
+  {
+    "crewWord": "Garth Brooks",
+    "spyWord": "Tim McGraw"
+  },
+  {
+    "crewWord": "Shakira",
+    "spyWord": "Jennifer Lopez"
+  },
+  {
+    "crewWord": "Enrique Iglesias",
+    "spyWord": "Ricky Martin"
+  },
+  {
+    "crewWord": "Pitbull",
+    "spyWord": "Enrique Iglesias"
+  },
+  {
+    "crewWord": "Bad Bunny",
+    "spyWord": "J Balvin"
+  },
+  {
+    "crewWord": "Rosalía",
+    "spyWord": "Shakira"
+  },
+  {
+    "crewWord": "Daft Punk",
+    "spyWord": "Deadmau5"
+  },
+  {
+    "crewWord": "Skrillex",
+    "spyWord": "Calvin Harris"
+  },
+  {
+    "crewWord": "Avicii",
+    "spyWord": "David Guetta"
+  },
+  {
+    "crewWord": "Marshmello",
+    "spyWord": "The Chainsmokers"
+  },
+  {
+    "crewWord": "Linkin Park",
+    "spyWord": "Green Day"
+  },
+  {
+    "crewWord": "Red Hot Chili Peppers",
+    "spyWord": "Foo Fighters"
+  },
+  {
+    "crewWord": "Arctic Monkeys",
+    "spyWord": "The Strokes"
+  },
+  {
+    "crewWord": "Imagine Dragons",
+    "spyWord": "Twenty One Pilots"
+  },
+  {
+    "crewWord": "Maroon 5",
+    "spyWord": "OneRepublic"
+  },
+  {
+    "crewWord": "The Weeknd",
+    "spyWord": "Bruno Mars"
+  },
+  {
+    "crewWord": "Sam Smith",
+    "spyWord": "Lewis Capaldi"
+  },
+  {
+    "crewWord": "Adele",
+    "spyWord": "Sam Smith"
+  },
+  {
+    "crewWord": "Alicia Keys",
+    "spyWord": "John Legend"
+  },
+  {
+    "crewWord": "Pharrell",
+    "spyWord": "Kanye"
+  },
+  {
+    "crewWord": "Lil Wayne",
+    "spyWord": "Nicki Minaj"
+  },
+  {
+    "crewWord": "Cardi B",
+    "spyWord": "Nicki Minaj"
+  },
+  {
+    "crewWord": "Dua Lipa",
+    "spyWord": "Doja Cat"
+  },
+  {
+    "crewWord": "Harry Styles",
+    "spyWord": "Zayn Malik"
+  },
+  {
+    "crewWord": "OneRepublic",
+    "spyWord": "Coldplay"
+  },
+  {
+    "crewWord": "Bon Jovi",
+    "spyWord": "Aerosmith"
+  },
+  {
+    "crewWord": "Guns N Roses",
+    "spyWord": "Aerosmith"
+  },
+  {
+    "crewWord": "Scorpions",
+    "spyWord": "Bon Jovi"
+  },
+  {
+    "crewWord": "Europe",
+    "spyWord": "Scorpions"
+  }
+]

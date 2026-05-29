@@ -6,7 +6,9 @@ import {
 } from "./index";
 import { pickWordPair } from "../engine/pick-word-pair";
 
-const MIN_PAIRS_PER_PACK = 200;
+const CORE_MIN_PAIRS = 200;
+const THEME_MIN_PAIRS = 50;
+const THEME_PACK_IDS = new Set(["anime", "movies", "music"]);
 
 describe("word packs", () => {
   it("returns english packs for en locale", () => {
@@ -16,6 +18,9 @@ describe("word packs", () => {
       "food",
       "animals",
       "places",
+      "anime",
+      "movies",
+      "music",
     ]);
   });
 
@@ -25,7 +30,7 @@ describe("word packs", () => {
   });
 
   it("defaults to all pack ids", () => {
-    expect(getDefaultWordPackIds("en")).toHaveLength(4);
+    expect(getDefaultWordPackIds("en")).toHaveLength(7);
   });
 
   it("picks a pair from selected packs only", () => {
@@ -38,13 +43,26 @@ describe("word packs", () => {
     );
   });
 
+  it("picks a pair from themed packs", () => {
+    const packs = getWordPacksForLocale("en");
+    const pair = pickWordPair(packs, ["anime"]);
+    const animePairs = packs.find((pack) => pack.id === "anime")?.pairs ?? [];
+
+    expect(animePairs.some((entry) => entry.crewWord === pair.crewWord)).toBe(
+      true,
+    );
+  });
+
   it.each(["en", "it"] as const)(
-    "has at least %i pairs per pack for %s",
+    "meets minimum pair counts per pack for %s",
     (locale) => {
       const packs = getWordPacksForLocale(locale);
 
       for (const pack of packs) {
-        expect(pack.pairs.length).toBeGreaterThanOrEqual(MIN_PAIRS_PER_PACK);
+        const minPairs = THEME_PACK_IDS.has(pack.id)
+          ? THEME_MIN_PAIRS
+          : CORE_MIN_PAIRS;
+        expect(pack.pairs.length).toBeGreaterThanOrEqual(minPairs);
       }
     },
   );
