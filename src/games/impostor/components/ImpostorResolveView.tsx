@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
+import { GameEndAnimation } from "@/components/game-end";
 import type { GameResolveProps } from "@/core/game-shell";
 
 import { getImpostorState, type ImpostorRole } from "../types";
@@ -30,15 +31,17 @@ export function ImpostorResolveView({
 
   return (
     <div className="space-y-6">
-      <div className="space-y-2 text-center">
-        <p className="text-2xl font-bold">{t(winnerKey)}</p>
-        <p className="text-muted-foreground">
-          {t("words", {
-            crew: state.wordPair.crewWord,
-            spy: state.wordPair.spyWord,
-          })}
-        </p>
-      </div>
+      <GameEndAnimation variant="win">
+        <div className="space-y-2 text-center">
+          <p className="text-2xl font-bold">{t(winnerKey)}</p>
+          <p className="text-muted-foreground">
+            {t("words", {
+              crew: state.wordPair.crewWord,
+              spy: state.wordPair.spyWord,
+            })}
+          </p>
+        </div>
+      </GameEndAnimation>
 
       <ul className="space-y-2">
         {session.players.map((player) => {

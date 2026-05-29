@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
+import { GameEndAnimation } from "@/components/game-end";
 import type { GameResolveProps } from "@/core/game-shell";
 
 import { getHangmanState } from "../types";
@@ -20,15 +21,18 @@ export function HangmanResolveView({
   }
 
   const outcomeKey = state.status === "won" ? "won" : "lost";
+  const animationVariant = state.status === "won" ? "win" : "loss";
 
   return (
     <div className="space-y-6">
-      <div className="space-y-2 text-center">
-        <p className="text-2xl font-bold">{t(outcomeKey)}</p>
-        <p className="text-muted-foreground">
-          {t("wordReveal", { word: state.word })}
-        </p>
-      </div>
+      <GameEndAnimation variant={animationVariant}>
+        <div className="space-y-2 text-center">
+          <p className="text-2xl font-bold">{t(outcomeKey)}</p>
+          <p className="text-muted-foreground">
+            {t("wordReveal", { word: state.word })}
+          </p>
+        </div>
+      </GameEndAnimation>
 
       <ul className="space-y-2">
         {session.players.map((player) => (
