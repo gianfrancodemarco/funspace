@@ -31,4 +31,14 @@ export const games: GameMeta[] = [
     status: "playable",
     accentColor: "never-have-i-ever",
   },
+  {
+    id: "question-impostor",
+    nameKey: "games.questionImpostor.name",
+    descriptionKey: "games.questionImpostor.description",
+    tags: ["deduction", "bluff", "questions"],
+    minPlayers: 3,
+    maxPlayers: 20,
+    status: "playable",
+    accentColor: "question-impostor",
+  },
 ];

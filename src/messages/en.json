@@ -47,6 +47,10 @@
       "name": "Never Have I Ever",
       "description": "Read prompts aloud and learn surprising things about your friends."
     },
+    "questionImpostor": {
+      "name": "Question Impostor",
+      "description": "Everyone gets a question — but the impostor's is different. Answer aloud and find who is faking it."
+    },
     "shellDemo": {
       "name": "Shell Demo",
       "description": "A minimal demo game to validate setup, reveal, play, and resolve."
@@ -400,12 +404,129 @@
       }
     }
   },
+  "questionImpostor": {
+    "roles": {
+      "civilian": "Civilian",
+      "impostor": "Impostor"
+    },
+    "presets": {
+      "classic": "Classic",
+      "twoImpostors": "Two Impostors",
+      "chaos": "Chaos",
+      "custom": "Custom"
+    },
+    "answerTypes": {
+      "number": "Answer type: a number",
+      "year": "Answer type: a year",
+      "yes_no": "Answer type: yes or no",
+      "duration": "Answer type: a duration or amount of time"
+    },
+    "setup": {
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "playersTitle": "Choose players",
+      "playersSubtitle": "Select {min}–{max} players from your saved roster.",
+      "presetsTitle": "Game mode",
+      "impostorCount": "Impostors",
+      "packsTitle": "Question packs",
+      "start": "Start game",
+      "presets": {
+        "classic": "Classic",
+        "twoImpostors": "Two Impostors",
+        "chaos": "Chaos",
+        "custom": "Custom"
+      },
+      "presetTooltips": {
+        "classic": "1 impostor. Best for learning the rules.",
+        "twoImpostors": "2 impostors for medium-sized groups.",
+        "chaos": "2 impostors — harder for civilians!",
+        "custom": "Set your own impostor count."
+      },
+      "packs": {
+        "general": "General",
+        "numbers": "Numbers & stats",
+        "everyday": "Everyday life",
+        "pop-culture": "Pop culture"
+      },
+      "validation": {
+        "emptyRoster": "Add players on the Players page before starting.",
+        "tooFew": "Select at least {min} players ({count} selected).",
+        "tooMany": "Select at most {max} players ({count} selected).",
+        "noPacks": "Select at least one question pack.",
+        "noCivilians": "Too many impostors — at least one civilian is required.",
+        "tooManyImpostors": "Too many impostors for this player count.",
+        "invalidConfig": "Invalid game configuration."
+      }
+    },
+    "reveal": {
+      "crewLabel": "Your question",
+      "impostorLabel": "Your question"
+    },
+    "play": {
+      "instructions": "Each player answers their question aloud. Discuss, then eliminate suspects when the group agrees.",
+      "startsFirst": "{name} goes first",
+      "aliveCount": "{count} players alive",
+      "eliminate": "Eliminate",
+      "confirmElimination": "Eliminate {name}?",
+      "confirmButton": "Confirm elimination",
+      "cancelButton": "Cancel"
+    },
+    "resolve": {
+      "civiliansWin": "Civilians win!",
+      "impostorsWin": "Impostors win!",
+      "crewQuestionLabel": "Civilian question",
+      "impostorQuestionLabel": "Impostor question",
+      "showReferenceAnswers": "Show reference answers",
+      "hideReferenceAnswers": "Hide reference answers",
+      "crewAnswerLabel": "Civilian answer",
+      "impostorAnswerLabel": "Impostor answer",
+      "eliminated": "Eliminated",
+      "survived": "Survived",
+      "rematch": "Play again",
+      "exit": "Back to games"
+    },
+    "rules": {
+      "title": "How to play Question Impostor",
+      "sections": {
+        "goal": {
+          "title": "Goal",
+          "body": "Civilians share one question; impostors get a different question with a similar kind of answer. Answer aloud, discuss at the table, and eliminate the impostors before they take over."
+        },
+        "roles": {
+          "title": "Roles",
+          "items": {
+            "civilian": "Civilian — sees the crew question and tries to find the impostors.",
+            "impostor": "Impostor — sees a different question with a compatible answer type. Impostors don't know each other."
+          }
+        },
+        "howToPlay": {
+          "title": "How to play",
+          "steps": {
+            "1": "Choose players, impostor count, and question packs, then start.",
+            "2": "Pass the phone — each player privately sees their question and answer type.",
+            "3": "Go around the table and answer your question verbally. Discuss who sounds suspicious.",
+            "4": "When the group agrees someone is out, eliminate them in the app. Roles stay hidden until the end.",
+            "5": "Keep playing until all impostors are eliminated or only impostors remain."
+          }
+        },
+        "winConditions": {
+          "title": "Win conditions",
+          "items": {
+            "civilians": "Civilians win when all impostors have been eliminated.",
+            "impostors": "Impostors win when only impostors are still alive."
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "deduction": "Deduction",
     "bluff": "Bluff",
     "words": "Words",
     "social": "Social",
-    "quick": "Quick"
+    "quick": "Quick",
+    "questions": "Questions"
   },
   "theme": {
     "toggle": "Toggle theme",

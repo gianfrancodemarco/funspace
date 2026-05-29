@@ -47,6 +47,10 @@
       "name": "Non ho mai",
       "description": "Leggi le domande ad alta voce e scopri cose sorprendenti sui tuoi amici."
     },
+    "questionImpostor": {
+      "name": "Impostore con domande",
+      "description": "Tutti hanno una domanda, ma l'impostore ne ha una diversa. Rispondete ad alta voce e scoprite chi sta bluffando."
+    },
     "shellDemo": {
       "name": "Demo Shell",
       "description": "Un gioco demo minimo per validare setup, rivelazione, gioco e conclusione."
@@ -400,12 +404,129 @@
       }
     }
   },
+  "questionImpostor": {
+    "roles": {
+      "civilian": "Civile",
+      "impostor": "Impostore"
+    },
+    "presets": {
+      "classic": "Classico",
+      "twoImpostors": "Due impostori",
+      "chaos": "Caos",
+      "custom": "Personalizzato"
+    },
+    "answerTypes": {
+      "number": "Tipo di risposta: un numero",
+      "year": "Tipo di risposta: un anno",
+      "yes_no": "Tipo di risposta: sì o no",
+      "duration": "Tipo di risposta: una durata o quantità di tempo"
+    },
+    "setup": {
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai ai Giocatori",
+      "playersTitle": "Scegli i giocatori",
+      "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "presetsTitle": "Modalità di gioco",
+      "impostorCount": "Impostori",
+      "packsTitle": "Pacchetti domande",
+      "start": "Inizia partita",
+      "presets": {
+        "classic": "Classico",
+        "twoImpostors": "Due impostori",
+        "chaos": "Caos",
+        "custom": "Personalizzato"
+      },
+      "presetTooltips": {
+        "classic": "1 impostore. Ideale per imparare le regole.",
+        "twoImpostors": "2 impostori per gruppi medi.",
+        "chaos": "2 impostori — più difficile per i civili!",
+        "custom": "Imposta il numero di impostori."
+      },
+      "packs": {
+        "general": "Generale",
+        "numbers": "Numeri e statistiche",
+        "everyday": "Vita quotidiana",
+        "pop-culture": "Pop culture"
+      },
+      "validation": {
+        "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+        "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+        "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati).",
+        "noPacks": "Seleziona almeno un pacchetto domande.",
+        "noCivilians": "Troppi impostori — serve almeno un civile.",
+        "tooManyImpostors": "Troppi impostori per questo numero di giocatori.",
+        "invalidConfig": "Configurazione di gioco non valida."
+      }
+    },
+    "reveal": {
+      "crewLabel": "La tua domanda",
+      "impostorLabel": "La tua domanda"
+    },
+    "play": {
+      "instructions": "Ogni giocatore risponde alla propria domanda ad alta voce. Discutete, poi eliminate i sospetti quando il gruppo è d'accordo.",
+      "startsFirst": "Inizia {name}",
+      "aliveCount": "{count} giocatori in vita",
+      "eliminate": "Elimina",
+      "confirmElimination": "Eliminare {name}?",
+      "confirmButton": "Conferma eliminazione",
+      "cancelButton": "Annulla"
+    },
+    "resolve": {
+      "civiliansWin": "Vittoria dei civili!",
+      "impostorsWin": "Vittoria degli impostori!",
+      "crewQuestionLabel": "Domanda dei civili",
+      "impostorQuestionLabel": "Domanda degli impostori",
+      "showReferenceAnswers": "Mostra risposte di riferimento",
+      "hideReferenceAnswers": "Nascondi risposte di riferimento",
+      "crewAnswerLabel": "Risposta civili",
+      "impostorAnswerLabel": "Risposta impostore",
+      "eliminated": "Eliminato",
+      "survived": "Sopravvissuto",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    },
+    "rules": {
+      "title": "Come si gioca a Impostore con domande",
+      "sections": {
+        "goal": {
+          "title": "Obiettivo",
+          "body": "I civili condividono una domanda; gli impostori ne ricevono una diversa con un tipo di risposta simile. Rispondete ad alta voce, discutete al tavolo ed eliminate gli impostori prima che prendano il controllo."
+        },
+        "roles": {
+          "title": "Ruoli",
+          "items": {
+            "civilian": "Civile — vede la domanda del gruppo e cerca di trovare gli impostori.",
+            "impostor": "Impostore — vede una domanda diversa con un tipo di risposta compatibile. Gli impostori non si conoscono."
+          }
+        },
+        "howToPlay": {
+          "title": "Come si gioca",
+          "steps": {
+            "1": "Scegli giocatori, numero di impostori e pacchetti domande, poi inizia.",
+            "2": "Passa il telefono — ogni giocatore vede in privato la propria domanda e il tipo di risposta.",
+            "3": "A turno rispondete ad alta voce. Discutete chi sembra sospetto.",
+            "4": "Quando il gruppo è d'accordo, eliminate il giocatore nell'app. I ruoli restano nascosti fino alla fine.",
+            "5": "Continuate finché tutti gli impostori sono eliminati o restano solo impostori."
+          }
+        },
+        "winConditions": {
+          "title": "Condizioni di vittoria",
+          "items": {
+            "civilians": "I civili vincono quando tutti gli impostori sono stati eliminati.",
+            "impostors": "Gli impostori vincono quando restano in vita solo impostori."
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "deduction": "Deduzione",
     "bluff": "Bluff",
     "words": "Parole",
     "social": "Social",
-    "quick": "Veloce"
+    "quick": "Veloce",
+    "questions": "Domande"
   },
   "theme": {
     "toggle": "Cambia tema",

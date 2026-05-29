@@ -1,0 +1,56 @@
+[
+  {
+    "crewQuestion": "Quante ore di sonno consigliano spesso i medici a notte?",
+    "impostorQuestion": "Quante ore dura una giornata lavorativa tipica?",
+    "answerType": "duration",
+    "crewAnswer": "7–9",
+    "impostorAnswer": "8"
+  },
+  {
+    "crewQuestion": "Quanti pasti mangiano molte persone al giorno?",
+    "impostorQuestion": "Quanti spuntini al giorno è comune nelle indagini (circa)?",
+    "answerType": "number",
+    "crewAnswer": "3",
+    "impostorAnswer": "2"
+  },
+  {
+    "crewQuestion": "Quanti tasti ha un pianoforte standard (circa)?",
+    "impostorQuestion": "Quanti tasti ha una tastiera PC full size (circa)?",
+    "answerType": "number",
+    "crewAnswer": "88",
+    "impostorAnswer": "104"
+  },
+  {
+    "crewQuestion": "Quante ruote ha un'auto standard?",
+    "impostorQuestion": "Quante ruote ha una bicicletta?",
+    "answerType": "number",
+    "crewAnswer": "4",
+    "impostorAnswer": "2"
+  },
+  {
+    "crewQuestion": "Preferisci il caffè al mattino?",
+    "impostorQuestion": "Preferisci il tè al mattino?",
+    "answerType": "yes_no"
+  },
+  {
+    "crewQuestion": "Quanti giorni ha una ferie tipica di due settimane?",
+    "impostorQuestion": "Quanti giorni ha una quindicina?",
+    "answerType": "number",
+    "crewAnswer": "10–14",
+    "impostorAnswer": "14"
+  },
+  {
+    "crewQuestion": "Quante stanze ha un appartamento tipico (circa)?",
+    "impostorQuestion": "Quanti piani ha una casa tipica (circa)?",
+    "answerType": "number",
+    "crewAnswer": "3–5",
+    "impostorAnswer": "2"
+  },
+  {
+    "crewQuestion": "Quanti litri d'acqua suggeriscono spesso le guide salutari al giorno (circa)?",
+    "impostorQuestion": "Quanti bicchieri d'acqua sono (circa)?",
+    "answerType": "number",
+    "crewAnswer": "2",
+    "impostorAnswer": "8"
+  }
+]

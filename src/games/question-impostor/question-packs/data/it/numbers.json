@@ -1,0 +1,58 @@
+[
+  {
+    "crewQuestion": "In che anno è finita la Seconda guerra mondiale in Europa?",
+    "impostorQuestion": "In che anno è caduto il Muro di Berlino?",
+    "answerType": "year",
+    "crewAnswer": "1945",
+    "impostorAnswer": "1989"
+  },
+  {
+    "crewQuestion": "Quanti paesi ci sono nell'Unione Europea (2024)?",
+    "impostorQuestion": "Quanti paesi membri ha la NATO (circa)?",
+    "answerType": "number",
+    "crewAnswer": "27",
+    "impostorAnswer": "32"
+  },
+  {
+    "crewQuestion": "Quanti metri è alta la Torre Eiffel (circa)?",
+    "impostorQuestion": "Quanti metri è alta la Statua della Libertà (circa)?",
+    "answerType": "number",
+    "crewAnswer": "330",
+    "impostorAnswer": "93"
+  },
+  {
+    "crewQuestion": "Quanti chilometri è una maratona (circa)?",
+    "impostorQuestion": "Quanti chilometri è una mezza maratona (circa)?",
+    "answerType": "number",
+    "crewAnswer": "42",
+    "impostorAnswer": "21"
+  },
+  {
+    "crewQuestion": "In che anno è uscito il primo iPhone?",
+    "impostorQuestion": "In che anno è stato fondato Facebook?",
+    "answerType": "year",
+    "crewAnswer": "2007",
+    "impostorAnswer": "2004"
+  },
+  {
+    "crewQuestion": "Quante ossa ha il corpo umano adulto (circa)?",
+    "impostorQuestion": "Quanti denti ha in media un adulto?",
+    "answerType": "number",
+    "crewAnswer": "206",
+    "impostorAnswer": "32"
+  },
+  {
+    "crewQuestion": "Quanti stati ci sono negli USA?",
+    "impostorQuestion": "Quante nazioni formano il Regno Unito?",
+    "answerType": "number",
+    "crewAnswer": "50",
+    "impostorAnswer": "4"
+  },
+  {
+    "crewQuestion": "Quanti minuti dura una canzone pop tipica (circa)?",
+    "impostorQuestion": "Quanti minuti dura un episodio di sitcom TV (circa)?",
+    "answerType": "duration",
+    "crewAnswer": "3–4",
+    "impostorAnswer": "22–24"
+  }
+]

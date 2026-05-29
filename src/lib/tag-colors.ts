@@ -6,6 +6,8 @@ const tagColorClasses: Record<string, string> = {
   words: "bg-sky-100 text-sky-800 dark:bg-sky-950/80 dark:text-sky-200",
   social: "bg-pink-100 text-pink-800 dark:bg-pink-950/80 dark:text-pink-200",
   quick: "bg-teal-100 text-teal-800 dark:bg-teal-950/80 dark:text-teal-200",
+  questions:
+    "bg-violet-100 text-violet-800 dark:bg-violet-950/80 dark:text-violet-200",
 };
 
 const defaultTagClass =

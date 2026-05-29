@@ -1,0 +1,58 @@
+[
+  {
+    "crewQuestion": "How many days are in a leap year?",
+    "impostorQuestion": "How many weeks are in a year?",
+    "answerType": "number",
+    "crewAnswer": "366",
+    "impostorAnswer": "52"
+  },
+  {
+    "crewQuestion": "How many players are on a soccer team on the field?",
+    "impostorQuestion": "How many players are on a basketball team on the court?",
+    "answerType": "number",
+    "crewAnswer": "11",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "How many continents are there?",
+    "impostorQuestion": "How many oceans are there?",
+    "answerType": "number",
+    "crewAnswer": "7",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "How many minutes are in an hour?",
+    "impostorQuestion": "How many seconds are in a minute?",
+    "answerType": "number",
+    "crewAnswer": "60",
+    "impostorAnswer": "60"
+  },
+  {
+    "crewQuestion": "How many sides does a hexagon have?",
+    "impostorQuestion": "How many sides does a pentagon have?",
+    "answerType": "number",
+    "crewAnswer": "6",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "How many strings does a standard guitar have?",
+    "impostorQuestion": "How many strings does a standard violin have?",
+    "answerType": "number",
+    "crewAnswer": "6",
+    "impostorAnswer": "4"
+  },
+  {
+    "crewQuestion": "How many months have 31 days?",
+    "impostorQuestion": "How many months are in a year?",
+    "answerType": "number",
+    "crewAnswer": "7",
+    "impostorAnswer": "12"
+  },
+  {
+    "crewQuestion": "How many planets are in the solar system?",
+    "impostorQuestion": "How many dwarf planets did the IAU recognize (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "8",
+    "impostorAnswer": "5"
+  }
+]

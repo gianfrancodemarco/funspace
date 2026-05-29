@@ -1,0 +1,58 @@
+[
+  {
+    "crewQuestion": "In what year did World War II end in Europe?",
+    "impostorQuestion": "In what year did the Berlin Wall fall?",
+    "answerType": "year",
+    "crewAnswer": "1945",
+    "impostorAnswer": "1989"
+  },
+  {
+    "crewQuestion": "How many countries are in the European Union (2024)?",
+    "impostorQuestion": "How many member states does NATO have (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "27",
+    "impostorAnswer": "32"
+  },
+  {
+    "crewQuestion": "How tall is the Eiffel Tower in meters (approx.)?",
+    "impostorQuestion": "How tall is the Statue of Liberty in meters (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "330",
+    "impostorAnswer": "93"
+  },
+  {
+    "crewQuestion": "How many kilometers is a marathon (approx.)?",
+    "impostorQuestion": "How many kilometers is a half marathon (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "42",
+    "impostorAnswer": "21"
+  },
+  {
+    "crewQuestion": "What year was the first iPhone released?",
+    "impostorQuestion": "What year was Facebook founded?",
+    "answerType": "year",
+    "crewAnswer": "2007",
+    "impostorAnswer": "2004"
+  },
+  {
+    "crewQuestion": "How many bones are in the adult human body (approx.)?",
+    "impostorQuestion": "How many teeth does an adult typically have?",
+    "answerType": "number",
+    "crewAnswer": "206",
+    "impostorAnswer": "32"
+  },
+  {
+    "crewQuestion": "How many US states are there?",
+    "impostorQuestion": "How many countries are in the United Kingdom?",
+    "answerType": "number",
+    "crewAnswer": "50",
+    "impostorAnswer": "4"
+  },
+  {
+    "crewQuestion": "How many minutes does a typical pop song last (approx.)?",
+    "impostorQuestion": "How many minutes does a TV sitcom episode last (approx.)?",
+    "answerType": "duration",
+    "crewAnswer": "3–4",
+    "impostorAnswer": "22–24"
+  }
+]

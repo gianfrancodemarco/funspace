@@ -3,6 +3,7 @@ import type { GameRegistryEntry } from "@/core/game-shell";
 import { hangmanDefinition } from "./hangman";
 import { impostorDefinition } from "./impostor";
 import { neverHaveIEverDefinition } from "./never-have-i-ever";
+import { questionImpostorDefinition } from "./question-impostor";
 import { shellDemoDefinition } from "./shell-demo";
 
 const registry = new Map<string, GameRegistryEntry>([
@@ -43,6 +44,16 @@ const registry = new Map<string, GameRegistryEntry>([
       definition: {
         ...neverHaveIEverDefinition,
         phases: [...neverHaveIEverDefinition.phases],
+      },
+    },
+  ],
+  [
+    questionImpostorDefinition.id,
+    {
+      kind: "playable",
+      definition: {
+        ...questionImpostorDefinition,
+        phases: [...questionImpostorDefinition.phases],
       },
     },
   ],

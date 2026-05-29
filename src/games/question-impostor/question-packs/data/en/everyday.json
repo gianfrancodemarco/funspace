@@ -1,0 +1,56 @@
+[
+  {
+    "crewQuestion": "How many hours of sleep do doctors often recommend per night?",
+    "impostorQuestion": "How many hours are in a typical work day?",
+    "answerType": "duration",
+    "crewAnswer": "7–9",
+    "impostorAnswer": "8"
+  },
+  {
+    "crewQuestion": "How many meals do many people eat per day?",
+    "impostorQuestion": "How many snacks per day is common in surveys (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "3",
+    "impostorAnswer": "2"
+  },
+  {
+    "crewQuestion": "How many keys are on a standard piano (approx.)?",
+    "impostorQuestion": "How many keys are on a computer keyboard (full size, approx.)?",
+    "answerType": "number",
+    "crewAnswer": "88",
+    "impostorAnswer": "104"
+  },
+  {
+    "crewQuestion": "How many wheels does a standard car have?",
+    "impostorQuestion": "How many wheels does a bicycle have?",
+    "answerType": "number",
+    "crewAnswer": "4",
+    "impostorAnswer": "2"
+  },
+  {
+    "crewQuestion": "Do you prefer coffee in the morning?",
+    "impostorQuestion": "Do you prefer tea in the morning?",
+    "answerType": "yes_no"
+  },
+  {
+    "crewQuestion": "How many days are in a typical paid vacation (2 weeks)?",
+    "impostorQuestion": "How many days are in a fortnight?",
+    "answerType": "number",
+    "crewAnswer": "10–14",
+    "impostorAnswer": "14"
+  },
+  {
+    "crewQuestion": "How many rooms does a typical apartment have (approx.)?",
+    "impostorQuestion": "How many floors does a typical house have (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "3–5",
+    "impostorAnswer": "2"
+  },
+  {
+    "crewQuestion": "How many liters of water do health guides often suggest per day (approx.)?",
+    "impostorQuestion": "How many cups of water is that (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "2",
+    "impostorAnswer": "8"
+  }
+]

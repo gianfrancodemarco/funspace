@@ -1,0 +1,58 @@
+[
+  {
+    "crewQuestion": "How many Harry Potter books are there?",
+    "impostorQuestion": "How many Narnia chronicles books are there?",
+    "answerType": "number",
+    "crewAnswer": "7",
+    "impostorAnswer": "7"
+  },
+  {
+    "crewQuestion": "How many seasons did Friends have?",
+    "impostorQuestion": "How many seasons did The Office (US) have?",
+    "answerType": "number",
+    "crewAnswer": "10",
+    "impostorAnswer": "9"
+  },
+  {
+    "crewQuestion": "In what year was the first Star Wars film released?",
+    "impostorQuestion": "In what year was the first Star Trek series aired?",
+    "answerType": "year",
+    "crewAnswer": "1977",
+    "impostorAnswer": "1966"
+  },
+  {
+    "crewQuestion": "How many Oscars did Titanic win?",
+    "impostorQuestion": "How many Oscars did The Lord of the Rings: Return of the King win?",
+    "answerType": "number",
+    "crewAnswer": "11",
+    "impostorAnswer": "11"
+  },
+  {
+    "crewQuestion": "How many members were in the Beatles?",
+    "impostorQuestion": "How many members were in One Direction at their peak?",
+    "answerType": "number",
+    "crewAnswer": "4",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "How many main Avengers were in the first MCU team film (approx.)?",
+    "impostorQuestion": "How many X-Men are often shown in the classic lineup (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "6",
+    "impostorAnswer": "6"
+  },
+  {
+    "crewQuestion": "How many episodes are in a typical anime season (approx.)?",
+    "impostorQuestion": "How many episodes are in a typical US drama season (approx.)?",
+    "answerType": "number",
+    "crewAnswer": "12–13",
+    "impostorAnswer": "22–24"
+  },
+  {
+    "crewQuestion": "What year did Minecraft officially release?",
+    "impostorQuestion": "What year did Fortnite Battle Royale launch?",
+    "answerType": "year",
+    "crewAnswer": "2011",
+    "impostorAnswer": "2017"
+  }
+]

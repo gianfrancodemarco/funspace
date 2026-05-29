@@ -14,6 +14,7 @@ import {
 } from "@/core/game-shell";
 import type { GameDefinition, GameRegistryEntry } from "@/core/game-shell";
 import { renderImpostorRevealSecret } from "@/games/impostor";
+import { renderQuestionImpostorRevealSecret } from "@/games/question-impostor";
 import { getGameById } from "@/games/registry";
 
 type GamePageClientProps = {
@@ -86,6 +87,9 @@ function PlayableGameShell() {
           renderSecret={(playerId) => {
             if (game.id === "impostor") {
               return renderImpostorRevealSecret(session, playerId, t);
+            }
+            if (game.id === "question-impostor") {
+              return renderQuestionImpostorRevealSecret(session, playerId, t);
             }
 
             const secret = session.secrets[playerId] as { number?: number } | undefined;

@@ -1,0 +1,58 @@
+[
+  {
+    "crewQuestion": "Quanti libri di Harry Potter ci sono?",
+    "impostorQuestion": "Quanti libri delle Cronache di Narnia ci sono?",
+    "answerType": "number",
+    "crewAnswer": "7",
+    "impostorAnswer": "7"
+  },
+  {
+    "crewQuestion": "Quante stagioni ha Friends?",
+    "impostorQuestion": "Quante stagioni ha The Office (USA)?",
+    "answerType": "number",
+    "crewAnswer": "10",
+    "impostorAnswer": "9"
+  },
+  {
+    "crewQuestion": "In che anno è uscito il primo film di Guerre stellari?",
+    "impostorQuestion": "In che anno è andato in onda la prima serie di Star Trek?",
+    "answerType": "year",
+    "crewAnswer": "1977",
+    "impostorAnswer": "1966"
+  },
+  {
+    "crewQuestion": "Quanti Oscar ha vinto Titanic?",
+    "impostorQuestion": "Quanti Oscar ha vinto Il Signore degli Anelli: Il ritorno del re?",
+    "answerType": "number",
+    "crewAnswer": "11",
+    "impostorAnswer": "11"
+  },
+  {
+    "crewQuestion": "Quanti membri avevano i Beatles?",
+    "impostorQuestion": "Quanti membri aveva One Direction al massimo?",
+    "answerType": "number",
+    "crewAnswer": "4",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "Quanti Avengers principali c'erano nel primo film del team MCU (circa)?",
+    "impostorQuestion": "Quanti X-Men compaiono spesso nella formazione classica (circa)?",
+    "answerType": "number",
+    "crewAnswer": "6",
+    "impostorAnswer": "6"
+  },
+  {
+    "crewQuestion": "Quanti episodi ha una stagione anime tipica (circa)?",
+    "impostorQuestion": "Quanti episodi ha una stagione di serie TV USA tipica (circa)?",
+    "answerType": "number",
+    "crewAnswer": "12–13",
+    "impostorAnswer": "22–24"
+  },
+  {
+    "crewQuestion": "In che anno è uscito ufficialmente Minecraft?",
+    "impostorQuestion": "In che anno è uscita Fortnite Battle Royale?",
+    "answerType": "year",
+    "crewAnswer": "2011",
+    "impostorAnswer": "2017"
+  }
+]

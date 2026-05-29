@@ -52,6 +52,7 @@ describe("Homepage content", () => {
     expect(screen.getByText("Impostor")).toBeInTheDocument();
     expect(screen.getByText("Hangman")).toBeInTheDocument();
     expect(screen.getByText("Never Have I Ever")).toBeInTheDocument();
-    expect(screen.getAllByText("Coming soon")).toHaveLength(3);
+    expect(screen.getByText("Question Impostor")).toBeInTheDocument();
+    expect(screen.getAllByText("Coming soon")).toHaveLength(4);
   });
 });

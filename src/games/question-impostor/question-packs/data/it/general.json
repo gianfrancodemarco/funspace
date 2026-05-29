@@ -1,0 +1,58 @@
+[
+  {
+    "crewQuestion": "Quanti giorni ha un anno bisestile?",
+    "impostorQuestion": "Quante settimane ha un anno?",
+    "answerType": "number",
+    "crewAnswer": "366",
+    "impostorAnswer": "52"
+  },
+  {
+    "crewQuestion": "Quanti giocatori ha una squadra di calcio in campo?",
+    "impostorQuestion": "Quanti giocatori ha una squadra di basket in campo?",
+    "answerType": "number",
+    "crewAnswer": "11",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "Quanti continenti ci sono?",
+    "impostorQuestion": "Quanti oceani ci sono?",
+    "answerType": "number",
+    "crewAnswer": "7",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "Quanti minuti ci sono in un'ora?",
+    "impostorQuestion": "Quanti secondi ci sono in un minuto?",
+    "answerType": "number",
+    "crewAnswer": "60",
+    "impostorAnswer": "60"
+  },
+  {
+    "crewQuestion": "Quanti lati ha un esagono?",
+    "impostorQuestion": "Quanti lati ha un pentagono?",
+    "answerType": "number",
+    "crewAnswer": "6",
+    "impostorAnswer": "5"
+  },
+  {
+    "crewQuestion": "Quante corde ha una chitarra standard?",
+    "impostorQuestion": "Quante corde ha un violino standard?",
+    "answerType": "number",
+    "crewAnswer": "6",
+    "impostorAnswer": "4"
+  },
+  {
+    "crewQuestion": "Quanti mesi hanno 31 giorni?",
+    "impostorQuestion": "Quanti mesi ci sono in un anno?",
+    "answerType": "number",
+    "crewAnswer": "7",
+    "impostorAnswer": "12"
+  },
+  {
+    "crewQuestion": "Quanti pianeti ci sono nel sistema solare?",
+    "impostorQuestion": "Quanti pianeti nani riconosce l'Unione Astronomica (circa)?",
+    "answerType": "number",
+    "crewAnswer": "8",
+    "impostorAnswer": "5"
+  }
+]

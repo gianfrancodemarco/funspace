@@ -2,7 +2,7 @@
 
 Living document for **candidate games**, prioritization, and fit with the platform. Not a commitment order — revisit as games ship and patterns emerge.
 
-**Related:** [Product Vision](./product-vision.md) · [Impostor Design](./games/impostor-design.md) · [Hangman Design](./games/hangman-design.md) · [Never Have I Ever Design](./games/never-have-i-ever-design.md)
+**Related:** [Product Vision](./product-vision.md) · [Impostor Design](./games/impostor-design.md) · [Question Impostor Design](./games/question-impostor-design.md) · [Hangman Design](./games/hangman-design.md) · [Never Have I Ever Design](./games/never-have-i-ever-design.md)
 
 *Last updated: 2026-05-29*
 
@@ -15,6 +15,7 @@ Living document for **candidate games**, prioritization, and fit with the platfo
 | **Impostor** | 3–20 | reveal → play → resolve | Deduction / bluff | Word packs (en, it) |
 | **Hangman** | 2–8 | play → resolve | Word / cooperative | Word lists (en, it) |
 | **Never Have I Ever** | 3–20 | play → resolve | Social / prompt | Prompt decks (en, it) |
+| **Question Impostor** | 3–20 | reveal → play → resolve | Deduction / questions | Question packs (en, it) |
 
 ---
 
