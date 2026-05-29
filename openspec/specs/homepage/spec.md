@@ -1,9 +1,7 @@
 ## Purpose
 
 Define homepage layout, hero section, game catalog preview, and navigation behavior for FunSpace.
-
 ## Requirements
-
 ### Requirement: Vibrant hero section
 
 The homepage hero SHALL use a visually distinctive treatment including a gradient background container and gradient-styled brand title text. All copy MUST come from i18n translation files.
@@ -83,3 +81,18 @@ The homepage SHALL export page metadata (title, description, Open Graph) defined
 
 - **WHEN** the homepage is rendered
 - **THEN** it includes a unique page title and meta description suitable for search indexing
+
+### Requirement: Hangman playable on homepage
+
+The Hangman catalog entry SHALL have `status: "playable"` and its homepage card SHALL NOT display a coming-soon badge.
+
+#### Scenario: Hangman card without coming soon
+
+- **WHEN** a user views the homepage
+- **THEN** the Hangman game card does not show a coming-soon badge
+
+#### Scenario: Hangman card links to playable game
+
+- **WHEN** a user taps the Hangman card on the homepage
+- **THEN** they navigate to a playable Hangman game at `/[locale]/games/hangman`
+

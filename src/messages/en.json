@@ -215,6 +215,91 @@
       }
     }
   },
+  "hangman": {
+    "presets": {
+      "classic": "Classic",
+      "forgiving": "Forgiving",
+      "custom": "Custom"
+    },
+    "setup": {
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "playersTitle": "Choose players",
+      "playersSubtitle": "Select {min}–{max} players from your saved roster.",
+      "presetsTitle": "Difficulty",
+      "maxWrongGuesses": "Max wrong guesses",
+      "packsTitle": "Word packs",
+      "start": "Start game",
+      "presets": {
+        "classic": "Classic",
+        "forgiving": "Forgiving",
+        "custom": "Custom"
+      },
+      "presetTooltips": {
+        "classic": "6 wrong guesses — standard hangman difficulty.",
+        "forgiving": "8 wrong guesses — a little more room for the group.",
+        "custom": "Choose your own max wrong guesses (4–10)."
+      },
+      "packs": {
+        "general": "General",
+        "food": "Food",
+        "animals": "Animals",
+        "places": "Places"
+      },
+      "validation": {
+        "emptyRoster": "Add players on the Players page before starting.",
+        "tooFew": "Select at least {min} players ({count} selected).",
+        "tooMany": "Select at most {max} players ({count} selected).",
+        "noPacks": "Select at least one word pack.",
+        "invalidConfig": "Invalid game configuration."
+      }
+    },
+    "play": {
+      "instructions": "Discuss as a group and tap letters on the phone. Wrong guesses build the hangman.",
+      "wrongGuesses": "Wrong guesses: {wrong} / {max}",
+      "remainingGuesses": "{count} guesses left"
+    },
+    "resolve": {
+      "won": "You guessed it!",
+      "lost": "Out of guesses!",
+      "wordReveal": "The word was: {word}",
+      "rematch": "Play again",
+      "exit": "Back to games"
+    },
+    "rules": {
+      "title": "How to play Hangman",
+      "sections": {
+        "goal": {
+          "title": "Goal",
+          "body": "Guess the secret word letter by letter before the hangman drawing is complete. Everyone plays together on one phone."
+        },
+        "roles": {
+          "title": "How it works",
+          "items": {
+            "group": "The group — suggest letters aloud and agree on each guess together.",
+            "phone": "The phone — picks a secret word, tracks guesses, and draws the hangman."
+          }
+        },
+        "howToPlay": {
+          "title": "How to play",
+          "steps": {
+            "1": "Choose players, difficulty, and word packs, then start.",
+            "2": "The app picks a secret word and shows blanks.",
+            "3": "Discuss and tap letters — correct guesses reveal letters everywhere they appear.",
+            "4": "Keep guessing until you complete the word or run out of wrong guesses."
+          }
+        },
+        "winConditions": {
+          "title": "Win conditions",
+          "items": {
+            "civilians": "You win when every letter in the word has been guessed.",
+            "impostors": "You lose when wrong guesses reach the limit and the word is still incomplete."
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "deduction": "Deduction",
     "bluff": "Bluff",

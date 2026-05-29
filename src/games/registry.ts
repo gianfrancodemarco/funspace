@@ -1,16 +1,10 @@
 import type { ComingSoonGameEntry, GameRegistryEntry } from "@/core/game-shell";
 
+import { hangmanDefinition } from "./hangman";
 import { impostorDefinition } from "./impostor";
 import { shellDemoDefinition } from "./shell-demo";
 
 const comingSoonGames: ComingSoonGameEntry[] = [
-  {
-    kind: "coming-soon",
-    id: "hangman",
-    nameKey: "games.hangman.name",
-    minPlayers: 2,
-    maxPlayers: 8,
-  },
   {
     kind: "coming-soon",
     id: "never-have-i-ever",
@@ -38,6 +32,16 @@ const registry = new Map<string, GameRegistryEntry>([
       definition: {
         ...impostorDefinition,
         phases: [...impostorDefinition.phases],
+      },
+    },
+  ],
+  [
+    hangmanDefinition.id,
+    {
+      kind: "playable",
+      definition: {
+        ...hangmanDefinition,
+        phases: [...hangmanDefinition.phases],
       },
     },
   ],

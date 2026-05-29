@@ -18,7 +18,7 @@ export const games: GameMeta[] = [
     tags: ["words", "quick"],
     minPlayers: 2,
     maxPlayers: 8,
-    status: "coming-soon",
+    status: "playable",
     accentColor: "hangman",
   },
   {

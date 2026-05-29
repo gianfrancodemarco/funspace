@@ -215,6 +215,91 @@
       }
     }
   },
+  "hangman": {
+    "presets": {
+      "classic": "Classico",
+      "forgiving": "Indulgente",
+      "custom": "Personalizzato"
+    },
+    "setup": {
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai a Giocatori",
+      "playersTitle": "Scegli i giocatori",
+      "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "presetsTitle": "Difficoltà",
+      "maxWrongGuesses": "Errori massimi",
+      "packsTitle": "Pacchetti parole",
+      "start": "Inizia partita",
+      "presets": {
+        "classic": "Classico",
+        "forgiving": "Indulgente",
+        "custom": "Personalizzato"
+      },
+      "presetTooltips": {
+        "classic": "6 errori massimi — difficoltà classica.",
+        "forgiving": "8 errori massimi — un po' più indulgente per il gruppo.",
+        "custom": "Scegli il numero massimo di errori (4–10)."
+      },
+      "packs": {
+        "general": "Generale",
+        "food": "Cibo",
+        "animals": "Animali",
+        "places": "Luoghi"
+      },
+      "validation": {
+        "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+        "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+        "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati).",
+        "noPacks": "Seleziona almeno un pacchetto parole.",
+        "invalidConfig": "Configurazione di gioco non valida."
+      }
+    },
+    "play": {
+      "instructions": "Discutete in gruppo e toccate le lettere sul telefono. Gli errori completano l'impiccato.",
+      "wrongGuesses": "Errori: {wrong} / {max}",
+      "remainingGuesses": "{count} tentativi rimasti"
+    },
+    "resolve": {
+      "won": "Indovinato!",
+      "lost": "Tentativi esauriti!",
+      "wordReveal": "La parola era: {word}",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    },
+    "rules": {
+      "title": "Come si gioca a Impiccato",
+      "sections": {
+        "goal": {
+          "title": "Obiettivo",
+          "body": "Indovina la parola segreta lettera per lettera prima che il disegno dell'impiccato sia completo. Giocate tutti insieme su un telefono."
+        },
+        "roles": {
+          "title": "Come funziona",
+          "items": {
+            "group": "Il gruppo — proponete lettere ad alta voce e concordate ogni tentativo.",
+            "phone": "Il telefono — sceglie la parola segreta, tiene traccia dei tentativi e disegna l'impiccato."
+          }
+        },
+        "howToPlay": {
+          "title": "Come si gioca",
+          "steps": {
+            "1": "Scegli giocatori, difficoltà e pacchetti parole, poi inizia.",
+            "2": "L'app sceglie una parola segreta e mostra gli spazi vuoti.",
+            "3": "Discutete e toccate le lettere — quelle corrette appaiono ovunque nella parola.",
+            "4": "Continuate finché completate la parola o esaurite i tentativi sbagliati."
+          }
+        },
+        "winConditions": {
+          "title": "Condizioni di vittoria",
+          "items": {
+            "civilians": "Vincete quando ogni lettera della parola è stata indovinata.",
+            "impostors": "Perdete quando gli errori raggiungono il limite e la parola resta incompleta."
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "deduction": "Deduzione",
     "bluff": "Bluff",
