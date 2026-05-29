@@ -76,4 +76,18 @@ describe("HangmanPlayView", () => {
     fireEvent.click(screen.getByRole("button", { name: "e" }));
     expect(onComplete).toHaveBeenCalled();
   });
+
+  it("accepts letter guesses from the keyboard", () => {
+    const onComplete = vi.fn();
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <HangmanPlayView session={session} onComplete={onComplete} />
+      </NextIntlClientProvider>,
+    );
+
+    fireEvent.keyDown(window, { key: "a" });
+
+    expect(screen.getByText("a _ _ _ _")).toBeInTheDocument();
+    expect(send).toHaveBeenCalled();
+  });
 });

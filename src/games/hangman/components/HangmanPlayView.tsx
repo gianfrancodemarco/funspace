@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import type { GamePlayProps } from "@/core/game-shell";
@@ -23,29 +23,62 @@ export function HangmanPlayView({ session, onComplete }: GamePlayProps) {
   const initialState = getHangmanState(session.secrets);
   const [state, setState] = useState<HangmanGameState | null>(initialState);
 
+  const handleGuess = useCallback(
+    (letter: string) => {
+      setState((current) => {
+        if (!current || current.status !== "playing") {
+          return current;
+        }
+
+        const { state: nextState, result } = guessLetter(current, letter);
+        if (result === "duplicate") {
+          return current;
+        }
+
+        send({
+          type: "PATCH_SECRETS",
+          secrets: { [HANGMAN_STATE_KEY]: nextState },
+        });
+
+        if (result === "won" || result === "lost") {
+          onComplete();
+        }
+
+        return nextState;
+      });
+    },
+    [onComplete, send],
+  );
+
+  useEffect(() => {
+    if (!state || state.status !== "playing") {
+      return;
+    }
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.ctrlKey || event.metaKey || event.altKey) {
+        return;
+      }
+
+      if (event.key.length !== 1) {
+        return;
+      }
+
+      const letter = event.key.toLowerCase();
+      if (!/^[a-z]$/.test(letter)) {
+        return;
+      }
+
+      event.preventDefault();
+      handleGuess(letter);
+    }
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [handleGuess, state?.status]);
+
   if (!state) {
     return null;
-  }
-
-  function handleGuess(letter: string) {
-    if (!state) {
-      return;
-    }
-
-    const { state: nextState, result } = guessLetter(state, letter);
-    if (result === "duplicate") {
-      return;
-    }
-
-    setState(nextState);
-    send({
-      type: "PATCH_SECRETS",
-      secrets: { [HANGMAN_STATE_KEY]: nextState },
-    });
-
-    if (result === "won" || result === "lost") {
-      onComplete();
-    }
   }
 
   const remainingGuesses = state.config.maxWrongGuesses - state.wrongCount;
