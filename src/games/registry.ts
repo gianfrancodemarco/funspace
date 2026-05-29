@@ -1,18 +1,9 @@
-import type { ComingSoonGameEntry, GameRegistryEntry } from "@/core/game-shell";
+import type { GameRegistryEntry } from "@/core/game-shell";
 
 import { hangmanDefinition } from "./hangman";
 import { impostorDefinition } from "./impostor";
+import { neverHaveIEverDefinition } from "./never-have-i-ever";
 import { shellDemoDefinition } from "./shell-demo";
-
-const comingSoonGames: ComingSoonGameEntry[] = [
-  {
-    kind: "coming-soon",
-    id: "never-have-i-ever",
-    nameKey: "games.neverHaveIEver.name",
-    minPlayers: 3,
-    maxPlayers: 20,
-  },
-];
 
 const registry = new Map<string, GameRegistryEntry>([
   [
@@ -45,7 +36,16 @@ const registry = new Map<string, GameRegistryEntry>([
       },
     },
   ],
-  ...comingSoonGames.map((entry) => [entry.id, entry] as const),
+  [
+    neverHaveIEverDefinition.id,
+    {
+      kind: "playable",
+      definition: {
+        ...neverHaveIEverDefinition,
+        phases: [...neverHaveIEverDefinition.phases],
+      },
+    },
+  ],
 ]);
 
 export function getGameById(gameId: string): GameRegistryEntry | undefined {

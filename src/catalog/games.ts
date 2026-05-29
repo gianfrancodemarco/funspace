@@ -28,7 +28,7 @@ export const games: GameMeta[] = [
     tags: ["social", "quick"],
     minPlayers: 3,
     maxPlayers: 20,
-    status: "coming-soon",
+    status: "playable",
     accentColor: "never-have-i-ever",
   },
 ];

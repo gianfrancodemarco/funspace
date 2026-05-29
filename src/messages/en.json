@@ -300,6 +300,100 @@
       }
     }
   },
+  "neverHaveIEver": {
+    "presets": {
+      "icebreaker": "Icebreaker",
+      "mixed": "Mixed",
+      "allAges": "All ages",
+      "custom": "Custom"
+    },
+    "setup": {
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "playersTitle": "Choose players",
+      "playersSubtitle": "Select {min}–{max} players from your saved roster.",
+      "presetsTitle": "Prompt style",
+      "packsTitle": "Prompt packs",
+      "adultBadge": "18+",
+      "start": "Start game",
+      "presets": {
+        "icebreaker": "Icebreaker",
+        "mixed": "Mixed",
+        "allAges": "All ages",
+        "custom": "Custom"
+      },
+      "presetTooltips": {
+        "icebreaker": "Classic safe prompts only — great for new groups.",
+        "mixed": "Classic, Travel, and Food & Fun packs together.",
+        "allAges": "All non-adult packs — family-friendly mix.",
+        "custom": "Pick your own prompt packs."
+      },
+      "packs": {
+        "classic": "Classic",
+        "travel": "Travel",
+        "foodFun": "Food & Fun",
+        "spicy": "Spicy"
+      },
+      "spicyConfirm": {
+        "message": "The Spicy pack includes adult-themed prompts. Only continue if everyone in the group is 18+ and comfortable.",
+        "confirm": "Include Spicy pack",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "emptyRoster": "Add players on the Players page before starting.",
+        "tooFew": "Select at least {min} players ({count} selected).",
+        "tooMany": "Select at most {max} players ({count} selected).",
+        "noPacks": "Select at least one prompt pack.",
+        "invalidConfig": "Invalid game configuration."
+      }
+    },
+    "play": {
+      "instructions": "Anyone who has done it responds in person — put a finger down, take a sip, or follow your house rules.",
+      "progress": "Prompt {current} of {total}",
+      "next": "Next prompt",
+      "skip": "Skip",
+      "endSession": "End session"
+    },
+    "resolve": {
+      "complete": "Session complete!",
+      "promptsPlayed": "You played through {count} prompts.",
+      "rematch": "Play again",
+      "exit": "Back to games"
+    },
+    "rules": {
+      "title": "How to play Never Have I Ever",
+      "sections": {
+        "goal": {
+          "title": "Goal",
+          "body": "Read prompts aloud and learn surprising things about your friends. The app shows prompts — the real game happens at the table."
+        },
+        "roles": {
+          "title": "How it works",
+          "items": {
+            "group": "The group — anyone who has done the prompt responds in person (fingers down, sips, or your house rules).",
+            "reader": "The reader — reads each prompt aloud from the shared phone."
+          }
+        },
+        "howToPlay": {
+          "title": "How to play",
+          "steps": {
+            "1": "Choose players and prompt packs, then start.",
+            "2": "Read the prompt on screen aloud to the group.",
+            "3": "Anyone who has done it responds in person — the app does not track scores.",
+            "4": "Tap Next for another prompt, Skip to move on, or End session when you're done."
+          }
+        },
+        "winConditions": {
+          "title": "Ending the session",
+          "items": {
+            "civilians": "There is no winner — end whenever the group wants or when prompts run out.",
+            "impostors": "Rematch shuffles a fresh deck with the same settings."
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "deduction": "Deduction",
     "bluff": "Bluff",

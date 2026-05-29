@@ -1,0 +1,15 @@
+## ADDED Requirements
+
+### Requirement: Never Have I Ever rules content
+
+Never Have I Ever SHALL provide complete in-app rules via the shared game rules system using the `neverHaveIEver.rules` translation namespace.
+
+#### Scenario: Never Have I Ever rules accessible from setup
+
+- **WHEN** a user opens Never Have I Ever setup
+- **THEN** a how-to-play control is available that opens the Never Have I Ever rules dialog
+
+#### Scenario: Never Have I Ever rules describe verbal play
+
+- **WHEN** a user opens Never Have I Ever rules
+- **THEN** the rules explain that the app shows prompts and players respond verbally at the table with no app-tracked winner

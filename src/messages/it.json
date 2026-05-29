@@ -300,6 +300,100 @@
       }
     }
   },
+  "neverHaveIEver": {
+    "presets": {
+      "icebreaker": "Rompi-ghiaccio",
+      "mixed": "Mix",
+      "allAges": "Tutte le età",
+      "custom": "Personalizzato"
+    },
+    "setup": {
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai ai Giocatori",
+      "playersTitle": "Scegli i giocatori",
+      "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "presetsTitle": "Stile prompt",
+      "packsTitle": "Pacchetti prompt",
+      "adultBadge": "18+",
+      "start": "Inizia partita",
+      "presets": {
+        "icebreaker": "Rompi-ghiaccio",
+        "mixed": "Mix",
+        "allAges": "Tutte le età",
+        "custom": "Personalizzato"
+      },
+      "presetTooltips": {
+        "icebreaker": "Solo prompt classici e sicuri — ideale per gruppi nuovi.",
+        "mixed": "Classico, Viaggi e Cibo & Divertimento insieme.",
+        "allAges": "Tutti i pacchetti non adulti — adatto a tutti.",
+        "custom": "Scegli i tuoi pacchetti prompt."
+      },
+      "packs": {
+        "classic": "Classico",
+        "travel": "Viaggi",
+        "foodFun": "Cibo & Divertimento",
+        "spicy": "Piccante"
+      },
+      "spicyConfirm": {
+        "message": "Il pacchetto Piccante include prompt per adulti. Continua solo se tutti nel gruppo hanno 18+ anni e sono d'accordo.",
+        "confirm": "Includi pacchetto Piccante",
+        "cancel": "Annulla"
+      },
+      "validation": {
+        "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+        "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+        "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati).",
+        "noPacks": "Seleziona almeno un pacchetto prompt.",
+        "invalidConfig": "Configurazione di gioco non valida."
+      }
+    },
+    "play": {
+      "instructions": "Chi l'ha fatto risponde di persona — abbassa un dito, bevi un sorso o seguite le vostre regole.",
+      "progress": "Prompt {current} di {total}",
+      "next": "Prossimo prompt",
+      "skip": "Salta",
+      "endSession": "Termina sessione"
+    },
+    "resolve": {
+      "complete": "Sessione completata!",
+      "promptsPlayed": "Avete giocato {count} prompt.",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    },
+    "rules": {
+      "title": "Come si gioca a Non ho mai",
+      "sections": {
+        "goal": {
+          "title": "Obiettivo",
+          "body": "Leggete i prompt ad alta voce e scoprite cose sorprendenti sugli amici. L'app mostra i prompt — il gioco vero avviene al tavolo."
+        },
+        "roles": {
+          "title": "Come funziona",
+          "items": {
+            "group": "Il gruppo — chi ha fatto quanto detto nel prompt risponde di persona (dita abbassate, sorsi, o le vostre regole).",
+            "reader": "Il lettore — legge ad alta voce ogni prompt dal telefono condiviso."
+          }
+        },
+        "howToPlay": {
+          "title": "Come si gioca",
+          "steps": {
+            "1": "Scegli giocatori e pacchetti prompt, poi inizia.",
+            "2": "Leggi ad alta voce il prompt sullo schermo.",
+            "3": "Chi l'ha fatto risponde di persona — l'app non tiene punteggi.",
+            "4": "Tocca Avanti per un altro prompt, Salta per saltare, o Termina sessione quando avete finito."
+          }
+        },
+        "winConditions": {
+          "title": "Fine sessione",
+          "items": {
+            "civilians": "Non c'è un vincitore — finite quando volete o quando finiscono i prompt.",
+            "impostors": "Rigiocare mescola un mazzo nuovo con le stesse impostazioni."
+          }
+        }
+      }
+    }
+  },
   "tags": {
     "deduction": "Deduzione",
     "bluff": "Bluff",
