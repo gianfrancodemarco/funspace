@@ -34,25 +34,21 @@ function renderLoop(onComplete = vi.fn()) {
 }
 
 describe("SingleDeviceRevealLoop", () => {
-  it("progresses through handoff, reveal, confirm, and cover for each player", () => {
+  it("progresses through handoff and reveal for each player", () => {
     const onComplete = vi.fn();
     renderLoop(onComplete);
 
     expect(screen.getByText(/Pass the phone to Marco/i)).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: "I'm ready" }));
-    fireEvent.click(screen.getByRole("button", { name: "Reveal secret" }));
     expect(screen.getByText("Secret for Marco")).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
-    expect(screen.getByText(/Secret hidden/i)).toBeInTheDocument();
-
-    fireEvent.click(screen.getByRole("button", { name: "Next player" }));
     expect(screen.getByText(/Pass the phone to Giulia/i)).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: "I'm ready" }));
-    fireEvent.click(screen.getByRole("button", { name: "Reveal secret" }));
-    fireEvent.click(screen.getByRole("button", { name: "Got it" }));
+    expect(screen.getByText("Secret for Giulia")).toBeInTheDocument();
+
     fireEvent.click(screen.getByRole("button", { name: "Finish reveal" }));
 
     expect(onComplete).toHaveBeenCalledOnce();
