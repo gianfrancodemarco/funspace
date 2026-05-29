@@ -158,11 +158,15 @@ Many games support **variants** — rule modifiers that change how a game is pla
 
 ### Examples (Impostor)
 
-- Classic (1 impostor, no special roles)
-- Multiple impostors (2, 3, …)
-- With spy role (spy knows the word but appears as crew to the impostor)
-- Optional discussion timer
-- Custom word packs / categories
+Full rules, settings, and win conditions: **[Impostor Game Design](./games/impostor-design.md)**.
+
+Summary:
+
+- Word-based social deduction — impostors don't know the secret word
+- 1+ impostors, 0+ spies, 3–20 players
+- IRL discussion and eliminations; app tracks state and win conditions
+- Word packs (multi-select, all default), no timer, no fixed clue rounds
+- Shared player roster across all games (localStorage)
 
 Variants are **not separate games in the catalog**. They are modes of the same game.
 
@@ -180,29 +184,27 @@ Variants are **not separate games in the catalog**. They are modes of the same g
 
 ### Example config shape (Impostor)
 
+See [Impostor Game Design](./games/impostor-design.md) for the full spec. Summary:
+
 ```typescript
 ImpostorConfig {
-  players: string[]
-  impostorCount: number
-  roles: {
-    spy: boolean
-    // future: jester, oracle, ...
-  }
-  wordPack: string
-  discussionTimerSec?: number
-  revealOrder: "random" | "fixed"
-  votingEnabled: boolean
+  players: string[]        // 3–20, from shared roster
+  impostorCount: number    // >= 1
+  spyCount: number         // >= 0
+  wordPacks: string[]      // multi-select; default: all packs
 }
 ```
 
+No timer, no in-app voting, no impostor word.
+
 ### Preset examples
 
-| Preset | impostorCount | spy | Notes |
-|--------|---------------|-----|-------|
-| Classic | 1 | false | Default |
-| Chaos | 2 | false | For larger groups |
-| With Spy | 1 | true | Extra hidden role |
-| Hard | 2 | true | Larger groups, more complexity |
+| Preset | impostorCount | spyCount | Notes |
+|--------|---------------|----------|-------|
+| Classic | 1 | 0 | Default |
+| With Spy | 1 | 1 | Spy gets similar word |
+| Chaos | 2 | 0 | Larger groups |
+| Custom | * | * | Full control |
 
 ### Composable rule modules
 
@@ -213,7 +215,7 @@ Impostor Core Engine
         │
         ├── MultiImpostorModule
         ├── SpyRoleModule
-        └── TimerModule
+        └── WordPackModule
         └── (future modules)
 ```
 
@@ -384,7 +386,7 @@ Explicit v1 boundaries:
 | **Language** | ~~Italian only at launch, or i18n from day one?~~ **Decided:** i18n from day one; **English** is the launch locale |
 | **Content** | Hand-authored decks, generated content, or mixed? Who curates prompts? |
 | **Impostor + Hangman** | Is there a hybrid variant (impostor must guess the word hangman-style)? Rules TBD. |
-| **Spy role rules** | Exact spy behavior needs definition (what they know, how they win/lose). |
+| **Spy role rules** | **Decided:** spy gets a similar word, wins with civilians — see [Impostor Game Design](./games/impostor-design.md) |
 | **Visual identity** | Minimal/tool vs playful/party aesthetic? |
 | **Scoring** | Which games track scores? Persist or session-only? |
 | **18+ content** | Separate packs with filtering, or separate tags? |
