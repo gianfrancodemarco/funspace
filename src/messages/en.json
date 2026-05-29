@@ -4,10 +4,13 @@
     "defaultTitle": "FunSpace — Party Games for Friends",
     "defaultDescription": "In-person party games you can play with a single phone. No signup required.",
     "aboutTitle": "About FunSpace",
-    "aboutDescription": "Learn about FunSpace — in-person party games for friends, playable on one shared phone."
+    "aboutDescription": "Learn about FunSpace — in-person party games for friends, playable on one shared phone.",
+    "playersTitle": "Players",
+    "playersDescription": "Manage your saved player names for FunSpace party games."
   },
   "nav": {
     "home": "Home",
+    "players": "Players",
     "about": "About",
     "menu": "Menu",
     "openMenu": "Open menu",
@@ -62,5 +65,19 @@
     "en": "English",
     "it": "Italian",
     "switch": "Switch language"
+  },
+  "players": {
+    "title": "Players",
+    "description": "Save your group's names once and reuse them in every game.",
+    "emptyTitle": "No players yet",
+    "emptyDescription": "Add the friends you play with — names are saved on this device for all games.",
+    "addLabel": "Player name",
+    "addPlaceholder": "Enter a name",
+    "addButton": "Add player",
+    "remove": "Remove {name}",
+    "rename": "Rename {name}",
+    "saveRename": "Save name",
+    "cancelRename": "Cancel rename",
+    "loading": "Loading players…"
   }
 }

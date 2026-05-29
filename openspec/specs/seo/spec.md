@@ -44,7 +44,7 @@ The application SHALL provide a sitemap listing all public indexable routes for 
 #### Scenario: Sitemap includes all locale routes
 
 - **WHEN** a crawler requests `/sitemap.xml`
-- **THEN** the sitemap lists `/en`, `/en/about`, `/it`, and `/it/about`
+- **THEN** the sitemap lists `/en`, `/en/about`, `/en/players`, `/it`, `/it/about`, and `/it/players`
 
 ### Requirement: Robots configuration
 

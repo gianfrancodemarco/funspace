@@ -4,10 +4,13 @@
     "defaultTitle": "FunSpace — Giochi di gruppo per amici",
     "defaultDescription": "Giochi di gruppo dal vivo che puoi giocare con un solo telefono. Nessuna registrazione richiesta.",
     "aboutTitle": "Informazioni su FunSpace",
-    "aboutDescription": "Scopri FunSpace — giochi di gruppo dal vivo per amici, giocabili su un unico telefono condiviso."
+    "aboutDescription": "Scopri FunSpace — giochi di gruppo dal vivo per amici, giocabili su un unico telefono condiviso.",
+    "playersTitle": "Giocatori",
+    "playersDescription": "Gestisci i nomi salvati per i giochi di gruppo su FunSpace."
   },
   "nav": {
     "home": "Home",
+    "players": "Giocatori",
     "about": "Chi siamo",
     "menu": "Menu",
     "openMenu": "Apri menu",
@@ -62,5 +65,19 @@
     "en": "English",
     "it": "Italiano",
     "switch": "Cambia lingua"
+  },
+  "players": {
+    "title": "Giocatori",
+    "description": "Salva i nomi del gruppo una volta e riutilizzali in ogni gioco.",
+    "emptyTitle": "Nessun giocatore",
+    "emptyDescription": "Aggiungi gli amici con cui giochi — i nomi restano salvati su questo dispositivo per tutti i giochi.",
+    "addLabel": "Nome giocatore",
+    "addPlaceholder": "Inserisci un nome",
+    "addButton": "Aggiungi giocatore",
+    "remove": "Rimuovi {name}",
+    "rename": "Rinomina {name}",
+    "saveRename": "Salva nome",
+    "cancelRename": "Annulla modifica",
+    "loading": "Caricamento giocatori…"
   }
 }
