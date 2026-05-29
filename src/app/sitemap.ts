@@ -3,6 +3,8 @@ import type { MetadataRoute } from "next";
 import { siteUrl } from "@/lib/utils";
 import { routing } from "@/i18n/routing";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/about"];
 
