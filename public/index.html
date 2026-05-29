@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=./en/" />
-    <link rel="canonical" href="./en/" />
     <title>FunSpace</title>
     <script>
-      location.replace("./en/");
+      var lang = (navigator.language || "en").toLowerCase();
+      var target = lang.startsWith("it") ? "./it/" : "./en/";
+      location.replace(target);
     </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=./en/" />
+    </noscript>
   </head>
   <body>
-    <p>Redirecting to <a href="./en/">FunSpace</a>…</p>
+    <p>Redirecting… <a href="./en/">English</a> · <a href="./it/">Italiano</a></p>
   </body>
 </html>

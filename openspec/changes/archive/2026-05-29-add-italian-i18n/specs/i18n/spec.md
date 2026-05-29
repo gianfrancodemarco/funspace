@@ -1,8 +1,4 @@
-## Purpose
-
-Define internationalization behavior, supported locales, and language selection for FunSpace.
-
-## Requirements
+## MODIFIED Requirements
 
 ### Requirement: Locale-based routing
 
@@ -64,6 +60,8 @@ The i18n configuration SHALL define a locales list and default locale in a centr
 
 - **WHEN** a developer inspects the i18n routing configuration
 - **THEN** `en` and `it` are listed in locales, `en` is the default locale, and the structure supports adding further locales
+
+## ADDED Requirements
 
 ### Requirement: Language selection
 

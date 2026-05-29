@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "siteName": "FunSpace",
+    "defaultTitle": "FunSpace — Giochi di gruppo per amici",
+    "defaultDescription": "Giochi di gruppo dal vivo che puoi giocare con un solo telefono. Nessuna registrazione richiesta.",
+    "aboutTitle": "Informazioni su FunSpace",
+    "aboutDescription": "Scopri FunSpace — giochi di gruppo dal vivo per amici, giocabili su un unico telefono condiviso."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "menu": "Menu",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
+  },
+  "home": {
+    "heroTitle": "FunSpace",
+    "heroTagline": "Giochi di gruppo per amici, un solo telefono",
+    "gamesHeading": "Giochi",
+    "gamesSubheading": "Scegli un gioco e giocate insieme nella stessa stanza."
+  },
+  "about": {
+    "title": "Informazioni su FunSpace",
+    "description": "FunSpace è una raccolta di giochi di gruppo dal vivo che puoi giocare con gli amici usando un unico telefono condiviso. Nessun account, nessun download — apri il sito e gioca.",
+    "features": {
+      "title": "Cosa offriamo",
+      "catalog": "Un catalogo in crescita di giochi social e basati sulle parole",
+      "singlePhone": "Ogni gioco funziona su un unico dispositivo condiviso",
+      "noSignup": "Nessuna registrazione richiesta"
+    }
+  },
+  "games": {
+    "comingSoon": "In arrivo",
+    "players": "{min}–{max} giocatori",
+    "impostor": {
+      "name": "Impostor",
+      "description": "Trova l'impostore che non conosce la parola segreta. Passa il telefono per rivelare i ruoli in privato."
+    },
+    "hangman": {
+      "name": "Impiccato",
+      "description": "Indovina la parola lettera per lettera prima che il disegno sia completo."
+    },
+    "neverHaveIEver": {
+      "name": "Non ho mai",
+      "description": "Leggi le domande ad alta voce e scopri cose sorprendenti sui tuoi amici."
+    }
+  },
+  "tags": {
+    "deduction": "Deduzione",
+    "bluff": "Bluff",
+    "words": "Parole",
+    "social": "Social",
+    "quick": "Veloce"
+  },
+  "theme": {
+    "toggle": "Cambia tema",
+    "light": "Modalità chiara",
+    "dark": "Modalità scura",
+    "system": "Tema di sistema"
+  },
+  "locale": {
+    "en": "English",
+    "it": "Italiano",
+    "switch": "Cambia lingua"
+  }
+}

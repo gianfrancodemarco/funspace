@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 import { Link, usePathname } from "@/i18n/navigation";
+import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import {
@@ -80,7 +81,8 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="hidden md:block">
+          <div className="hidden items-center gap-2 md:flex">
+            <LanguageSwitcher />
             <ThemeToggle />
           </div>
 
@@ -100,6 +102,7 @@ export function Header() {
                 <SheetTitle>{t("nav.menu")}</SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-4 px-4">
+                <LanguageSwitcher />
                 <ThemeToggle />
                 <nav className="flex flex-col gap-4" aria-label={t("nav.menu")}>
                   {navItems.map((item) => (

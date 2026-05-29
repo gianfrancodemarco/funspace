@@ -18,6 +18,7 @@ export async function generateMetadata({
     title: t("defaultTitle"),
     description: t("defaultDescription"),
     path: `/${locale}`,
+    locale,
   });
 }
 

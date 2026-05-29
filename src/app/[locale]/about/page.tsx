@@ -16,6 +16,7 @@ export async function generateMetadata({
     title: `${t("aboutTitle")} | FunSpace`,
     description: t("aboutDescription"),
     path: `/${locale}/about`,
+    locale,
   });
 }
 

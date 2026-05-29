@@ -1,3 +1,9 @@
+## Purpose
+
+Define the shared application layout, navigation chrome, and header controls for FunSpace.
+
+## Requirements
+
 ### Requirement: Application layout wraps all pages
 
 The application SHALL render every page inside a shared layout component (`AppShell`) that provides consistent chrome across routes.
@@ -80,6 +86,25 @@ The app shell SHALL display a theme toggle control in the header that is accessi
 
 - **WHEN** the theme toggle is rendered
 - **THEN** its accessible label is loaded from i18n translation files
+
+### Requirement: Language selector in header
+
+The app shell SHALL display a language selector in the header that allows switching between available locales.
+
+#### Scenario: Language selector visible on desktop
+
+- **WHEN** the user views the application on a desktop viewport
+- **THEN** a language selector is visible in the header
+
+#### Scenario: Language selector accessible on mobile
+
+- **WHEN** the user opens the mobile navigation menu
+- **THEN** a language selector is available within the menu
+
+#### Scenario: Language selector preserves current page
+
+- **WHEN** the user switches language while on a sub-page (e.g. About)
+- **THEN** the equivalent page in the selected locale is displayed
 
 ### Requirement: Modern header styling
 

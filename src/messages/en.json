@@ -57,5 +57,10 @@
     "light": "Light mode",
     "dark": "Dark mode",
     "system": "System theme"
+  },
+  "locale": {
+    "en": "English",
+    "it": "Italian",
+    "switch": "Switch language"
   }
 }
