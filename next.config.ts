@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
         output: "export",
         basePath: "/funspace",
         assetPrefix: "/funspace/",
+        trailingSlash: true,
       }
     : {}),
   images: {
