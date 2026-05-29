@@ -8,10 +8,12 @@ import { usePlayerRoster } from "@/core/player-roster";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
+import type { GameStartInput } from "@/core/game-shell";
+
 type PlayerSelectSetupProps = {
   minPlayers: number;
   maxPlayers: number;
-  onStart: (playerNames: string[]) => void;
+  onStart: (input: GameStartInput) => void;
 };
 
 export function PlayerSelectSetup({
@@ -71,7 +73,7 @@ export function PlayerSelectSetup({
       return;
     }
 
-    onStart(selectedNames);
+    onStart({ playerNames: selectedNames });
   }
 
   if (isLoading) {

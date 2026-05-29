@@ -1,7 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { createActor } from "xstate";
 
-import { getPhaseAfterSetup } from "./session";
 import { shellMachine } from "./shell-machine";
 import type { GameDefinition } from "./types";
 
@@ -11,7 +10,9 @@ const demoGame: GameDefinition = {
   minPlayers: 2,
   maxPlayers: 4,
   phases: ["reveal", "play", "resolve"],
-  assignSecrets: () => ({}),
+  assignSecrets: (session) => ({
+    config: session.gameConfig,
+  }),
   PlayView: () => null,
   ResolveView: () => null,
 };
@@ -48,7 +49,6 @@ describe("shellMachine", () => {
 
     expect(actor.getSnapshot().matches("reveal")).toBe(false);
     expect(actor.getSnapshot().matches("play")).toBe(true);
-    expect(getPhaseAfterSetup(playOnlyGame.phases)).toBe("play");
   });
 
   it("rematch creates a new session with the same players", () => {
@@ -67,5 +67,48 @@ describe("shellMachine", () => {
     expect(actor.getSnapshot().context.session?.players[0].id).not.toBe(
       firstSessionId,
     );
+  });
+
+  it("passes gameConfig through start and rematch", () => {
+    const actor = createActor(shellMachine, { input: { game: demoGame } });
+    actor.start();
+
+    actor.send({
+      type: "START",
+      playerNames: ["Marco", "Giulia", "Luca"],
+      gameConfig: { impostorCount: 1 },
+    });
+
+    expect(actor.getSnapshot().context.session?.gameConfig).toEqual({
+      impostorCount: 1,
+    });
+    expect(actor.getSnapshot().context.lastGameConfig).toEqual({
+      impostorCount: 1,
+    });
+
+    actor.send({ type: "REVEAL_DONE" });
+    actor.send({ type: "PLAY_DONE" });
+    actor.send({ type: "REMATCH" });
+
+    expect(actor.getSnapshot().context.session?.gameConfig).toEqual({
+      impostorCount: 1,
+    });
+  });
+
+  it("patches secrets during play", () => {
+    const actor = createActor(shellMachine, { input: { game: demoGame } });
+    actor.start();
+
+    actor.send({ type: "START", playerNames: ["Marco", "Giulia"] });
+    actor.send({ type: "REVEAL_DONE" });
+
+    actor.send({
+      type: "PATCH_SECRETS",
+      secrets: { impostorState: { winner: "civilians" } },
+    });
+
+    expect(actor.getSnapshot().context.session?.secrets.impostorState).toEqual({
+      winner: "civilians",
+    });
   });
 });

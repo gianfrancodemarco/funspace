@@ -13,6 +13,7 @@ export type ShellMachineContext = {
   session: GameSession | null;
   phase: ShellPhase;
   lastPlayerNames: string[];
+  lastGameConfig?: unknown;
 };
 
 export type ShellMachineInput = {
@@ -20,9 +21,10 @@ export type ShellMachineInput = {
 };
 
 export type ShellMachineEvent =
-  | { type: "START"; playerNames: string[] }
+  | { type: "START"; playerNames: string[]; gameConfig?: unknown }
   | { type: "REVEAL_DONE" }
   | { type: "PLAY_DONE" }
+  | { type: "PATCH_SECRETS"; secrets: Record<string, unknown> }
   | { type: "REMATCH" }
   | { type: "BACK_TO_SETUP" };
 
@@ -55,11 +57,13 @@ export const shellMachine = setup({
               context.game.id,
               event.playerNames,
               context.game.assignSecrets,
+              event.gameConfig,
             );
 
             return {
               session,
               lastPlayerNames: event.playerNames,
+              lastGameConfig: event.gameConfig,
               phase: getPhaseAfterSetup(context.game.phases),
             };
           }),
@@ -87,6 +91,23 @@ export const shellMachine = setup({
     },
     play: {
       on: {
+        PATCH_SECRETS: {
+          actions: assign(({ context, event }) => {
+            if (!context.session) {
+              return {};
+            }
+
+            return {
+              session: {
+                ...context.session,
+                secrets: {
+                  ...context.session.secrets,
+                  ...event.secrets,
+                },
+              },
+            };
+          }),
+        },
         PLAY_DONE: {
           target: "resolve",
           actions: assign({
@@ -108,6 +129,7 @@ export const shellMachine = setup({
               context.game.id,
               context.lastPlayerNames,
               context.game.assignSecrets,
+              context.lastGameConfig,
             );
 
             return {

@@ -1,4 +1,4 @@
-export type GameStatus = "coming-soon" | "available";
+export type GameStatus = "coming-soon" | "available" | "playable";
 
 export type GameAccentColor = "impostor" | "hangman" | "never-have-i-ever";
 

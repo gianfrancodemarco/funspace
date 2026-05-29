@@ -1,15 +1,9 @@
 import type { ComingSoonGameEntry, GameRegistryEntry } from "@/core/game-shell";
 
+import { impostorDefinition } from "./impostor";
 import { shellDemoDefinition } from "./shell-demo";
 
 const comingSoonGames: ComingSoonGameEntry[] = [
-  {
-    kind: "coming-soon",
-    id: "impostor",
-    nameKey: "games.impostor.name",
-    minPlayers: 4,
-    maxPlayers: 12,
-  },
   {
     kind: "coming-soon",
     id: "hangman",
@@ -31,7 +25,20 @@ const registry = new Map<string, GameRegistryEntry>([
     shellDemoDefinition.id,
     {
       kind: "playable",
-      definition: shellDemoDefinition,
+      definition: {
+        ...shellDemoDefinition,
+        phases: [...shellDemoDefinition.phases],
+      },
+    },
+  ],
+  [
+    impostorDefinition.id,
+    {
+      kind: "playable",
+      definition: {
+        ...impostorDefinition,
+        phases: [...impostorDefinition.phases],
+      },
     },
   ],
   ...comingSoonGames.map((entry) => [entry.id, entry] as const),

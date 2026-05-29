@@ -100,6 +100,83 @@
       "exit": "Torna ai giochi"
     }
   },
+  "impostor": {
+    "roles": {
+      "civilian": "Civile",
+      "impostor": "Impostore",
+      "spy": "Spia"
+    },
+    "presets": {
+      "classic": "Classico",
+      "withSpy": "Con spia",
+      "chaos": "Caos",
+      "custom": "Personalizzato"
+    },
+    "setup": {
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai a Giocatori",
+      "playersTitle": "Scegli i giocatori",
+      "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "presetsTitle": "Modalità di gioco",
+      "impostorCount": "Impostori",
+      "spyCount": "Spie",
+      "packsTitle": "Pacchetti parole",
+      "start": "Inizia partita",
+      "presets": {
+        "classic": "Classico",
+        "withSpy": "Con spia",
+        "chaos": "Caos",
+        "custom": "Personalizzato"
+      },
+      "presetTooltips": {
+        "classic": "1 impostore, nessuna spia. Ideale per imparare le regole.",
+        "withSpy": "1 impostore e 1 spia. La spia riceve una parola simile e vince con i civili.",
+        "chaos": "2 impostori per gruppi numerosi. Più difficile per i civili!",
+        "custom": "Scegli liberamente impostori e spie."
+      },
+      "packs": {
+        "general": "Generale",
+        "food": "Cibo",
+        "animals": "Animali",
+        "places": "Luoghi"
+      },
+      "validation": {
+        "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+        "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+        "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati).",
+        "noPacks": "Seleziona almeno un pacchetto parole.",
+        "noCivilians": "Troppi impostori e spie — serve almeno un civile.",
+        "tooManyImpostors": "Troppi impostori per questo numero di giocatori.",
+        "tooManySpies": "Troppe spie per questo numero di giocatori.",
+        "invalidConfig": "Configurazione di gioco non valida."
+      }
+    },
+    "reveal": {
+      "crewLabel": "La tua parola",
+      "spyLabel": "La tua parola",
+      "impostorTitle": "Sei l'Impostore",
+      "impostorMessage": "Non conosci la parola segreta. Mimetizzati e sopravvivi."
+    },
+    "play": {
+      "instructions": "Discutete e date indizi. Quando il gruppo decide chi eliminare, fallo qui.",
+      "startsFirst": "{name} inizia",
+      "aliveCount": "{count} giocatori in vita",
+      "eliminate": "Elimina",
+      "confirmElimination": "Eliminare {name}?",
+      "confirmButton": "Conferma eliminazione",
+      "cancelButton": "Annulla"
+    },
+    "resolve": {
+      "civiliansWin": "Vittoria dei civili!",
+      "impostorsWin": "Vittoria degli impostori!",
+      "words": "Parola crew: {crew} · Parola spia: {spy}",
+      "eliminated": "Eliminato",
+      "survived": "Sopravvissuto",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    }
+  },
   "tags": {
     "deduction": "Deduzione",
     "bluff": "Bluff",

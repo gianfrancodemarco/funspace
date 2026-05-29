@@ -6,6 +6,7 @@ export type {
   GameResolveProps,
   GameSession,
   GameSetupProps,
+  GameStartInput,
   PlayableGameEntry,
   SessionPlayer,
   ShellPhase,

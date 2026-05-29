@@ -11,8 +11,8 @@ import {
   getPlayerName,
   useGameShell,
 } from "@/core/game-shell";
-import type { GameDefinition } from "@/core/game-shell";
-import type { GameRegistryEntry } from "@/core/game-shell";
+import type { GameDefinition, GameRegistryEntry } from "@/core/game-shell";
+import { renderImpostorRevealSecret } from "@/games/impostor";
 import { getGameById } from "@/games/registry";
 
 type GamePageClientProps = {
@@ -50,14 +50,21 @@ function PlayableGameShell() {
   const { game, session, isSetup, isReveal, isPlay, isResolve, phase, send } =
     useGameShell();
   const RevealLoop = singleDeviceProvider.RevealLoop;
+  const SetupView = game.SetupView ?? PlayerSelectSetup;
 
   return (
     <GameShellLayout title={t(game.nameKey)} phase={phase}>
       {isSetup && (
-        <PlayerSelectSetup
+        <SetupView
           minPlayers={game.minPlayers}
           maxPlayers={game.maxPlayers}
-          onStart={(playerNames) => send({ type: "START", playerNames })}
+          onStart={(input) =>
+            send({
+              type: "START",
+              playerNames: input.playerNames,
+              gameConfig: input.gameConfig,
+            })
+          }
         />
       )}
 
@@ -65,6 +72,10 @@ function PlayableGameShell() {
         <RevealLoop
           session={session}
           renderSecret={(playerId) => {
+            if (game.id === "impostor") {
+              return renderImpostorRevealSecret(session, playerId, t);
+            }
+
             const secret = session.secrets[playerId] as { number?: number } | undefined;
             if (game.id === "shell-demo" && secret?.number !== undefined) {
               return (

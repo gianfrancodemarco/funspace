@@ -6,9 +6,9 @@ export const games: GameMeta[] = [
     nameKey: "games.impostor.name",
     descriptionKey: "games.impostor.description",
     tags: ["deduction", "bluff", "quick"],
-    minPlayers: 4,
-    maxPlayers: 12,
-    status: "coming-soon",
+    minPlayers: 3,
+    maxPlayers: 20,
+    status: "playable",
     accentColor: "impostor",
   },
   {

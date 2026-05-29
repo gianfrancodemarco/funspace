@@ -20,6 +20,7 @@ export function createGameSession(
   gameId: string,
   playerNames: string[],
   assignSecrets: (session: GameSession) => Record<string, unknown>,
+  gameConfig?: unknown,
 ): GameSession {
   const players = createSessionPlayers(playerNames);
   const shuffledOrder = shuffle(players.map((player) => player.id));
@@ -28,6 +29,7 @@ export function createGameSession(
     players,
     shuffledOrder,
     secrets: {},
+    gameConfig,
   };
 
   return {

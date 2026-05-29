@@ -100,6 +100,83 @@
       "exit": "Back to games"
     }
   },
+  "impostor": {
+    "roles": {
+      "civilian": "Civilian",
+      "impostor": "Impostor",
+      "spy": "Spy"
+    },
+    "presets": {
+      "classic": "Classic",
+      "withSpy": "With Spy",
+      "chaos": "Chaos",
+      "custom": "Custom"
+    },
+    "setup": {
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "playersTitle": "Choose players",
+      "playersSubtitle": "Select {min}–{max} players from your saved roster.",
+      "presetsTitle": "Game mode",
+      "impostorCount": "Impostors",
+      "spyCount": "Spies",
+      "packsTitle": "Word packs",
+      "start": "Start game",
+      "presets": {
+        "classic": "Classic",
+        "withSpy": "With Spy",
+        "chaos": "Chaos",
+        "custom": "Custom"
+      },
+      "presetTooltips": {
+        "classic": "1 impostor, no spies. Best for learning the rules.",
+        "withSpy": "1 impostor and 1 spy. The spy gets a similar word and wins with civilians.",
+        "chaos": "2 impostors for bigger groups. Harder for civilians to survive!",
+        "custom": "Set your own impostor and spy counts."
+      },
+      "packs": {
+        "general": "General",
+        "food": "Food",
+        "animals": "Animals",
+        "places": "Places"
+      },
+      "validation": {
+        "emptyRoster": "Add players on the Players page before starting.",
+        "tooFew": "Select at least {min} players ({count} selected).",
+        "tooMany": "Select at most {max} players ({count} selected).",
+        "noPacks": "Select at least one word pack.",
+        "noCivilians": "Too many impostors and spies — at least one civilian is required.",
+        "tooManyImpostors": "Too many impostors for this player count.",
+        "tooManySpies": "Too many spies for this player count.",
+        "invalidConfig": "Invalid game configuration."
+      }
+    },
+    "reveal": {
+      "crewLabel": "Your word",
+      "spyLabel": "Your word",
+      "impostorTitle": "You are the Impostor",
+      "impostorMessage": "You don't know the secret word. Blend in and survive."
+    },
+    "play": {
+      "instructions": "Discuss and give clues. When the group decides someone is out, eliminate them here.",
+      "startsFirst": "{name} goes first",
+      "aliveCount": "{count} players alive",
+      "eliminate": "Eliminate",
+      "confirmElimination": "Eliminate {name}?",
+      "confirmButton": "Confirm elimination",
+      "cancelButton": "Cancel"
+    },
+    "resolve": {
+      "civiliansWin": "Civilians win!",
+      "impostorsWin": "Impostors win!",
+      "words": "Crew word: {crew} · Spy word: {spy}",
+      "eliminated": "Eliminated",
+      "survived": "Survived",
+      "rematch": "Play again",
+      "exit": "Back to games"
+    }
+  },
   "tags": {
     "deduction": "Deduction",
     "bluff": "Bluff",

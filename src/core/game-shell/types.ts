@@ -12,12 +12,18 @@ export type GameSession = {
   players: SessionPlayer[];
   shuffledOrder: string[];
   secrets: Record<string, unknown>;
+  gameConfig?: unknown;
+};
+
+export type GameStartInput = {
+  playerNames: string[];
+  gameConfig?: unknown;
 };
 
 export type GameSetupProps = {
   minPlayers: number;
   maxPlayers: number;
-  onStart: (playerNames: string[]) => void;
+  onStart: (input: GameStartInput) => void;
 };
 
 export type GamePlayProps = {
@@ -38,6 +44,7 @@ export type GameDefinition = {
   maxPlayers: number;
   phases: ShellPhase[];
   assignSecrets: (session: GameSession) => Record<string, unknown>;
+  SetupView?: ComponentType<GameSetupProps>;
   PlayView: ComponentType<GamePlayProps>;
   ResolveView: ComponentType<GameResolveProps>;
 };
