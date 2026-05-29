@@ -5,6 +5,7 @@ import { useRouter } from "@/i18n/navigation";
 
 import { GameShellLayout } from "@/components/game-shell/GameShellLayout";
 import { PlayerSelectSetup } from "@/components/game-shell/PlayerSelectSetup";
+import { GameRulesTrigger } from "@/components/game-rules";
 import { singleDeviceProvider } from "@/core/secret-delivery";
 import {
   GameShellProvider,
@@ -51,21 +52,32 @@ function PlayableGameShell() {
     useGameShell();
   const RevealLoop = singleDeviceProvider.RevealLoop;
   const SetupView = game.SetupView ?? PlayerSelectSetup;
+  const rulesMeta =
+    game.rulesKeyPrefix && game.rulesRoleKeys && game.rulesStepCount
+      ? {
+          rulesKeyPrefix: game.rulesKeyPrefix,
+          rulesRoleKeys: game.rulesRoleKeys,
+          rulesStepCount: game.rulesStepCount,
+        }
+      : null;
 
   return (
     <GameShellLayout title={t(game.nameKey)} phase={phase}>
       {isSetup && (
-        <SetupView
-          minPlayers={game.minPlayers}
-          maxPlayers={game.maxPlayers}
-          onStart={(input) =>
-            send({
-              type: "START",
-              playerNames: input.playerNames,
-              gameConfig: input.gameConfig,
-            })
-          }
-        />
+        <div className="flex flex-1 flex-col gap-6">
+          {rulesMeta && <GameRulesTrigger {...rulesMeta} />}
+          <SetupView
+            minPlayers={game.minPlayers}
+            maxPlayers={game.maxPlayers}
+            onStart={(input) =>
+              send({
+                type: "START",
+                playerNames: input.playerNames,
+                gameConfig: input.gameConfig,
+              })
+            }
+          />
+        </div>
       )}
 
       {isReveal && session && (

@@ -15,4 +15,7 @@ export const impostorDefinition = {
   assignSecrets: assignImpostorSecrets,
   PlayView: ImpostorPlayView,
   ResolveView: ImpostorResolveView,
+  rulesKeyPrefix: "impostor.rules",
+  rulesRoleKeys: ["civilian", "impostor", "spy"] as const,
+  rulesStepCount: 5,
 };

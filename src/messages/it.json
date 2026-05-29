@@ -52,6 +52,10 @@
       "description": "Un gioco demo minimo per validare setup, rivelazione, gioco e conclusione."
     }
   },
+  "gameRules": {
+    "openRules": "Come si gioca",
+    "close": "Chiudi"
+  },
   "gameShell": {
     "backToHome": "Torna ai giochi",
     "phaseIndicator": "Progresso partita",
@@ -175,6 +179,40 @@
       "survived": "Sopravvissuto",
       "rematch": "Gioca ancora",
       "exit": "Torna ai giochi"
+    },
+    "rules": {
+      "title": "Come si gioca a Impostor",
+      "sections": {
+        "goal": {
+          "title": "Obiettivo",
+          "body": "La maggior parte dei giocatori conosce una parola segreta. Uno o più impostori no. Date indizi, discutete al tavolo e scoprite chi sta bluffando prima che gli impostori prendano il controllo."
+        },
+        "roles": {
+          "title": "Ruoli",
+          "items": {
+            "civilian": "Civile — conosce la parola segreta e cerca di trovare gli impostori.",
+            "impostor": "Impostore — non conosce la parola e deve mimetizzarsi. Gli impostori non si conoscono tra loro.",
+            "spy": "Spia (opzionale) — riceve una parola simile e vince con i civili."
+          }
+        },
+        "howToPlay": {
+          "title": "Come si gioca",
+          "steps": {
+            "1": "Scegli giocatori e opzioni, poi inizia la partita.",
+            "2": "Passa il telefono — ogni giocatore vede in privato il proprio ruolo e parola (o un messaggio da impostore).",
+            "3": "Discutete al tavolo e date indizi a voce. Non c'è timer e il voto avviene dal vivo, non nell'app.",
+            "4": "Quando il gruppo è d'accordo su chi eliminare, fallo nell'app. Il ruolo resta nascosto fino alla fine.",
+            "5": "Continuate finché i civili eliminano tutti gli impostori, o restano in vita solo impostori."
+          }
+        },
+        "winConditions": {
+          "title": "Condizioni di vittoria",
+          "items": {
+            "civilians": "I civili (e l'eventuale spia) vincono quando tutti gli impostori sono stati eliminati.",
+            "impostors": "Gli impostori vincono quando restano in vita solo impostori."
+          }
+        }
+      }
     }
   },
   "tags": {

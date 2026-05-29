@@ -37,6 +37,12 @@ export type GameResolveProps = {
   onExit: () => void;
 };
 
+export type GameRulesMeta = {
+  rulesKeyPrefix: string;
+  rulesRoleKeys: readonly string[];
+  rulesStepCount: number;
+};
+
 export type GameDefinition = {
   id: string;
   nameKey: string;
@@ -47,6 +53,9 @@ export type GameDefinition = {
   SetupView?: ComponentType<GameSetupProps>;
   PlayView: ComponentType<GamePlayProps>;
   ResolveView: ComponentType<GameResolveProps>;
+  rulesKeyPrefix?: string;
+  rulesRoleKeys?: readonly string[];
+  rulesStepCount?: number;
 };
 
 export type ComingSoonGameEntry = {

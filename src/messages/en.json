@@ -52,6 +52,10 @@
       "description": "A minimal demo game to validate setup, reveal, play, and resolve."
     }
   },
+  "gameRules": {
+    "openRules": "How to play",
+    "close": "Close"
+  },
   "gameShell": {
     "backToHome": "Back to games",
     "phaseIndicator": "Game progress",
@@ -175,6 +179,40 @@
       "survived": "Survived",
       "rematch": "Play again",
       "exit": "Back to games"
+    },
+    "rules": {
+      "title": "How to play Impostor",
+      "sections": {
+        "goal": {
+          "title": "Goal",
+          "body": "Most players know a secret word. One or more impostors don't. Give clues, discuss at the table, and figure out who is faking it before the impostors take over."
+        },
+        "roles": {
+          "title": "Roles",
+          "items": {
+            "civilian": "Civilian — knows the secret word and tries to find the impostors.",
+            "impostor": "Impostor — does not know the word and must blend in. Impostors don't know each other.",
+            "spy": "Spy (optional) — gets a similar decoy word and wins with the civilians."
+          }
+        },
+        "howToPlay": {
+          "title": "How to play",
+          "steps": {
+            "1": "Choose players and options, then start the game.",
+            "2": "Pass the phone around — each player privately sees their role and word (or an impostor message).",
+            "3": "Discuss at the table and give verbal clues. There is no timer and voting happens in real life, not in the app.",
+            "4": "When the group agrees someone is out, eliminate them in the app. Their role stays hidden until the end.",
+            "5": "Keep playing until civilians eliminate all impostors, or only impostors remain alive."
+          }
+        },
+        "winConditions": {
+          "title": "Win conditions",
+          "items": {
+            "civilians": "Civilians (and any spy) win when all impostors have been eliminated.",
+            "impostors": "Impostors win when only impostors are still alive."
+          }
+        }
+      }
     }
   },
   "tags": {

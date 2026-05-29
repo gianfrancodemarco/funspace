@@ -4,6 +4,7 @@ export type {
   GamePlayProps,
   GameRegistryEntry,
   GameResolveProps,
+  GameRulesMeta,
   GameSession,
   GameSetupProps,
   GameStartInput,
