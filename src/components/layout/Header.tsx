@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 import { Link, usePathname } from "@/i18n/navigation";
+import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -39,8 +40,10 @@ function NavLink({
       href={href}
       onClick={onNavigate}
       className={cn(
-        "text-sm font-medium transition-colors hover:text-foreground",
-        isActive ? "text-foreground" : "text-muted-foreground",
+        "text-sm font-medium transition-colors hover:text-primary",
+        isActive
+          ? "text-primary font-semibold underline decoration-primary decoration-2 underline-offset-4"
+          : "text-muted-foreground",
         className,
       )}
     >
@@ -54,49 +57,65 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
-        <Link href="/" className="text-lg font-bold tracking-tight">
+    <header className="sticky top-0 z-40 border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
+        <Link
+          href="/"
+          className="bg-gradient-to-r from-primary to-accent bg-clip-text text-lg font-extrabold tracking-tight text-transparent transition-opacity hover:opacity-80"
+        >
           {t("metadata.siteName")}
         </Link>
 
-        <nav
-          className="hidden items-center gap-6 md:flex"
-          aria-label={t("nav.menu")}
-        >
-          {navItems.map((item) => (
-            <NavLink key={item.href} href={item.href} label={t(item.labelKey)} />
-          ))}
-        </nav>
+        <div className="flex items-center gap-2">
+          <nav
+            className="hidden items-center gap-6 md:flex"
+            aria-label={t("nav.menu")}
+          >
+            {navItems.map((item) => (
+              <NavLink
+                key={item.href}
+                href={item.href}
+                label={t(item.labelKey)}
+              />
+            ))}
+          </nav>
 
-        <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="md:hidden"
-              aria-label={t("nav.openMenu")}
-            >
-              <MenuIcon className="size-5" />
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="right">
-            <SheetHeader>
-              <SheetTitle>{t("nav.menu")}</SheetTitle>
-            </SheetHeader>
-            <nav className="flex flex-col gap-4 px-4" aria-label={t("nav.menu")}>
-              {navItems.map((item) => (
-                <NavLink
-                  key={item.href}
-                  href={item.href}
-                  label={t(item.labelKey)}
-                  className="text-base"
-                  onNavigate={() => setOpen(false)}
-                />
-              ))}
-            </nav>
-          </SheetContent>
-        </Sheet>
+          <div className="hidden md:block">
+            <ThemeToggle />
+          </div>
+
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="md:hidden"
+                aria-label={t("nav.openMenu")}
+              >
+                <MenuIcon className="size-5" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right">
+              <SheetHeader>
+                <SheetTitle>{t("nav.menu")}</SheetTitle>
+              </SheetHeader>
+              <div className="flex flex-col gap-4 px-4">
+                <ThemeToggle />
+                <nav className="flex flex-col gap-4" aria-label={t("nav.menu")}>
+                  {navItems.map((item) => (
+                    <NavLink
+                      key={item.href}
+                      href={item.href}
+                      label={t(item.labelKey)}
+                      className="text-base"
+                      onNavigate={() => setOpen(false)}
+                    />
+                  ))}
+                </nav>
+              </div>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
   );

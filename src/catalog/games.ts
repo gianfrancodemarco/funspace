@@ -9,6 +9,7 @@ export const games: GameMeta[] = [
     minPlayers: 4,
     maxPlayers: 12,
     status: "coming-soon",
+    accentColor: "impostor",
   },
   {
     id: "hangman",
@@ -18,6 +19,7 @@ export const games: GameMeta[] = [
     minPlayers: 2,
     maxPlayers: 8,
     status: "coming-soon",
+    accentColor: "hangman",
   },
   {
     id: "never-have-i-ever",
@@ -27,5 +29,6 @@ export const games: GameMeta[] = [
     minPlayers: 3,
     maxPlayers: 20,
     status: "coming-soon",
+    accentColor: "never-have-i-ever",
   },
 ];

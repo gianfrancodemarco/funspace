@@ -1,0 +1,50 @@
+## ADDED Requirements
+
+### Requirement: Vibrant hero section
+
+The homepage hero SHALL use a visually distinctive treatment including a gradient background container and gradient-styled brand title text.
+
+#### Scenario: Hero gradient background
+
+- **WHEN** the user views the homepage
+- **THEN** the hero section is displayed within a rounded container with a subtle gradient background
+
+#### Scenario: Gradient brand title
+
+- **WHEN** the user views the homepage hero
+- **THEN** the FunSpace title uses a gradient text treatment
+
+## MODIFIED Requirements
+
+### Requirement: Game catalog preview grid
+
+The homepage SHALL display a grid of game preview cards sourced from static catalog data with display text resolved via i18n keys. Each card SHALL include a per-game accent color for visual distinction.
+
+#### Scenario: Game cards rendered
+
+- **WHEN** the user views the homepage
+- **THEN** at least three game preview cards are displayed (Impostor, Hangman, Never Have I Ever)
+
+#### Scenario: Game card shows metadata
+
+- **WHEN** a game preview card is displayed
+- **THEN** it shows the game name, description, player count range, and tags in English
+
+#### Scenario: Game card accent color
+
+- **WHEN** a game preview card is displayed
+- **THEN** it includes a visible per-game accent color (e.g., colored top border)
+
+### Requirement: Mobile-first responsive layout
+
+The homepage layout SHALL be optimized for mobile viewports first and adapt to larger screens with a responsive grid and scaled typography.
+
+#### Scenario: Single column on mobile
+
+- **WHEN** the user views the homepage on a narrow viewport
+- **THEN** game cards are displayed in a single-column layout with mobile-optimized spacing
+
+#### Scenario: Multi-column on desktop
+
+- **WHEN** the user views the homepage on a wide viewport
+- **THEN** game cards are displayed in a multi-column grid

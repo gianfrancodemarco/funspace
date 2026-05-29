@@ -51,5 +51,11 @@
     "words": "Words",
     "social": "Social",
     "quick": "Quick"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "system": "System theme"
   }
 }

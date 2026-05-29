@@ -1,5 +1,7 @@
 export type GameStatus = "coming-soon" | "available";
 
+export type GameAccentColor = "impostor" | "hangman" | "never-have-i-ever";
+
 export interface GameMeta {
   id: string;
   nameKey: string;
@@ -8,4 +10,5 @@ export interface GameMeta {
   minPlayers: number;
   maxPlayers: number;
   status: GameStatus;
+  accentColor: GameAccentColor;
 }
