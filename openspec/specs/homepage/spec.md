@@ -1,3 +1,9 @@
+## Purpose
+
+Define homepage layout, hero section, game catalog preview, and navigation behavior for FunSpace.
+
+## Requirements
+
 ### Requirement: Vibrant hero section
 
 The homepage hero SHALL use a visually distinctive treatment including a gradient background container and gradient-styled brand title text. All copy MUST come from i18n translation files.
@@ -19,7 +25,7 @@ The homepage hero SHALL use a visually distinctive treatment including a gradien
 
 ### Requirement: Game catalog preview grid
 
-The homepage SHALL display a grid of game preview cards sourced from static catalog data with display text resolved via i18n keys. Each card SHALL include a per-game accent color for visual distinction.
+The homepage SHALL display a grid of game preview cards sourced from the catalog module, each with a distinct accent color, tags, player count, and coming-soon indicator where applicable.
 
 #### Scenario: Game cards rendered
 
@@ -36,19 +42,24 @@ The homepage SHALL display a grid of game preview cards sourced from static cata
 - **WHEN** a game preview card is displayed
 - **THEN** it includes a visible per-game accent color (e.g., colored top border)
 
+#### Scenario: Game card links to launch route
+
+- **WHEN** the user taps a game preview card
+- **THEN** they navigate to that game's launch route under `/[locale]/games/[gameId]`
+
 ### Requirement: Coming soon state for games
 
-Game preview cards SHALL display a "Coming soon" indicator and MUST NOT navigate to a playable game route.
+Game preview cards with `status: "coming-soon"` SHALL display a "Coming soon" indicator and navigate to a coming-soon placeholder at the game's launch route.
 
-#### Scenario: Card is not clickable
+#### Scenario: Coming soon badge preserved
 
-- **WHEN** the user taps or clicks a game preview card
-- **THEN** no navigation to a game page occurs
+- **WHEN** a catalog game has `status: "coming-soon"`
+- **THEN** the card still displays a coming-soon badge but remains clickable
 
 #### Scenario: Coming soon badge visible
 
 - **WHEN** a game preview card is displayed
-- **THEN** a "Coming soon" badge or label is visible on the card
+- **THEN** a "Coming soon" badge or label is visible on the card when applicable
 
 ### Requirement: Mobile-first responsive layout
 

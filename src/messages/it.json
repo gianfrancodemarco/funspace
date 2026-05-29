@@ -46,6 +46,58 @@
     "neverHaveIEver": {
       "name": "Non ho mai",
       "description": "Leggi le domande ad alta voce e scopri cose sorprendenti sui tuoi amici."
+    },
+    "shellDemo": {
+      "name": "Demo Shell",
+      "description": "Un gioco demo minimo per validare setup, rivelazione, gioco e conclusione."
+    }
+  },
+  "gameShell": {
+    "backToHome": "Torna ai giochi",
+    "phaseIndicator": "Progresso partita",
+    "comingSoonMessage": "Questo gioco non è ancora giocabile. Torna presto!",
+    "phases": {
+      "setup": "Setup",
+      "reveal": "Rivelazione",
+      "play": "Gioco",
+      "resolve": "Fine"
+    },
+    "setup": {
+      "title": "Scegli i giocatori",
+      "subtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "start": "Inizia partita",
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai a Giocatori",
+      "managePlayers": "Gestisci giocatori",
+      "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+      "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati)."
+    },
+    "reveal": {
+      "progress": "Giocatore {current} di {total}",
+      "handoff": "Passa il telefono a {name}",
+      "ready": "Sono pronto",
+      "tapToReveal": "Solo {name} deve guardare ora",
+      "revealButton": "Rivela segreto",
+      "confirm": "Ho capito",
+      "cover": "Segreto nascosto — passa il telefono",
+      "nextPlayer": "Prossimo giocatore",
+      "finish": "Fine rivelazione",
+      "defaultSecret": "Informazione privata per {name}"
+    },
+    "rematch": {
+      "playAgain": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    },
+    "shellDemo": {
+      "secret": "Il tuo numero segreto: {number}",
+      "playMessage": "Discutete liberamente — questa è una demo.",
+      "playerCount": "{count} giocatori in questa sessione",
+      "finishPlay": "Termina demo",
+      "completeTitle": "Demo completata!",
+      "completeMessage": "Hai completato l'intero ciclo del game shell.",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
     }
   },
   "tags": {

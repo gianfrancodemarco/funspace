@@ -46,6 +46,58 @@
     "neverHaveIEver": {
       "name": "Never Have I Ever",
       "description": "Read prompts aloud and learn surprising things about your friends."
+    },
+    "shellDemo": {
+      "name": "Shell Demo",
+      "description": "A minimal demo game to validate setup, reveal, play, and resolve."
+    }
+  },
+  "gameShell": {
+    "backToHome": "Back to games",
+    "phaseIndicator": "Game progress",
+    "comingSoonMessage": "This game is not playable yet. Check back soon!",
+    "phases": {
+      "setup": "Setup",
+      "reveal": "Reveal",
+      "play": "Play",
+      "resolve": "Done"
+    },
+    "setup": {
+      "title": "Choose players",
+      "subtitle": "Select {min}–{max} players from your saved roster.",
+      "start": "Start game",
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "managePlayers": "Manage players",
+      "tooFew": "Select at least {min} players ({count} selected).",
+      "tooMany": "Select at most {max} players ({count} selected)."
+    },
+    "reveal": {
+      "progress": "Player {current} of {total}",
+      "handoff": "Pass the phone to {name}",
+      "ready": "I'm ready",
+      "tapToReveal": "Only {name} should look now",
+      "revealButton": "Reveal secret",
+      "confirm": "Got it",
+      "cover": "Secret hidden — pass the phone",
+      "nextPlayer": "Next player",
+      "finish": "Finish reveal",
+      "defaultSecret": "Private info for {name}"
+    },
+    "rematch": {
+      "playAgain": "Play again",
+      "exit": "Back to games"
+    },
+    "shellDemo": {
+      "secret": "Your secret number: {number}",
+      "playMessage": "Discuss freely — this is a demo.",
+      "playerCount": "{count} players in this session",
+      "finishPlay": "Finish demo",
+      "completeTitle": "Demo complete!",
+      "completeMessage": "You finished the full game shell lifecycle.",
+      "rematch": "Play again",
+      "exit": "Back to games"
     }
   },
   "tags": {
