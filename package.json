@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "validate:word-packs": "node scripts/validate-word-packs.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",

@@ -1,0 +1,802 @@
+[
+  {
+    "crewWord": "Parigi",
+    "spyWord": "Londra"
+  },
+  {
+    "crewWord": "Museo",
+    "spyWord": "Galleria"
+  },
+  {
+    "crewWord": "Hotel",
+    "spyWord": "Ostello"
+  },
+  {
+    "crewWord": "Foresta",
+    "spyWord": "Parco"
+  },
+  {
+    "crewWord": "Aeroporto",
+    "spyWord": "Stazione"
+  },
+  {
+    "crewWord": "Biblioteca",
+    "spyWord": "Libreria"
+  },
+  {
+    "crewWord": "Roma",
+    "spyWord": "Atene"
+  },
+  {
+    "crewWord": "Berlino",
+    "spyWord": "Vienna"
+  },
+  {
+    "crewWord": "Madrid",
+    "spyWord": "Lisbona"
+  },
+  {
+    "crewWord": "Amsterdam",
+    "spyWord": "Bruxelles"
+  },
+  {
+    "crewWord": "Praga",
+    "spyWord": "Budapest"
+  },
+  {
+    "crewWord": "Dublino",
+    "spyWord": "Edimburgo"
+  },
+  {
+    "crewWord": "Stoccolma",
+    "spyWord": "Oslo"
+  },
+  {
+    "crewWord": "Copenaghen",
+    "spyWord": "Helsinki"
+  },
+  {
+    "crewWord": "Milano",
+    "spyWord": "Torino"
+  },
+  {
+    "crewWord": "Barcellona",
+    "spyWord": "Valencia"
+  },
+  {
+    "crewWord": "Napoli",
+    "spyWord": "Firenze"
+  },
+  {
+    "crewWord": "Venezia",
+    "spyWord": "Verona"
+  },
+  {
+    "crewWord": "New York",
+    "spyWord": "Chicago"
+  },
+  {
+    "crewWord": "Los Angeles",
+    "spyWord": "San Francisco"
+  },
+  {
+    "crewWord": "Miami",
+    "spyWord": "Orlando"
+  },
+  {
+    "crewWord": "Boston",
+    "spyWord": "Filadelfia"
+  },
+  {
+    "crewWord": "Seattle",
+    "spyWord": "Portland"
+  },
+  {
+    "crewWord": "Toronto",
+    "spyWord": "Montreal"
+  },
+  {
+    "crewWord": "Città del Messico",
+    "spyWord": "Guadalajara"
+  },
+  {
+    "crewWord": "Buenos Aires",
+    "spyWord": "Santiago"
+  },
+  {
+    "crewWord": "Rio",
+    "spyWord": "San Paolo"
+  },
+  {
+    "crewWord": "Il Cairo",
+    "spyWord": "Marrakech"
+  },
+  {
+    "crewWord": "Dubai",
+    "spyWord": "Abu Dhabi"
+  },
+  {
+    "crewWord": "Istanbul",
+    "spyWord": "Ankara"
+  },
+  {
+    "crewWord": "Tokyo",
+    "spyWord": "Osaka"
+  },
+  {
+    "crewWord": "Seul",
+    "spyWord": "Busan"
+  },
+  {
+    "crewWord": "Pechino",
+    "spyWord": "Shanghai"
+  },
+  {
+    "crewWord": "Bangkok",
+    "spyWord": "Singapore"
+  },
+  {
+    "crewWord": "Sydney",
+    "spyWord": "Melbourne"
+  },
+  {
+    "crewWord": "Mumbai",
+    "spyWord": "Delhi"
+  },
+  {
+    "crewWord": "Scuola",
+    "spyWord": "Università"
+  },
+  {
+    "crewWord": "Ospedale",
+    "spyWord": "Clinica"
+  },
+  {
+    "crewWord": "Banca",
+    "spyWord": "Bancomat"
+  },
+  {
+    "crewWord": "Ufficio",
+    "spyWord": "Coworking"
+  },
+  {
+    "crewWord": "Fabbrica",
+    "spyWord": "Magazzino"
+  },
+  {
+    "crewWord": "Fattoria",
+    "spyWord": "Ranch"
+  },
+  {
+    "crewWord": "Mercato",
+    "spyWord": "Centro commerciale"
+  },
+  {
+    "crewWord": "Ristorante",
+    "spyWord": "Caffè"
+  },
+  {
+    "crewWord": "Bar",
+    "spyWord": "Pub"
+  },
+  {
+    "crewWord": "Teatro",
+    "spyWord": "Cinema"
+  },
+  {
+    "crewWord": "Stadio",
+    "spyWord": "Arena"
+  },
+  {
+    "crewWord": "Zoo",
+    "spyWord": "Acquario"
+  },
+  {
+    "crewWord": "Castello",
+    "spyWord": "Palazzo"
+  },
+  {
+    "crewWord": "Cattedrale",
+    "spyWord": "Cappella"
+  },
+  {
+    "crewWord": "Tempio",
+    "spyWord": "Santuario"
+  },
+  {
+    "crewWord": "Moschea",
+    "spyWord": "Sinagoga"
+  },
+  {
+    "crewWord": "Cimitero",
+    "spyWord": "Memoriale"
+  },
+  {
+    "crewWord": "Ponte",
+    "spyWord": "Galleria"
+  },
+  {
+    "crewWord": "Porto",
+    "spyWord": "Marina"
+  },
+  {
+    "crewWord": "Molo",
+    "spyWord": "Banchina"
+  },
+  {
+    "crewWord": "Spiaggia",
+    "spyWord": "Resort"
+  },
+  {
+    "crewWord": "Isola",
+    "spyWord": "Costa"
+  },
+  {
+    "crewWord": "Montagna",
+    "spyWord": "Valle"
+  },
+  {
+    "crewWord": "Deserto",
+    "spyWord": "Oasi"
+  },
+  {
+    "crewWord": "Lago",
+    "spyWord": "Fiume"
+  },
+  {
+    "crewWord": "Cascata",
+    "spyWord": "Sorgente"
+  },
+  {
+    "crewWord": "Grotta",
+    "spyWord": "Caverna"
+  },
+  {
+    "crewWord": "Villaggio",
+    "spyWord": "Paese"
+  },
+  {
+    "crewWord": "Città",
+    "spyWord": "Capitale"
+  },
+  {
+    "crewWord": "Ambasciata",
+    "spyWord": "Consolato"
+  },
+  {
+    "crewWord": "Tribunale",
+    "spyWord": "Municipio"
+  },
+  {
+    "crewWord": "Questura",
+    "spyWord": "Caserma dei pompieri"
+  },
+  {
+    "crewWord": "Prigione",
+    "spyWord": "Carcere"
+  },
+  {
+    "crewWord": "Fermata autobus",
+    "spyWord": "Stazione ferroviaria"
+  },
+  {
+    "crewWord": "Metro",
+    "spyWord": "Tram"
+  },
+  {
+    "crewWord": "Parcheggio",
+    "spyWord": "Garage"
+  },
+  {
+    "crewWord": "Autostrada",
+    "spyWord": "Superstrada"
+  },
+  {
+    "crewWord": "Piazza",
+    "spyWord": "Largo"
+  },
+  {
+    "crewWord": "Viale",
+    "spyWord": "Boulevard"
+  },
+  {
+    "crewWord": "Cucina",
+    "spyWord": "Sala da pranzo"
+  },
+  {
+    "crewWord": "Camera",
+    "spyWord": "Soggiorno"
+  },
+  {
+    "crewWord": "Bagno",
+    "spyWord": "Lavanderia"
+  },
+  {
+    "crewWord": "Soffitta",
+    "spyWord": "Cantina"
+  },
+  {
+    "crewWord": "Atrio",
+    "spyWord": "Corridoio"
+  },
+  {
+    "crewWord": "Appartamento",
+    "spyWord": "Condominio"
+  },
+  {
+    "crewWord": "Cottage",
+    "spyWord": "Baita"
+  },
+  {
+    "crewWord": "Villa",
+    "spyWord": "Mansione"
+  },
+  {
+    "crewWord": "Locanda",
+    "spyWord": "Motel"
+  },
+  {
+    "crewWord": "Resort",
+    "spyWord": "Rifugio"
+  },
+  {
+    "crewWord": "Parco divertimenti",
+    "spyWord": "Luna park"
+  },
+  {
+    "crewWord": "Centro congressi",
+    "spyWord": "Fiera"
+  },
+  {
+    "crewWord": "Laboratorio",
+    "spyWord": "Centro ricerche"
+  },
+  {
+    "crewWord": "Osservatorio",
+    "spyWord": "Planetario"
+  },
+  {
+    "crewWord": "Miniera",
+    "spyWord": "Cava"
+  },
+  {
+    "crewWord": "Centrale elettrica",
+    "spyWord": "Sottostazione"
+  },
+  {
+    "crewWord": "Diga",
+    "spyWord": "Bacino"
+  },
+  {
+    "crewWord": "Grattacielo",
+    "spyWord": "Torre"
+  },
+  {
+    "crewWord": "Boutique",
+    "spyWord": "Grande magazzino"
+  },
+  {
+    "crewWord": "Parrucchiere",
+    "spyWord": "Barbiere"
+  },
+  {
+    "crewWord": "Palestra",
+    "spyWord": "Centro fitness"
+  },
+  {
+    "crewWord": "Campo da golf",
+    "spyWord": "Country club"
+  },
+  {
+    "crewWord": "Pista di ghiaccio",
+    "spyWord": "Bowling"
+  },
+  {
+    "crewWord": "Parco nazionale",
+    "spyWord": "Parco regionale"
+  },
+  {
+    "crewWord": "Penisola",
+    "spyWord": "Capo"
+  },
+  {
+    "crewWord": "Baia",
+    "spyWord": "Golfo"
+  },
+  {
+    "crewWord": "Centro storico",
+    "spyWord": "Downtown"
+  },
+  {
+    "crewWord": "Chinatown",
+    "spyWord": "Little Italy"
+  },
+  {
+    "crewWord": "Distributore",
+    "spyWord": "Colonnina elettrica"
+  },
+  {
+    "crewWord": "Ufficio postale",
+    "spyWord": "Corriere"
+  },
+  {
+    "crewWord": "Data center",
+    "spyWord": "Server farm"
+  },
+  {
+    "crewWord": "Ritiro bagagli",
+    "spyWord": "Controllo sicurezza"
+  },
+  {
+    "crewWord": "Pista",
+    "spyWord": "Hangar"
+  },
+  {
+    "crewWord": "Traghetto",
+    "spyWord": "Terminal crociere"
+  },
+  {
+    "crewWord": "Parlamento",
+    "spyWord": "Congresso"
+  },
+  {
+    "crewWord": "Studio TV",
+    "spyWord": "Radio"
+  },
+  {
+    "crewWord": "Laboratorio scienze",
+    "spyWord": "Aula informatica"
+  },
+  {
+    "crewWord": "Pronto soccorso",
+    "spyWord": "Guardia medica"
+  },
+  {
+    "crewWord": "Clinica veterinaria",
+    "spyWord": "Ospedale animali"
+  },
+  {
+    "crewWord": "Stalla",
+    "spyWord": "Fienile"
+  },
+  {
+    "crewWord": "Serra",
+    "spyWord": "Vivaio"
+  },
+  {
+    "crewWord": "Fermata metro",
+    "spyWord": "Terminal bus"
+  },
+  {
+    "crewWord": "Stazione sciistica",
+    "spyWord": "Rifugio montano"
+  },
+  {
+    "crewWord": "Ufficio turistico",
+    "spyWord": "Info point"
+  },
+  {
+    "crewWord": "Piramide",
+    "spyWord": "Tempio"
+  },
+  {
+    "crewWord": "Colosseo",
+    "spyWord": "Foro"
+  },
+  {
+    "crewWord": "Tour Eiffel",
+    "spyWord": "Big Ben"
+  },
+  {
+    "crewWord": "Grande Muraglia",
+    "spyWord": "Città Proibita"
+  },
+  {
+    "crewWord": "Taj Mahal",
+    "spyWord": "Forte Rosso"
+  },
+  {
+    "crewWord": "Stonehenge",
+    "spyWord": "Vallo di Adriano"
+  },
+  {
+    "crewWord": "Louvre",
+    "spyWord": "Ermitage"
+  },
+  {
+    "crewWord": "Broadway",
+    "spyWord": "West End"
+  },
+  {
+    "crewWord": "Wall Street",
+    "spyWord": "City"
+  },
+  {
+    "crewWord": "Times Square",
+    "spyWord": "Piccadilly"
+  },
+  {
+    "crewWord": "Central Park",
+    "spyWord": "Hyde Park"
+  },
+  {
+    "crewWord": "Grand Canyon",
+    "spyWord": "Death Valley"
+  },
+  {
+    "crewWord": "Cascate del Niagara",
+    "spyWord": "Cascate Vittoria"
+  },
+  {
+    "crewWord": "Everest",
+    "spyWord": "K2"
+  },
+  {
+    "crewWord": "Alpi",
+    "spyWord": "Pirenei"
+  },
+  {
+    "crewWord": "Sahara",
+    "spyWord": "Gobi"
+  },
+  {
+    "crewWord": "Amazzonia",
+    "spyWord": "Congo"
+  },
+  {
+    "crewWord": "Tamigi",
+    "spyWord": "Senna"
+  },
+  {
+    "crewWord": "Mediterraneo",
+    "spyWord": "Caraibi"
+  },
+  {
+    "crewWord": "Pacifico",
+    "spyWord": "Atlantico"
+  },
+  {
+    "crewWord": "Hawaii",
+    "spyWord": "Bahamas"
+  },
+  {
+    "crewWord": "Santorini",
+    "spyWord": "Mykonos"
+  },
+  {
+    "crewWord": "Ibiza",
+    "spyWord": "Maiorca"
+  },
+  {
+    "crewWord": "Cannes",
+    "spyWord": "Nizza"
+  },
+  {
+    "crewWord": "Monaco",
+    "spyWord": "Monte Carlo"
+  },
+  {
+    "crewWord": "Las Vegas",
+    "spyWord": "Atlantic City"
+  },
+  {
+    "crewWord": "Disneyland",
+    "spyWord": "Universal Studios"
+  },
+  {
+    "crewWord": "Oktoberfest",
+    "spyWord": "Carnevale"
+  },
+  {
+    "crewWord": "Mercatino",
+    "spyWord": "Mercato contadino"
+  },
+  {
+    "crewWord": "Outlet",
+    "spyWord": "Centro commerciale"
+  },
+  {
+    "crewWord": "Campeggio",
+    "spyWord": "Area caravan"
+  },
+  {
+    "crewWord": "Sentiero",
+    "spyWord": "Pista ciclabile"
+  },
+  {
+    "crewWord": "Riserva naturale",
+    "spyWord": "Oasi ornitologica"
+  },
+  {
+    "crewWord": "Città fantasma",
+    "spyWord": "Centro storico"
+  },
+  {
+    "crewWord": "Lungomare",
+    "spyWord": "Porto antico"
+  },
+  {
+    "crewWord": "Quartiere finanziario",
+    "spyWord": "Quartiere delle arti"
+  },
+  {
+    "crewWord": "Dogana",
+    "spyWord": "Posto di blocco"
+  },
+  {
+    "crewWord": "Borsa",
+    "spyWord": "Sala contrattazioni"
+  },
+  {
+    "crewWord": "Casa Bianca",
+    "spyWord": "Cremlino"
+  },
+  {
+    "crewWord": "Buckingham Palace",
+    "spyWord": "Versailles"
+  },
+  {
+    "crewWord": "Centro spaziale",
+    "spyWord": "Piattaforma di lancio"
+  },
+  {
+    "crewWord": "Orto botanico",
+    "spyWord": "Arboreto"
+  },
+  {
+    "crewWord": "Vigneto",
+    "spyWord": "Cantina"
+  },
+  {
+    "crewWord": "Birrificio",
+    "spyWord": "Distilleria"
+  },
+  {
+    "crewWord": "Mercato gastronomico",
+    "spyWord": "Mercato notturno"
+  },
+  {
+    "crewWord": "Rooftop bar",
+    "spyWord": "Speakeasy"
+  },
+  {
+    "crewWord": "Area cani",
+    "spyWord": "Spiaggia per cani"
+  },
+  {
+    "crewWord": "Parco acquatico",
+    "spyWord": "Splash park"
+  },
+  {
+    "crewWord": "Barriera corallina",
+    "spyWord": "Punto immersioni"
+  },
+  {
+    "crewWord": "Piscina pubblica",
+    "spyWord": "Vasca nuoto"
+  },
+  {
+    "crewWord": "Onsen",
+    "spyWord": "Terme pubbliche"
+  },
+  {
+    "crewWord": "Cambio valuta",
+    "spyWord": "Agenzia viaggi"
+  },
+  {
+    "crewWord": "Concierge",
+    "spyWord": "Reception"
+  },
+  {
+    "crewWord": "Attico",
+    "spyWord": "Suite junior"
+  },
+  {
+    "crewWord": "Uscita emergenza",
+    "spyWord": "Scale antincendio"
+  },
+  {
+    "crewWord": "Ormeggio",
+    "spyWord": "Rampa barche"
+  },
+  {
+    "crewWord": "Faro",
+    "spyWord": "Stazione nebbia"
+  },
+  {
+    "crewWord": "Parco eolico",
+    "spyWord": "Parco solare"
+  },
+  {
+    "crewWord": "Rifugio alpino",
+    "spyWord": "Bivacco"
+  },
+  {
+    "crewWord": "Hotel di ghiaccio",
+    "spyWord": "Igloo"
+  },
+  {
+    "crewWord": "Capsule hotel",
+    "spyWord": "Pod hotel"
+  },
+  {
+    "crewWord": "Casinò",
+    "spyWord": "Sala poker"
+  },
+  {
+    "crewWord": "Comic Con",
+    "spyWord": "Fiera dei videogiochi"
+  },
+  {
+    "crewWord": "Cappella matrimoniale",
+    "spyWord": "Anagrafe"
+  },
+  {
+    "crewWord": "Sala banchetti",
+    "spyWord": "Sala ricevimenti"
+  },
+  {
+    "crewWord": "Casa funeraria",
+    "spyWord": "Crematorio"
+  },
+  {
+    "crewWord": "Muro dei ricordi",
+    "spyWord": "Monumento"
+  },
+  {
+    "crewWord": "Scuola guida",
+    "spyWord": "Scuola volo"
+  },
+  {
+    "crewWord": "Centro immersioni",
+    "spyWord": "Scuola surf"
+  },
+  {
+    "crewWord": "Agriturismo",
+    "spyWord": "Farm stay"
+  },
+  {
+    "crewWord": "Risaia terrazzata",
+    "spyWord": "Piantagione tè"
+  },
+  {
+    "crewWord": "Sentiero costiero",
+    "spyWord": "Lungomare"
+  },
+  {
+    "crewWord": "Lungomare",
+    "spyWord": "Passeggiata"
+  },
+  {
+    "crewWord": "Molo",
+    "spyWord": "Pontile"
+  },
+  {
+    "crewWord": "Funivia",
+    "spyWord": "Cabina"
+  },
+  {
+    "crewWord": "Eliporto",
+    "spyWord": "Idroscalo"
+  },
+  {
+    "crewWord": "Duty free",
+    "spyWord": "Negozio viaggi"
+  },
+  {
+    "crewWord": "Gate",
+    "spyWord": "Terminal"
+  },
+  {
+    "crewWord": "Torre di controllo",
+    "spyWord": "Radar"
+  },
+  {
+    "crewWord": "Terminal cargo",
+    "spyWord": "Cantiere merci"
+  },
+  {
+    "crewWord": "Base navale",
+    "spyWord": "Base aerea"
+  }
+]

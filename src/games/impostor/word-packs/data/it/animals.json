@@ -1,0 +1,802 @@
+[
+  {
+    "crewWord": "Cane",
+    "spyWord": "Lupo"
+  },
+  {
+    "crewWord": "Gatto",
+    "spyWord": "Lince"
+  },
+  {
+    "crewWord": "Aquila",
+    "spyWord": "Falco"
+  },
+  {
+    "crewWord": "Squalo",
+    "spyWord": "Delfino"
+  },
+  {
+    "crewWord": "Orso",
+    "spyWord": "Panda"
+  },
+  {
+    "crewWord": "Rana",
+    "spyWord": "Rospo"
+  },
+  {
+    "crewWord": "Leone",
+    "spyWord": "Tigre"
+  },
+  {
+    "crewWord": "Leopardo",
+    "spyWord": "Ghepardo"
+  },
+  {
+    "crewWord": "Giaguaro",
+    "spyWord": "Pantera"
+  },
+  {
+    "crewWord": "Iena",
+    "spyWord": "Sciacallo"
+  },
+  {
+    "crewWord": "Volpe",
+    "spyWord": "Coyote"
+  },
+  {
+    "crewWord": "Procione",
+    "spyWord": "Tasso"
+  },
+  {
+    "crewWord": "Lontra",
+    "spyWord": "Castoro"
+  },
+  {
+    "crewWord": "Foca",
+    "spyWord": "Tricheco"
+  },
+  {
+    "crewWord": "Balena",
+    "spyWord": "Orca"
+  },
+  {
+    "crewWord": "Delfino",
+    "spyWord": "Tursiope"
+  },
+  {
+    "crewWord": "Squalo",
+    "spyWord": "Razza"
+  },
+  {
+    "crewWord": "Polpo",
+    "spyWord": "Calamaro"
+  },
+  {
+    "crewWord": "Granchio",
+    "spyWord": "Aragosta"
+  },
+  {
+    "crewWord": "Gambero",
+    "spyWord": "Gamberetto"
+  },
+  {
+    "crewWord": "Farfalla",
+    "spyWord": "Falena"
+  },
+  {
+    "crewWord": "Ape",
+    "spyWord": "Vespa"
+  },
+  {
+    "crewWord": "Formica",
+    "spyWord": "Termite"
+  },
+  {
+    "crewWord": "Ragno",
+    "spyWord": "Scorpione"
+  },
+  {
+    "crewWord": "Serpente",
+    "spyWord": "Lucertola"
+  },
+  {
+    "crewWord": "Coccodrillo",
+    "spyWord": "Alligatore"
+  },
+  {
+    "crewWord": "Tartaruga",
+    "spyWord": "Testuggine"
+  },
+  {
+    "crewWord": "Camaleonte",
+    "spyWord": "Geco"
+  },
+  {
+    "crewWord": "Iguana",
+    "spyWord": "Varano"
+  },
+  {
+    "crewWord": "Cavallo",
+    "spyWord": "Asino"
+  },
+  {
+    "crewWord": "Zebra",
+    "spyWord": "Giraffa"
+  },
+  {
+    "crewWord": "Mucca",
+    "spyWord": "Bufalo"
+  },
+  {
+    "crewWord": "Pecora",
+    "spyWord": "Capra"
+  },
+  {
+    "crewWord": "Maiale",
+    "spyWord": "Cinghiale"
+  },
+  {
+    "crewWord": "Gallina",
+    "spyWord": "Gallo"
+  },
+  {
+    "crewWord": "Anatra",
+    "spyWord": "Oca"
+  },
+  {
+    "crewWord": "Tacchino",
+    "spyWord": "Pavone"
+  },
+  {
+    "crewWord": "Gufo",
+    "spyWord": "Falco"
+  },
+  {
+    "crewWord": "Pappagallo",
+    "spyWord": "Cacatua"
+  },
+  {
+    "crewWord": "Pinguino",
+    "spyWord": "Pulcinella di mare"
+  },
+  {
+    "crewWord": "Fenicottero",
+    "spyWord": "Cicogna"
+  },
+  {
+    "crewWord": "Pellicano",
+    "spyWord": "Airone"
+  },
+  {
+    "crewWord": "Corvo",
+    "spyWord": "Cornacchia"
+  },
+  {
+    "crewWord": "Passero",
+    "spyWord": "Fringuello"
+  },
+  {
+    "crewWord": "Piccione",
+    "spyWord": "Colomba"
+  },
+  {
+    "crewWord": "Pipistrello",
+    "spyWord": "Volpe volante"
+  },
+  {
+    "crewWord": "Topo",
+    "spyWord": "Ratto"
+  },
+  {
+    "crewWord": "Criceto",
+    "spyWord": "Gerbillo"
+  },
+  {
+    "crewWord": "Coniglio",
+    "spyWord": "Lepre"
+  },
+  {
+    "crewWord": "Scoiattolo",
+    "spyWord": "Chipmunk"
+  },
+  {
+    "crewWord": "Talpa",
+    "spyWord": "Toporagno"
+  },
+  {
+    "crewWord": "Riccio",
+    "spyWord": "Istrice"
+  },
+  {
+    "crewWord": "Canguro",
+    "spyWord": "Wallaby"
+  },
+  {
+    "crewWord": "Koala",
+    "spyWord": "Wombat"
+  },
+  {
+    "crewWord": "Ornitorinco",
+    "spyWord": "Echidna"
+  },
+  {
+    "crewWord": "Bradipo",
+    "spyWord": "Formichiere"
+  },
+  {
+    "crewWord": "Armadillo",
+    "spyWord": "Pangolino"
+  },
+  {
+    "crewWord": "Scimmia",
+    "spyWord": "Scimpanzé"
+  },
+  {
+    "crewWord": "Gorilla",
+    "spyWord": "Bonobo"
+  },
+  {
+    "crewWord": "Orango",
+    "spyWord": "Gibbone"
+  },
+  {
+    "crewWord": "Babbuino",
+    "spyWord": "Mandrillo"
+  },
+  {
+    "crewWord": "Elefante",
+    "spyWord": "Mammut"
+  },
+  {
+    "crewWord": "Ippopotamo",
+    "spyWord": "Rinoceronte"
+  },
+  {
+    "crewWord": "Cammello",
+    "spyWord": "Lama"
+  },
+  {
+    "crewWord": "Alpaca",
+    "spyWord": "Vicuña"
+  },
+  {
+    "crewWord": "Cervo",
+    "spyWord": "Alce"
+  },
+  {
+    "crewWord": "Alce",
+    "spyWord": "Caribù"
+  },
+  {
+    "crewWord": "Antilope",
+    "spyWord": "Gazzella"
+  },
+  {
+    "crewWord": "Bisonte",
+    "spyWord": "Yak"
+  },
+  {
+    "crewWord": "Lince",
+    "spyWord": "Gatto selvatico"
+  },
+  {
+    "crewWord": "Puma",
+    "spyWord": "Leone di montagna"
+  },
+  {
+    "crewWord": "Tricheco",
+    "spyWord": "Leone marino"
+  },
+  {
+    "crewWord": "Manatee",
+    "spyWord": "Dugongo"
+  },
+  {
+    "crewWord": "Medusa",
+    "spyWord": "Anemone"
+  },
+  {
+    "crewWord": "Stella marina",
+    "spyWord": "Riccio di mare"
+  },
+  {
+    "crewWord": "Vongola",
+    "spyWord": "Ostrica"
+  },
+  {
+    "crewWord": "Lumaca",
+    "spyWord": "Lumaca di terra"
+  },
+  {
+    "crewWord": "Millepiedi",
+    "spyWord": "Centopiedi"
+  },
+  {
+    "crewWord": "Libellula",
+    "spyWord": "Damigella"
+  },
+  {
+    "crewWord": "Cavalletta",
+    "spyWord": "Grillo"
+  },
+  {
+    "crewWord": "Scarafaggio",
+    "spyWord": "Scarabeo"
+  },
+  {
+    "crewWord": "Coccinella",
+    "spyWord": "Scarabeo"
+  },
+  {
+    "crewWord": "Mosca",
+    "spyWord": "Zanzara"
+  },
+  {
+    "crewWord": "Pulce",
+    "spyWord": "Zecca"
+  },
+  {
+    "crewWord": "Calabrone",
+    "spyWord": "Vespa"
+  },
+  {
+    "crewWord": "Pesce rosso",
+    "spyWord": "Carpa koi"
+  },
+  {
+    "crewWord": "Salmone",
+    "spyWord": "Trota"
+  },
+  {
+    "crewWord": "Tonno",
+    "spyWord": "Sgombro"
+  },
+  {
+    "crewWord": "Merluzzo",
+    "spyWord": "Nasello"
+  },
+  {
+    "crewWord": "Anguilla",
+    "spyWord": "Murena"
+  },
+  {
+    "crewWord": "Cavalluccio marino",
+    "spyWord": "Pesce pipa"
+  },
+  {
+    "crewWord": "Razza",
+    "spyWord": "Manta"
+  },
+  {
+    "crewWord": "Pesce palla",
+    "spyWord": "Pesce leone"
+  },
+  {
+    "crewWord": "Granchio eremita",
+    "spyWord": "Granchio reale"
+  },
+  {
+    "crewWord": "Tartaruga marina",
+    "spyWord": "Tartaruga di terra"
+  },
+  {
+    "crewWord": "Drago di Komodo",
+    "spyWord": "Varano"
+  },
+  {
+    "crewWord": "Avvoltoio",
+    "spyWord": "Condor"
+  },
+  {
+    "crewWord": "Struzzo",
+    "spyWord": "Emù"
+  },
+  {
+    "crewWord": "Casuario",
+    "spyWord": "Kiwi"
+  },
+  {
+    "crewWord": "Picchio",
+    "spyWord": "Cincia"
+  },
+  {
+    "crewWord": "Colibrì",
+    "spyWord": "Martin pescatore"
+  },
+  {
+    "crewWord": "Cigno",
+    "spyWord": "Gru"
+  },
+  {
+    "crewWord": "Anatra selvatica",
+    "spyWord": "Alzavola"
+  },
+  {
+    "crewWord": "Canarino",
+    "spyWord": "Parrocchetto"
+  },
+  {
+    "crewWord": "Ara",
+    "spyWord": "Pappagallino"
+  },
+  {
+    "crewWord": "Tucano",
+    "spyWord": "Bucero"
+  },
+  {
+    "crewWord": "Pavone",
+    "spyWord": "Fagiano"
+  },
+  {
+    "crewWord": "Gallo",
+    "spyWord": "Gallina"
+  },
+  {
+    "crewWord": "Agnello",
+    "spyWord": "Capretto"
+  },
+  {
+    "crewWord": "Vitello",
+    "spyWord": "Puledro"
+  },
+  {
+    "crewWord": "Cucciolo",
+    "spyWord": "Gattino"
+  },
+  {
+    "crewWord": "Puledro",
+    "spyWord": "Puledra"
+  },
+  {
+    "crewWord": "Pulcino",
+    "spyWord": "Anatroccolo"
+  },
+  {
+    "crewWord": "Cucciolo",
+    "spyWord": "Piccolo canguro"
+  },
+  {
+    "crewWord": "Cerfetto",
+    "spyWord": "Vitello"
+  },
+  {
+    "crewWord": "Girino",
+    "spyWord": "Larvetta"
+  },
+  {
+    "crewWord": "Bruco",
+    "spyWord": "Larva"
+  },
+  {
+    "crewWord": "Bozzolo",
+    "spyWord": "Crisalide"
+  },
+  {
+    "crewWord": "Alveare",
+    "spyWord": "Nido"
+  },
+  {
+    "crewWord": "Tana",
+    "spyWord": "Tana"
+  },
+  {
+    "crewWord": "Branco",
+    "spyWord": "Mandria"
+  },
+  {
+    "crewWord": "Stormo",
+    "spyWord": "Banco"
+  },
+  {
+    "crewWord": "Branco",
+    "spyWord": "Truppa"
+  },
+  {
+    "crewWord": "Colonia",
+    "spyWord": "Sciame"
+  },
+  {
+    "crewWord": "Zoo",
+    "spyWord": "Safari"
+  },
+  {
+    "crewWord": "Acquario",
+    "spyWord": "Voliera"
+  },
+  {
+    "crewWord": "Veterinario",
+    "spyWord": "Guardiano dello zoo"
+  },
+  {
+    "crewWord": "Guinzaglio",
+    "spyWord": "Collare"
+  },
+  {
+    "crewWord": "Cuccia",
+    "spyWord": "Trasportino"
+  },
+  {
+    "crewWord": "Lettiera",
+    "spyWord": "Tiragraffi"
+  },
+  {
+    "crewWord": "Area cani",
+    "spyWord": "Negozio di animali"
+  },
+  {
+    "crewWord": "Selvatico",
+    "spyWord": "Domestico"
+  },
+  {
+    "crewWord": "Predatore",
+    "spyWord": "Preda"
+  },
+  {
+    "crewWord": "Erbivoro",
+    "spyWord": "Carnivoro"
+  },
+  {
+    "crewWord": "Onnivoro",
+    "spyWord": "Spazzino"
+  },
+  {
+    "crewWord": "Notturno",
+    "spyWord": "Diurno"
+  },
+  {
+    "crewWord": "Migratorio",
+    "spyWord": "Stanziale"
+  },
+  {
+    "crewWord": "In pericolo",
+    "spyWord": "Estinto"
+  },
+  {
+    "crewWord": "Habitat",
+    "spyWord": "Territorio"
+  },
+  {
+    "crewWord": "Mimetismo",
+    "spyWord": "Camuffamento"
+  },
+  {
+    "crewWord": "Ibernazione",
+    "spyWord": "Migrazione"
+  },
+  {
+    "crewWord": "Metamorfosi",
+    "spyWord": "Muta"
+  },
+  {
+    "crewWord": "Corna",
+    "spyWord": "Zanne"
+  },
+  {
+    "crewWord": "Pelliccia",
+    "spyWord": "Piume"
+  },
+  {
+    "crewWord": "Scaglie",
+    "spyWord": "Guscio"
+  },
+  {
+    "crewWord": "Baffi",
+    "spyWord": "Coda"
+  },
+  {
+    "crewWord": "Zampa",
+    "spyWord": "Zoccolo"
+  },
+  {
+    "crewWord": "Artiglio",
+    "spyWord": "Artiglio"
+  },
+  {
+    "crewWord": "Becco",
+    "spyWord": "Rostro"
+  },
+  {
+    "crewWord": "Proboscide",
+    "spyWord": "Zanna"
+  },
+  {
+    "crewWord": "Pinna",
+    "spyWord": "Pinna"
+  },
+  {
+    "crewWord": "Branchie",
+    "spyWord": "Polmoni"
+  },
+  {
+    "crewWord": "Veleno",
+    "spyWord": "Tossina"
+  },
+  {
+    "crewWord": "Ruggito",
+    "spyWord": "Ringhio"
+  },
+  {
+    "crewWord": "Cinguettio",
+    "spyWord": "Gracidio"
+  },
+  {
+    "crewWord": "Ululato",
+    "spyWord": "Abbaiare"
+  },
+  {
+    "crewWord": "Fusa",
+    "spyWord": "Sibilo"
+  },
+  {
+    "crewWord": "Nitrito",
+    "spyWord": "Raglio"
+  },
+  {
+    "crewWord": "Grugnito",
+    "spyWord": "Belato"
+  },
+  {
+    "crewWord": "Muggito",
+    "spyWord": "Belato"
+  },
+  {
+    "crewWord": "Qua qua",
+    "spyWord": "Starnazzo"
+  },
+  {
+    "crewWord": "Squittio",
+    "spyWord": "Chiacchierio"
+  },
+  {
+    "crewWord": "Ronzio",
+    "spyWord": "Sibilo"
+  },
+  {
+    "crewWord": "Cinghiale",
+    "spyWord": "Facocero"
+  },
+  {
+    "crewWord": "Suricata",
+    "spyWord": "Mangusta"
+  },
+  {
+    "crewWord": "Lemure",
+    "spyWord": "Tarsio"
+  },
+  {
+    "crewWord": "Tapiro",
+    "spyWord": "Okapi"
+  },
+  {
+    "crewWord": "Narvalo",
+    "spyWord": "Beluga"
+  },
+  {
+    "crewWord": "Capodoglio",
+    "spyWord": "Balenottera azzurra"
+  },
+  {
+    "crewWord": "Squalo martello",
+    "spyWord": "Grande squalo bianco"
+  },
+  {
+    "crewWord": "Anguilla elettrica",
+    "spyWord": "Pesce coltello"
+  },
+  {
+    "crewWord": "Scoiattolo volante",
+    "spyWord": "Petauro dello zucchero"
+  },
+  {
+    "crewWord": "Marmotta",
+    "spyWord": "Castoro"
+  },
+  {
+    "crewWord": "Puzzola",
+    "spyWord": "Tasso"
+  },
+  {
+    "crewWord": "Donnola",
+    "spyWord": "Furetto"
+  },
+  {
+    "crewWord": "Visone",
+    "spyWord": "Ermellino"
+  },
+  {
+    "crewWord": "Martora",
+    "spyWord": "Pesca"
+  },
+  {
+    "crewWord": "Ghiottone",
+    "spyWord": "Tasso del miele"
+  },
+  {
+    "crewWord": "Porcupine",
+    "spyWord": "Riccio"
+  },
+  {
+    "crewWord": "Muflone",
+    "spyWord": "Stambecco"
+  },
+  {
+    "crewWord": "Gazzella",
+    "spyWord": "Impala"
+  },
+  {
+    "crewWord": "Gnu",
+    "spyWord": "Antilope"
+  },
+  {
+    "crewWord": "Serval",
+    "spyWord": "Caracal"
+  },
+  {
+    "crewWord": "Ocelot",
+    "spyWord": "Margay"
+  },
+  {
+    "crewWord": "Orso polare",
+    "spyWord": "Orso grizzly"
+  },
+  {
+    "crewWord": "Lontra marina",
+    "spyWord": "Lontra di fiume"
+  },
+  {
+    "crewWord": "Delfino tursiope",
+    "spyWord": "Delfino dal naso a bottiglia"
+  },
+  {
+    "crewWord": "Manta",
+    "spyWord": "Razza aquila"
+  },
+  {
+    "crewWord": "Pesce betta",
+    "spyWord": "Pesce guppy"
+  },
+  {
+    "crewWord": "Assolotto",
+    "spyWord": "Salamandra"
+  },
+  {
+    "crewWord": "Rospo comune",
+    "spyWord": "Raganella"
+  },
+  {
+    "crewWord": "Cobra reale",
+    "spyWord": "Pitone"
+  },
+  {
+    "crewWord": "Serpente a sonagli",
+    "spyWord": "Vipera"
+  },
+  {
+    "crewWord": "Serpente giarrettiera",
+    "spyWord": "Serpente del grano"
+  },
+  {
+    "crewWord": "Anaconda",
+    "spyWord": "Boa"
+  },
+  {
+    "crewWord": "Gila monster",
+    "spyWord": "Varano"
+  },
+  {
+    "crewWord": "Lucertola con collare",
+    "spyWord": "Basilisco"
+  },
+  {
+    "crewWord": "Skink",
+    "spyWord": "Anole"
+  },
+  {
+    "crewWord": "Cavallo marino",
+    "spyWord": "Pesce cavalluccio"
+  },
+  {
+    "crewWord": "Rana toro",
+    "spyWord": "Raganella"
+  }
+]

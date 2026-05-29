@@ -1,0 +1,814 @@
+[
+  {
+    "crewWord": "Dog",
+    "spyWord": "Wolf"
+  },
+  {
+    "crewWord": "Cat",
+    "spyWord": "Lynx"
+  },
+  {
+    "crewWord": "Eagle",
+    "spyWord": "Hawk"
+  },
+  {
+    "crewWord": "Bear",
+    "spyWord": "Panda"
+  },
+  {
+    "crewWord": "Frog",
+    "spyWord": "Toad"
+  },
+  {
+    "crewWord": "Lion",
+    "spyWord": "Tiger"
+  },
+  {
+    "crewWord": "Leopard",
+    "spyWord": "Cheetah"
+  },
+  {
+    "crewWord": "Jaguar",
+    "spyWord": "Panther"
+  },
+  {
+    "crewWord": "Hyena",
+    "spyWord": "Jackal"
+  },
+  {
+    "crewWord": "Fox",
+    "spyWord": "Coyote"
+  },
+  {
+    "crewWord": "Raccoon",
+    "spyWord": "Badger"
+  },
+  {
+    "crewWord": "Otter",
+    "spyWord": "Beaver"
+  },
+  {
+    "crewWord": "Seal",
+    "spyWord": "Walrus"
+  },
+  {
+    "crewWord": "Whale",
+    "spyWord": "Orca"
+  },
+  {
+    "crewWord": "Dolphin",
+    "spyWord": "Porpoise"
+  },
+  {
+    "crewWord": "Shark",
+    "spyWord": "Ray"
+  },
+  {
+    "crewWord": "Octopus",
+    "spyWord": "Squid"
+  },
+  {
+    "crewWord": "Crab",
+    "spyWord": "Lobster"
+  },
+  {
+    "crewWord": "Shrimp",
+    "spyWord": "Prawn"
+  },
+  {
+    "crewWord": "Butterfly",
+    "spyWord": "Moth"
+  },
+  {
+    "crewWord": "Bee",
+    "spyWord": "Wasp"
+  },
+  {
+    "crewWord": "Ant",
+    "spyWord": "Termite"
+  },
+  {
+    "crewWord": "Spider",
+    "spyWord": "Scorpion"
+  },
+  {
+    "crewWord": "Snake",
+    "spyWord": "Lizard"
+  },
+  {
+    "crewWord": "Crocodile",
+    "spyWord": "Alligator"
+  },
+  {
+    "crewWord": "Turtle",
+    "spyWord": "Tortoise"
+  },
+  {
+    "crewWord": "Chameleon",
+    "spyWord": "Gecko"
+  },
+  {
+    "crewWord": "Iguana",
+    "spyWord": "Monitor"
+  },
+  {
+    "crewWord": "Horse",
+    "spyWord": "Donkey"
+  },
+  {
+    "crewWord": "Zebra",
+    "spyWord": "Giraffe"
+  },
+  {
+    "crewWord": "Cow",
+    "spyWord": "Buffalo"
+  },
+  {
+    "crewWord": "Sheep",
+    "spyWord": "Goat"
+  },
+  {
+    "crewWord": "Pig",
+    "spyWord": "Boar"
+  },
+  {
+    "crewWord": "Chicken",
+    "spyWord": "Rooster"
+  },
+  {
+    "crewWord": "Duck",
+    "spyWord": "Goose"
+  },
+  {
+    "crewWord": "Turkey",
+    "spyWord": "Peacock"
+  },
+  {
+    "crewWord": "Owl",
+    "spyWord": "Falcon"
+  },
+  {
+    "crewWord": "Parrot",
+    "spyWord": "Cockatoo"
+  },
+  {
+    "crewWord": "Penguin",
+    "spyWord": "Puffin"
+  },
+  {
+    "crewWord": "Flamingo",
+    "spyWord": "Stork"
+  },
+  {
+    "crewWord": "Pelican",
+    "spyWord": "Heron"
+  },
+  {
+    "crewWord": "Crow",
+    "spyWord": "Raven"
+  },
+  {
+    "crewWord": "Sparrow",
+    "spyWord": "Finch"
+  },
+  {
+    "crewWord": "Pigeon",
+    "spyWord": "Dove"
+  },
+  {
+    "crewWord": "Bat",
+    "spyWord": "Flying Fox"
+  },
+  {
+    "crewWord": "Mouse",
+    "spyWord": "Rat"
+  },
+  {
+    "crewWord": "Hamster",
+    "spyWord": "Gerbil"
+  },
+  {
+    "crewWord": "Rabbit",
+    "spyWord": "Hare"
+  },
+  {
+    "crewWord": "Squirrel",
+    "spyWord": "Chipmunk"
+  },
+  {
+    "crewWord": "Mole",
+    "spyWord": "Shrew"
+  },
+  {
+    "crewWord": "Hedgehog",
+    "spyWord": "Porcupine"
+  },
+  {
+    "crewWord": "Kangaroo",
+    "spyWord": "Wallaby"
+  },
+  {
+    "crewWord": "Koala",
+    "spyWord": "Wombat"
+  },
+  {
+    "crewWord": "Platypus",
+    "spyWord": "Echidna"
+  },
+  {
+    "crewWord": "Sloth",
+    "spyWord": "Anteater"
+  },
+  {
+    "crewWord": "Armadillo",
+    "spyWord": "Pangolin"
+  },
+  {
+    "crewWord": "Monkey",
+    "spyWord": "Ape"
+  },
+  {
+    "crewWord": "Gorilla",
+    "spyWord": "Chimpanzee"
+  },
+  {
+    "crewWord": "Orangutan",
+    "spyWord": "Gibbon"
+  },
+  {
+    "crewWord": "Baboon",
+    "spyWord": "Mandrill"
+  },
+  {
+    "crewWord": "Elephant",
+    "spyWord": "Mammoth"
+  },
+  {
+    "crewWord": "Hippo",
+    "spyWord": "Rhino"
+  },
+  {
+    "crewWord": "Camel",
+    "spyWord": "Llama"
+  },
+  {
+    "crewWord": "Alpaca",
+    "spyWord": "Vicuna"
+  },
+  {
+    "crewWord": "Deer",
+    "spyWord": "Elk"
+  },
+  {
+    "crewWord": "Moose",
+    "spyWord": "Caribou"
+  },
+  {
+    "crewWord": "Antelope",
+    "spyWord": "Gazelle"
+  },
+  {
+    "crewWord": "Bison",
+    "spyWord": "Yak"
+  },
+  {
+    "crewWord": "Lynx",
+    "spyWord": "Bobcat"
+  },
+  {
+    "crewWord": "Cougar",
+    "spyWord": "Mountain Lion"
+  },
+  {
+    "crewWord": "Walrus",
+    "spyWord": "Sea Lion"
+  },
+  {
+    "crewWord": "Manatee",
+    "spyWord": "Dugong"
+  },
+  {
+    "crewWord": "Jellyfish",
+    "spyWord": "Anemone"
+  },
+  {
+    "crewWord": "Starfish",
+    "spyWord": "Sea Urchin"
+  },
+  {
+    "crewWord": "Clam",
+    "spyWord": "Oyster"
+  },
+  {
+    "crewWord": "Snail",
+    "spyWord": "Slug"
+  },
+  {
+    "crewWord": "Centipede",
+    "spyWord": "Millipede"
+  },
+  {
+    "crewWord": "Dragonfly",
+    "spyWord": "Damselfly"
+  },
+  {
+    "crewWord": "Grasshopper",
+    "spyWord": "Cricket"
+  },
+  {
+    "crewWord": "Beetle",
+    "spyWord": "Ladybug"
+  },
+  {
+    "crewWord": "Caterpillar",
+    "spyWord": "Silkworm"
+  },
+  {
+    "crewWord": "Mosquito",
+    "spyWord": "Fly"
+  },
+  {
+    "crewWord": "Flea",
+    "spyWord": "Tick"
+  },
+  {
+    "crewWord": "Hornet",
+    "spyWord": "Yellowjacket"
+  },
+  {
+    "crewWord": "Cockroach",
+    "spyWord": "Beetle"
+  },
+  {
+    "crewWord": "Goldfish",
+    "spyWord": "Koi"
+  },
+  {
+    "crewWord": "Salmon",
+    "spyWord": "Trout"
+  },
+  {
+    "crewWord": "Tuna",
+    "spyWord": "Mackerel"
+  },
+  {
+    "crewWord": "Cod",
+    "spyWord": "Haddock"
+  },
+  {
+    "crewWord": "Eel",
+    "spyWord": "Moray"
+  },
+  {
+    "crewWord": "Seahorse",
+    "spyWord": "Pipefish"
+  },
+  {
+    "crewWord": "Stingray",
+    "spyWord": "Manta"
+  },
+  {
+    "crewWord": "Barracuda",
+    "spyWord": "Pike"
+  },
+  {
+    "crewWord": "Catfish",
+    "spyWord": "Carp"
+  },
+  {
+    "crewWord": "Piranha",
+    "spyWord": "Barracuda"
+  },
+  {
+    "crewWord": "Angelfish",
+    "spyWord": "Clownfish"
+  },
+  {
+    "crewWord": "Pufferfish",
+    "spyWord": "Lionfish"
+  },
+  {
+    "crewWord": "Hermit Crab",
+    "spyWord": "King Crab"
+  },
+  {
+    "crewWord": "Sea Turtle",
+    "spyWord": "Land Turtle"
+  },
+  {
+    "crewWord": "Komodo Dragon",
+    "spyWord": "Monitor Lizard"
+  },
+  {
+    "crewWord": "Vulture",
+    "spyWord": "Condor"
+  },
+  {
+    "crewWord": "Ostrich",
+    "spyWord": "Emu"
+  },
+  {
+    "crewWord": "Cassowary",
+    "spyWord": "Kiwi"
+  },
+  {
+    "crewWord": "Roadrunner",
+    "spyWord": "Quail"
+  },
+  {
+    "crewWord": "Woodpecker",
+    "spyWord": "Nuthatch"
+  },
+  {
+    "crewWord": "Hummingbird",
+    "spyWord": "Kingfisher"
+  },
+  {
+    "crewWord": "Swan",
+    "spyWord": "Crane"
+  },
+  {
+    "crewWord": "Goose",
+    "spyWord": "Swan"
+  },
+  {
+    "crewWord": "Mallard",
+    "spyWord": "Teal"
+  },
+  {
+    "crewWord": "Canary",
+    "spyWord": "Budgie"
+  },
+  {
+    "crewWord": "Macaw",
+    "spyWord": "Parakeet"
+  },
+  {
+    "crewWord": "Toucan",
+    "spyWord": "Hornbill"
+  },
+  {
+    "crewWord": "Peacock",
+    "spyWord": "Pheasant"
+  },
+  {
+    "crewWord": "Rooster",
+    "spyWord": "Hen"
+  },
+  {
+    "crewWord": "Lamb",
+    "spyWord": "Kid"
+  },
+  {
+    "crewWord": "Calf",
+    "spyWord": "Foal"
+  },
+  {
+    "crewWord": "Puppy",
+    "spyWord": "Kitten"
+  },
+  {
+    "crewWord": "Colt",
+    "spyWord": "Filly"
+  },
+  {
+    "crewWord": "Chick",
+    "spyWord": "Duckling"
+  },
+  {
+    "crewWord": "Cub",
+    "spyWord": "Joey"
+  },
+  {
+    "crewWord": "Fawn",
+    "spyWord": "Calf"
+  },
+  {
+    "crewWord": "Tadpole",
+    "spyWord": "Polliwog"
+  },
+  {
+    "crewWord": "Caterpillar",
+    "spyWord": "Larva"
+  },
+  {
+    "crewWord": "Pupa",
+    "spyWord": "Cocoon"
+  },
+  {
+    "crewWord": "Hive",
+    "spyWord": "Nest"
+  },
+  {
+    "crewWord": "Den",
+    "spyWord": "Burrow"
+  },
+  {
+    "crewWord": "Pack",
+    "spyWord": "Herd"
+  },
+  {
+    "crewWord": "Flock",
+    "spyWord": "School"
+  },
+  {
+    "crewWord": "Pride",
+    "spyWord": "Troop"
+  },
+  {
+    "crewWord": "Colony",
+    "spyWord": "Swarm"
+  },
+  {
+    "crewWord": "Zoo",
+    "spyWord": "Safari"
+  },
+  {
+    "crewWord": "Aquarium",
+    "spyWord": "Aviary"
+  },
+  {
+    "crewWord": "Vet",
+    "spyWord": "Zookeeper"
+  },
+  {
+    "crewWord": "Leash",
+    "spyWord": "Collar"
+  },
+  {
+    "crewWord": "Kennel",
+    "spyWord": "Crate"
+  },
+  {
+    "crewWord": "Litter Box",
+    "spyWord": "Scratching Post"
+  },
+  {
+    "crewWord": "Dog Park",
+    "spyWord": "Pet Store"
+  },
+  {
+    "crewWord": "Wildlife",
+    "spyWord": "Domestic"
+  },
+  {
+    "crewWord": "Predator",
+    "spyWord": "Prey"
+  },
+  {
+    "crewWord": "Herbivore",
+    "spyWord": "Carnivore"
+  },
+  {
+    "crewWord": "Omnivore",
+    "spyWord": "Scavenger"
+  },
+  {
+    "crewWord": "Nocturnal",
+    "spyWord": "Diurnal"
+  },
+  {
+    "crewWord": "Migratory",
+    "spyWord": "Resident"
+  },
+  {
+    "crewWord": "Endangered",
+    "spyWord": "Extinct"
+  },
+  {
+    "crewWord": "Habitat",
+    "spyWord": "Territory"
+  },
+  {
+    "crewWord": "Camouflage",
+    "spyWord": "Mimicry"
+  },
+  {
+    "crewWord": "Hibernation",
+    "spyWord": "Migration"
+  },
+  {
+    "crewWord": "Metamorphosis",
+    "spyWord": "Molting"
+  },
+  {
+    "crewWord": "Antlers",
+    "spyWord": "Horns"
+  },
+  {
+    "crewWord": "Fur",
+    "spyWord": "Feathers"
+  },
+  {
+    "crewWord": "Scales",
+    "spyWord": "Shell"
+  },
+  {
+    "crewWord": "Whiskers",
+    "spyWord": "Tail"
+  },
+  {
+    "crewWord": "Paw",
+    "spyWord": "Hoof"
+  },
+  {
+    "crewWord": "Claw",
+    "spyWord": "Talon"
+  },
+  {
+    "crewWord": "Beak",
+    "spyWord": "Bill"
+  },
+  {
+    "crewWord": "Trunk",
+    "spyWord": "Tusk"
+  },
+  {
+    "crewWord": "Fin",
+    "spyWord": "Flipper"
+  },
+  {
+    "crewWord": "Gills",
+    "spyWord": "Lungs"
+  },
+  {
+    "crewWord": "Venom",
+    "spyWord": "Poison"
+  },
+  {
+    "crewWord": "Roar",
+    "spyWord": "Growl"
+  },
+  {
+    "crewWord": "Chirp",
+    "spyWord": "Croak"
+  },
+  {
+    "crewWord": "Howl",
+    "spyWord": "Bark"
+  },
+  {
+    "crewWord": "Purr",
+    "spyWord": "Hiss"
+  },
+  {
+    "crewWord": "Neigh",
+    "spyWord": "Bray"
+  },
+  {
+    "crewWord": "Oink",
+    "spyWord": "Bleat"
+  },
+  {
+    "crewWord": "Moo",
+    "spyWord": "Baa"
+  },
+  {
+    "crewWord": "Quack",
+    "spyWord": "Honk"
+  },
+  {
+    "crewWord": "Squeak",
+    "spyWord": "Chatter"
+  },
+  {
+    "crewWord": "Buzz",
+    "spyWord": "Hiss"
+  },
+  {
+    "crewWord": "Wild Boar",
+    "spyWord": "Warthog"
+  },
+  {
+    "crewWord": "Meerkat",
+    "spyWord": "Mongoose"
+  },
+  {
+    "crewWord": "Lemur",
+    "spyWord": "Tarsier"
+  },
+  {
+    "crewWord": "Tapir",
+    "spyWord": "Okapi"
+  },
+  {
+    "crewWord": "Narwhal",
+    "spyWord": "Beluga"
+  },
+  {
+    "crewWord": "Sperm Whale",
+    "spyWord": "Blue Whale"
+  },
+  {
+    "crewWord": "Hammerhead",
+    "spyWord": "Great White"
+  },
+  {
+    "crewWord": "Bull Shark",
+    "spyWord": "Tiger Shark"
+  },
+  {
+    "crewWord": "Electric Eel",
+    "spyWord": "Knifefish"
+  },
+  {
+    "crewWord": "Flying Squirrel",
+    "spyWord": "Sugar Glider"
+  },
+  {
+    "crewWord": "Prairie Dog",
+    "spyWord": "Groundhog"
+  },
+  {
+    "crewWord": "Skunk",
+    "spyWord": "Stink Badger"
+  },
+  {
+    "crewWord": "Weasel",
+    "spyWord": "Ferret"
+  },
+  {
+    "crewWord": "Mink",
+    "spyWord": "Stoat"
+  },
+  {
+    "crewWord": "Marten",
+    "spyWord": "Fisher"
+  },
+  {
+    "crewWord": "Wolverine",
+    "spyWord": "Honey Badger"
+  },
+  {
+    "crewWord": "Aardvark",
+    "spyWord": "Anteater"
+  },
+  {
+    "crewWord": "Capybara",
+    "spyWord": "Guinea Pig"
+  },
+  {
+    "crewWord": "Chinchilla",
+    "spyWord": "Degu"
+  },
+  {
+    "crewWord": "Porcupine",
+    "spyWord": "Hedgehog"
+  },
+  {
+    "crewWord": "Musk Ox",
+    "spyWord": "Bighorn Sheep"
+  },
+  {
+    "crewWord": "Ibex",
+    "spyWord": "Mountain Goat"
+  },
+  {
+    "crewWord": "Serval",
+    "spyWord": "Caracal"
+  },
+  {
+    "crewWord": "Ocelot",
+    "spyWord": "Margay"
+  },
+  {
+    "crewWord": "Polar Bear",
+    "spyWord": "Grizzly"
+  },
+  {
+    "crewWord": "Sea Otter",
+    "spyWord": "River Otter"
+  },
+  {
+    "crewWord": "Spinner Dolphin",
+    "spyWord": "Bottlenose"
+  },
+  {
+    "crewWord": "Manta Ray",
+    "spyWord": "Eagle Ray"
+  },
+  {
+    "crewWord": "Betta",
+    "spyWord": "Guppy"
+  },
+  {
+    "crewWord": "Axolotl",
+    "spyWord": "Salamander"
+  },
+  {
+    "crewWord": "Bullfrog",
+    "spyWord": "Tree Frog"
+  },
+  {
+    "crewWord": "King Cobra",
+    "spyWord": "Python"
+  },
+  {
+    "crewWord": "Anaconda",
+    "spyWord": "Boa"
+  },
+  {
+    "crewWord": "Skink",
+    "spyWord": "Anole"
+  }
+]

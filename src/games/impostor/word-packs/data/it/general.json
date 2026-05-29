@@ -1,0 +1,846 @@
+[
+  {
+    "crewWord": "Pizza",
+    "spyWord": "Pasta"
+  },
+  {
+    "crewWord": "Spiaggia",
+    "spyWord": "Piscina"
+  },
+  {
+    "crewWord": "Caffè",
+    "spyWord": "Tè"
+  },
+  {
+    "crewWord": "Film",
+    "spyWord": "Serie"
+  },
+  {
+    "crewWord": "Treno",
+    "spyWord": "Autobus"
+  },
+  {
+    "crewWord": "Inverno",
+    "spyWord": "Autunno"
+  },
+  {
+    "crewWord": "Telefono",
+    "spyWord": "Tablet"
+  },
+  {
+    "crewWord": "Portatile",
+    "spyWord": "Desktop"
+  },
+  {
+    "crewWord": "Camicia",
+    "spyWord": "Camicetta"
+  },
+  {
+    "crewWord": "Scarpe",
+    "spyWord": "Stivali"
+  },
+  {
+    "crewWord": "Cappello",
+    "spyWord": "Berretto"
+  },
+  {
+    "crewWord": "Sole",
+    "spyWord": "Luna"
+  },
+  {
+    "crewWord": "Re",
+    "spyWord": "Regina"
+  },
+  {
+    "crewWord": "Fratello",
+    "spyWord": "Sorella"
+  },
+  {
+    "crewWord": "Zio",
+    "spyWord": "Zia"
+  },
+  {
+    "crewWord": "Pianoforte",
+    "spyWord": "Chitarra"
+  },
+  {
+    "crewWord": "Batteria",
+    "spyWord": "Violino"
+  },
+  {
+    "crewWord": "Quadro",
+    "spyWord": "Scultura"
+  },
+  {
+    "crewWord": "Romanzo",
+    "spyWord": "Poesia"
+  },
+  {
+    "crewWord": "Commedia",
+    "spyWord": "Dramma"
+  },
+  {
+    "crewWord": "Attore",
+    "spyWord": "Attrice"
+  },
+  {
+    "crewWord": "Palco",
+    "spyWord": "Schermo"
+  },
+  {
+    "crewWord": "Fotocamera",
+    "spyWord": "Microfono"
+  },
+  {
+    "crewWord": "Radio",
+    "spyWord": "Podcast"
+  },
+  {
+    "crewWord": "Giornale",
+    "spyWord": "Rivista"
+  },
+  {
+    "crewWord": "Email",
+    "spyWord": "Lettera"
+  },
+  {
+    "crewWord": "Calendario",
+    "spyWord": "Diario"
+  },
+  {
+    "crewWord": "Orologio",
+    "spyWord": "Cronometro"
+  },
+  {
+    "crewWord": "Specchio",
+    "spyWord": "Finestra"
+  },
+  {
+    "crewWord": "Porta",
+    "spyWord": "Cancello"
+  },
+  {
+    "crewWord": "Sedia",
+    "spyWord": "Divano"
+  },
+  {
+    "crewWord": "Tavolo",
+    "spyWord": "Scrivania"
+  },
+  {
+    "crewWord": "Letto",
+    "spyWord": "Divanetto"
+  },
+  {
+    "crewWord": "Lampada",
+    "spyWord": "Torcia"
+  },
+  {
+    "crewWord": "Coltello",
+    "spyWord": "Forchetta"
+  },
+  {
+    "crewWord": "Cucchiaio",
+    "spyWord": "Bacchette"
+  },
+  {
+    "crewWord": "Piatto",
+    "spyWord": "Ciotola"
+  },
+  {
+    "crewWord": "Tazza",
+    "spyWord": "Mug"
+  },
+  {
+    "crewWord": "Bottiglia",
+    "spyWord": "Barattolo"
+  },
+  {
+    "crewWord": "Sapone",
+    "spyWord": "Shampoo"
+  },
+  {
+    "crewWord": "Spazzolino",
+    "spyWord": "Pettine"
+  },
+  {
+    "crewWord": "Asciugamano",
+    "spyWord": "Coperta"
+  },
+  {
+    "crewWord": "Cuscino",
+    "spyWord": "Materasso"
+  },
+  {
+    "crewWord": "Armadio",
+    "spyWord": "Cassetto"
+  },
+  {
+    "crewWord": "Scale",
+    "spyWord": "Ascensore"
+  },
+  {
+    "crewWord": "Tetto",
+    "spyWord": "Pavimento"
+  },
+  {
+    "crewWord": "Muro",
+    "spyWord": "Recinto"
+  },
+  {
+    "crewWord": "Giardino",
+    "spyWord": "Balcone"
+  },
+  {
+    "crewWord": "Garage",
+    "spyWord": "Cantina"
+  },
+  {
+    "crewWord": "Cucina",
+    "spyWord": "Bagno"
+  },
+  {
+    "crewWord": "Forno",
+    "spyWord": "Fornello"
+  },
+  {
+    "crewWord": "Frigo",
+    "spyWord": "Congelatore"
+  },
+  {
+    "crewWord": "Lavandino",
+    "spyWord": "Vasca"
+  },
+  {
+    "crewWord": "Doccia",
+    "spyWord": "Rubinetto"
+  },
+  {
+    "crewWord": "Scopa",
+    "spyWord": "Mocio"
+  },
+  {
+    "crewWord": "Aspirapolvere",
+    "spyWord": "Ferro"
+  },
+  {
+    "crewWord": "Martello",
+    "spyWord": "Cacciavite"
+  },
+  {
+    "crewWord": "Chiodo",
+    "spyWord": "Vite"
+  },
+  {
+    "crewWord": "Corda",
+    "spyWord": "Catena"
+  },
+  {
+    "crewWord": "Chiave",
+    "spyWord": "Lucchetto"
+  },
+  {
+    "crewWord": "Portafoglio",
+    "spyWord": "Borsetta"
+  },
+  {
+    "crewWord": "Occhiali",
+    "spyWord": "Occhiali da sole"
+  },
+  {
+    "crewWord": "Anello",
+    "spyWord": "Collana"
+  },
+  {
+    "crewWord": "Braccialetto",
+    "spyWord": "Orecchino"
+  },
+  {
+    "crewWord": "Profumo",
+    "spyWord": "Colonia"
+  },
+  {
+    "crewWord": "Trucco",
+    "spyWord": "Rossetto"
+  },
+  {
+    "crewWord": "Palestra",
+    "spyWord": "Yoga"
+  },
+  {
+    "crewWord": "Corsa",
+    "spyWord": "Camminata"
+  },
+  {
+    "crewWord": "Calcio",
+    "spyWord": "Tennis"
+  },
+  {
+    "crewWord": "Basket",
+    "spyWord": "Pallavolo"
+  },
+  {
+    "crewWord": "Baseball",
+    "spyWord": "Cricket"
+  },
+  {
+    "crewWord": "Golf",
+    "spyWord": "Hockey"
+  },
+  {
+    "crewWord": "Sci",
+    "spyWord": "Pattinaggio"
+  },
+  {
+    "crewWord": "Nuoto",
+    "spyWord": "Tuffi"
+  },
+  {
+    "crewWord": "Bici",
+    "spyWord": "Monopattino"
+  },
+  {
+    "crewWord": "Auto",
+    "spyWord": "Camion"
+  },
+  {
+    "crewWord": "Taxi",
+    "spyWord": "Limousine"
+  },
+  {
+    "crewWord": "Aereo",
+    "spyWord": "Elicottero"
+  },
+  {
+    "crewWord": "Barca",
+    "spyWord": "Sottomarino"
+  },
+  {
+    "crewWord": "Razzo",
+    "spyWord": "Satellite"
+  },
+  {
+    "crewWord": "Mappa",
+    "spyWord": "Bussola"
+  },
+  {
+    "crewWord": "Biglietto",
+    "spyWord": "Passaporto"
+  },
+  {
+    "crewWord": "Valigia",
+    "spyWord": "Zaino"
+  },
+  {
+    "crewWord": "Tenda",
+    "spyWord": "Amaca"
+  },
+  {
+    "crewWord": "Falò",
+    "spyWord": "Barbecue"
+  },
+  {
+    "crewWord": "Festival",
+    "spyWord": "Concerto"
+  },
+  {
+    "crewWord": "Matrimonio",
+    "spyWord": "Funerale"
+  },
+  {
+    "crewWord": "Compleanno",
+    "spyWord": "Anniversario"
+  },
+  {
+    "crewWord": "Regalo",
+    "spyWord": "Cartolina"
+  },
+  {
+    "crewWord": "Festa",
+    "spyWord": "Riunione"
+  },
+  {
+    "crewWord": "Appuntamento",
+    "spyWord": "Colloquio"
+  },
+  {
+    "crewWord": "Lavoro",
+    "spyWord": "Hobby"
+  },
+  {
+    "crewWord": "Stipendio",
+    "spyWord": "Bonus"
+  },
+  {
+    "crewWord": "Capo",
+    "spyWord": "Dipendente"
+  },
+  {
+    "crewWord": "Ufficio",
+    "spyWord": "Fabbrica"
+  },
+  {
+    "crewWord": "Scuola",
+    "spyWord": "Università"
+  },
+  {
+    "crewWord": "Insegnante",
+    "spyWord": "Studente"
+  },
+  {
+    "crewWord": "Compiti",
+    "spyWord": "Esame"
+  },
+  {
+    "crewWord": "Penna",
+    "spyWord": "Matita"
+  },
+  {
+    "crewWord": "Libro",
+    "spyWord": "Quaderno"
+  },
+  {
+    "crewWord": "Gomma",
+    "spyWord": "Temperino"
+  },
+  {
+    "crewWord": "Calcolatrice",
+    "spyWord": "Righello"
+  },
+  {
+    "crewWord": "Scienze",
+    "spyWord": "Storia"
+  },
+  {
+    "crewWord": "Matematica",
+    "spyWord": "Geografia"
+  },
+  {
+    "crewWord": "Arte",
+    "spyWord": "Musica"
+  },
+  {
+    "crewWord": "Vacanza",
+    "spyWord": "Ferie"
+  },
+  {
+    "crewWord": "Estate",
+    "spyWord": "Primavera"
+  },
+  {
+    "crewWord": "Pioggia",
+    "spyWord": "Neve"
+  },
+  {
+    "crewWord": "Nuvola",
+    "spyWord": "Nebbia"
+  },
+  {
+    "crewWord": "Vento",
+    "spyWord": "Tempesta"
+  },
+  {
+    "crewWord": "Tuono",
+    "spyWord": "Fulmine"
+  },
+  {
+    "crewWord": "Fiume",
+    "spyWord": "Lago"
+  },
+  {
+    "crewWord": "Oceano",
+    "spyWord": "Stagno"
+  },
+  {
+    "crewWord": "Montagna",
+    "spyWord": "Collina"
+  },
+  {
+    "crewWord": "Isola",
+    "spyWord": "Penisola"
+  },
+  {
+    "crewWord": "Deserto",
+    "spyWord": "Giungla"
+  },
+  {
+    "crewWord": "Grotta",
+    "spyWord": "Valle"
+  },
+  {
+    "crewWord": "Fiore",
+    "spyWord": "Albero"
+  },
+  {
+    "crewWord": "Erba",
+    "spyWord": "Cespuglio"
+  },
+  {
+    "crewWord": "Seme",
+    "spyWord": "Frutto"
+  },
+  {
+    "crewWord": "Verdura",
+    "spyWord": "Erba aromatica"
+  },
+  {
+    "crewWord": "Sale",
+    "spyWord": "Pepe"
+  },
+  {
+    "crewWord": "Zucchero",
+    "spyWord": "Miele"
+  },
+  {
+    "crewWord": "Burro",
+    "spyWord": "Olio"
+  },
+  {
+    "crewWord": "Pane",
+    "spyWord": "Toast"
+  },
+  {
+    "crewWord": "Torta",
+    "spyWord": "Biscotto"
+  },
+  {
+    "crewWord": "Gelato",
+    "spyWord": "Yogurt"
+  },
+  {
+    "crewWord": "Succo",
+    "spyWord": "Frullato"
+  },
+  {
+    "crewWord": "Birra",
+    "spyWord": "Vino"
+  },
+  {
+    "crewWord": "Cocktail",
+    "spyWord": "Analcolico"
+  },
+  {
+    "crewWord": "Ristorante",
+    "spyWord": "Bar"
+  },
+  {
+    "crewWord": "Cameriere",
+    "spyWord": "Hostess"
+  },
+  {
+    "crewWord": "Menù",
+    "spyWord": "Scontrino"
+  },
+  {
+    "crewWord": "Contanti",
+    "spyWord": "Carta"
+  },
+  {
+    "crewWord": "Moneta",
+    "spyWord": "Banconota"
+  },
+  {
+    "crewWord": "Banca",
+    "spyWord": "Bancomat"
+  },
+  {
+    "crewWord": "Prestito",
+    "spyWord": "Debito"
+  },
+  {
+    "crewWord": "Affitto",
+    "spyWord": "Mutuo"
+  },
+  {
+    "crewWord": "Casa",
+    "spyWord": "Appartamento"
+  },
+  {
+    "crewWord": "Stanza",
+    "spyWord": "Corridoio"
+  },
+  {
+    "crewWord": "Vicino",
+    "spyWord": "Padrone di casa"
+  },
+  {
+    "crewWord": "Famiglia",
+    "spyWord": "Amico"
+  },
+  {
+    "crewWord": "Ospite",
+    "spyWord": "Padrone"
+  },
+  {
+    "crewWord": "Neonato",
+    "spyWord": "Bambino piccolo"
+  },
+  {
+    "crewWord": "Bambino",
+    "spyWord": "Adolescente"
+  },
+  {
+    "crewWord": "Adulto",
+    "spyWord": "Anziano"
+  },
+  {
+    "crewWord": "Uomo",
+    "spyWord": "Donna"
+  },
+  {
+    "crewWord": "Ragazzo",
+    "spyWord": "Ragazza"
+  },
+  {
+    "crewWord": "Marito",
+    "spyWord": "Moglie"
+  },
+  {
+    "crewWord": "Amore",
+    "spyWord": "Amicizia"
+  },
+  {
+    "crewWord": "Felice",
+    "spyWord": "Triste"
+  },
+  {
+    "crewWord": "Arrabbiato",
+    "spyWord": "Calmo"
+  },
+  {
+    "crewWord": "Paura",
+    "spyWord": "Coraggio"
+  },
+  {
+    "crewWord": "Speranza",
+    "spyWord": "Sogno"
+  },
+  {
+    "crewWord": "Fortuna",
+    "spyWord": "Destino"
+  },
+  {
+    "crewWord": "Verità",
+    "spyWord": "Voce"
+  },
+  {
+    "crewWord": "Barzelletta",
+    "spyWord": "Scherzo"
+  },
+  {
+    "crewWord": "Storia",
+    "spyWord": "Leggenda"
+  },
+  {
+    "crewWord": "Mito",
+    "spyWord": "Favola"
+  },
+  {
+    "crewWord": "Eroe",
+    "spyWord": "Cattivo"
+  },
+  {
+    "crewWord": "Principe",
+    "spyWord": "Principessa"
+  },
+  {
+    "crewWord": "Cavaliere",
+    "spyWord": "Mago"
+  },
+  {
+    "crewWord": "Drago",
+    "spyWord": "Unicorno"
+  },
+  {
+    "crewWord": "Zombie",
+    "spyWord": "Vampiro"
+  },
+  {
+    "crewWord": "Fantasma",
+    "spyWord": "Strega"
+  },
+  {
+    "crewWord": "Babbo Natale",
+    "spyWord": "Elfo"
+  },
+  {
+    "crewWord": "Natale",
+    "spyWord": "Halloween"
+  },
+  {
+    "crewWord": "Mattina",
+    "spyWord": "Sera"
+  },
+  {
+    "crewWord": "Alba",
+    "spyWord": "Tramonto"
+  },
+  {
+    "crewWord": "Oggi",
+    "spyWord": "Domani"
+  },
+  {
+    "crewWord": "Ieri",
+    "spyWord": "Weekend"
+  },
+  {
+    "crewWord": "Settimana",
+    "spyWord": "Mese"
+  },
+  {
+    "crewWord": "Anno",
+    "spyWord": "Decennio"
+  },
+  {
+    "crewWord": "Colazione",
+    "spyWord": "Pranzo"
+  },
+  {
+    "crewWord": "Cena",
+    "spyWord": "Spuntino"
+  },
+  {
+    "crewWord": "Affamato",
+    "spyWord": "Assetato"
+  },
+  {
+    "crewWord": "Caldo",
+    "spyWord": "Freddo"
+  },
+  {
+    "crewWord": "Tiepido",
+    "spyWord": "Fresco"
+  },
+  {
+    "crewWord": "Bagnato",
+    "spyWord": "Asciutto"
+  },
+  {
+    "crewWord": "Pulito",
+    "spyWord": "Sporco"
+  },
+  {
+    "crewWord": "Nuovo",
+    "spyWord": "Vecchio"
+  },
+  {
+    "crewWord": "Veloce",
+    "spyWord": "Lento"
+  },
+  {
+    "crewWord": "Rumoroso",
+    "spyWord": "Silenzioso"
+  },
+  {
+    "crewWord": "Grande",
+    "spyWord": "Piccolo"
+  },
+  {
+    "crewWord": "Alto",
+    "spyWord": "Basso"
+  },
+  {
+    "crewWord": "Largo",
+    "spyWord": "Stretto"
+  },
+  {
+    "crewWord": "Chiaro",
+    "spyWord": "Scuro"
+  },
+  {
+    "crewWord": "Pesante",
+    "spyWord": "Leggero"
+  },
+  {
+    "crewWord": "Forte",
+    "spyWord": "Debole"
+  },
+  {
+    "crewWord": "Ricco",
+    "spyWord": "Povero"
+  },
+  {
+    "crewWord": "Intelligente",
+    "spyWord": "Astuto"
+  },
+  {
+    "crewWord": "Divertente",
+    "spyWord": "Buffo"
+  },
+  {
+    "crewWord": "Coraggioso",
+    "spyWord": "Audace"
+  },
+  {
+    "crewWord": "Gentile",
+    "spyWord": "Buono"
+  },
+  {
+    "crewWord": "Pigro",
+    "spyWord": "Impegnato"
+  },
+  {
+    "crewWord": "Presto",
+    "spyWord": "Tardi"
+  },
+  {
+    "crewWord": "Sinistra",
+    "spyWord": "Destra"
+  },
+  {
+    "crewWord": "Nord",
+    "spyWord": "Sud"
+  },
+  {
+    "crewWord": "Città",
+    "spyWord": "Paese"
+  },
+  {
+    "crewWord": "Via",
+    "spyWord": "Viale"
+  },
+  {
+    "crewWord": "Ponte",
+    "spyWord": "Galleria"
+  },
+  {
+    "crewWord": "Traffico",
+    "spyWord": "Parcheggio"
+  },
+  {
+    "crewWord": "Polizia",
+    "spyWord": "Pompiere"
+  },
+  {
+    "crewWord": "Medico",
+    "spyWord": "Infermiera"
+  },
+  {
+    "crewWord": "Avvocato",
+    "spyWord": "Giudice"
+  },
+  {
+    "crewWord": "Pilota",
+    "spyWord": "Capitano"
+  },
+  {
+    "crewWord": "Artista",
+    "spyWord": "Designer"
+  },
+  {
+    "crewWord": "Cantante",
+    "spyWord": "Ballerino"
+  },
+  {
+    "crewWord": "Partita",
+    "spyWord": "Incontro"
+  },
+  {
+    "crewWord": "Indovinello",
+    "spyWord": "Enigma"
+  },
+  {
+    "crewWord": "Videogioco",
+    "spyWord": "Sala giochi"
+  }
+]

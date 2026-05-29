@@ -1,52 +1,29 @@
 import type { WordPack } from "../types";
 
+import generalPairs from "../data/it/general.json";
+import foodPairs from "../data/it/food.json";
+import animalsPairs from "../data/it/animals.json";
+import placesPairs from "../data/it/places.json";
+
 export const italianWordPacks: WordPack[] = [
   {
     id: "general",
     nameKey: "impostor.packs.general",
-    pairs: [
-      { crewWord: "Pizza", spyWord: "Pasta" },
-      { crewWord: "Spiaggia", spyWord: "Piscina" },
-      { crewWord: "Caffè", spyWord: "Tè" },
-      { crewWord: "Film", spyWord: "Serie" },
-      { crewWord: "Treno", spyWord: "Autobus" },
-      { crewWord: "Inverno", spyWord: "Autunno" },
-    ],
+    pairs: generalPairs,
   },
   {
     id: "food",
     nameKey: "impostor.packs.food",
-    pairs: [
-      { crewWord: "Sushi", spyWord: "Sashimi" },
-      { crewWord: "Hamburger", spyWord: "Panino" },
-      { crewWord: "Cioccolato", spyWord: "Caramello" },
-      { crewWord: "Insalata", spyWord: "Zuppa" },
-      { crewWord: "Bistecca", spyWord: "Costine" },
-      { crewWord: "Limonata", spyWord: "Succo" },
-    ],
+    pairs: foodPairs,
   },
   {
     id: "animals",
     nameKey: "impostor.packs.animals",
-    pairs: [
-      { crewWord: "Cane", spyWord: "Lupo" },
-      { crewWord: "Gatto", spyWord: "Lince" },
-      { crewWord: "Aquila", spyWord: "Falco" },
-      { crewWord: "Squalo", spyWord: "Delfino" },
-      { crewWord: "Orso", spyWord: "Panda" },
-      { crewWord: "Rana", spyWord: "Rospo" },
-    ],
+    pairs: animalsPairs,
   },
   {
     id: "places",
     nameKey: "impostor.packs.places",
-    pairs: [
-      { crewWord: "Parigi", spyWord: "Londra" },
-      { crewWord: "Museo", spyWord: "Galleria" },
-      { crewWord: "Hotel", spyWord: "Ostello" },
-      { crewWord: "Foresta", spyWord: "Parco" },
-      { crewWord: "Aeroporto", spyWord: "Stazione" },
-      { crewWord: "Biblioteca", spyWord: "Libreria" },
-    ],
+    pairs: placesPairs,
   },
 ];

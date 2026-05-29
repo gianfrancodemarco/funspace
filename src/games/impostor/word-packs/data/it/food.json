@@ -1,0 +1,806 @@
+[
+  {
+    "crewWord": "Sushi",
+    "spyWord": "Sashimi"
+  },
+  {
+    "crewWord": "Hamburger",
+    "spyWord": "Panino"
+  },
+  {
+    "crewWord": "Cioccolato",
+    "spyWord": "Caramello"
+  },
+  {
+    "crewWord": "Insalata",
+    "spyWord": "Zuppa"
+  },
+  {
+    "crewWord": "Bistecca",
+    "spyWord": "Costine"
+  },
+  {
+    "crewWord": "Limonata",
+    "spyWord": "Succo"
+  },
+  {
+    "crewWord": "Pizza",
+    "spyWord": "Calzone"
+  },
+  {
+    "crewWord": "Pasta",
+    "spyWord": "Risotto"
+  },
+  {
+    "crewWord": "Ramen",
+    "spyWord": "Udon"
+  },
+  {
+    "crewWord": "Taco",
+    "spyWord": "Burrito"
+  },
+  {
+    "crewWord": "Nachos",
+    "spyWord": "Quesadilla"
+  },
+  {
+    "crewWord": "Curry",
+    "spyWord": "Stufato"
+  },
+  {
+    "crewWord": "Falafel",
+    "spyWord": "Hummus"
+  },
+  {
+    "crewWord": "Bagel",
+    "spyWord": "Muffin"
+  },
+  {
+    "crewWord": "Cornetto",
+    "spyWord": "Brioche"
+  },
+  {
+    "crewWord": "Ciambella",
+    "spyWord": "Cupcake"
+  },
+  {
+    "crewWord": "Torta",
+    "spyWord": "Crostata"
+  },
+  {
+    "crewWord": "Brownie",
+    "spyWord": "Blondie"
+  },
+  {
+    "crewWord": "Pancake",
+    "spyWord": "Waffle"
+  },
+  {
+    "crewWord": "Frittata",
+    "spyWord": "Strapazzata"
+  },
+  {
+    "crewWord": "Pancetta",
+    "spyWord": "Prosciutto"
+  },
+  {
+    "crewWord": "Salsiccia",
+    "spyWord": "Wurstel"
+  },
+  {
+    "crewWord": "Polpetta",
+    "spyWord": "Hamburger"
+  },
+  {
+    "crewWord": "Pollo",
+    "spyWord": "Tacchino"
+  },
+  {
+    "crewWord": "Ali di pollo",
+    "spyWord": "Nuggets"
+  },
+  {
+    "crewWord": "Pesce",
+    "spyWord": "Gambero"
+  },
+  {
+    "crewWord": "Aragosta",
+    "spyWord": "Granchio"
+  },
+  {
+    "crewWord": "Ostrica",
+    "spyWord": "Cozza"
+  },
+  {
+    "crewWord": "Caviale",
+    "spyWord": "Uova di pesce"
+  },
+  {
+    "crewWord": "Tonno",
+    "spyWord": "Salmone"
+  },
+  {
+    "crewWord": "Sardina",
+    "spyWord": "Acciuga"
+  },
+  {
+    "crewWord": "Sottaceto",
+    "spyWord": "Oliva"
+  },
+  {
+    "crewWord": "Cipolla",
+    "spyWord": "Aglio"
+  },
+  {
+    "crewWord": "Pomodoro",
+    "spyWord": "Peperone"
+  },
+  {
+    "crewWord": "Cetriolo",
+    "spyWord": "Zucchina"
+  },
+  {
+    "crewWord": "Carota",
+    "spyWord": "Sedano"
+  },
+  {
+    "crewWord": "Patata",
+    "spyWord": "Patata dolce"
+  },
+  {
+    "crewWord": "Mais",
+    "spyWord": "Piselli"
+  },
+  {
+    "crewWord": "Fagioli",
+    "spyWord": "Lenticchie"
+  },
+  {
+    "crewWord": "Riso",
+    "spyWord": "Quinoa"
+  },
+  {
+    "crewWord": "Tagliatelle",
+    "spyWord": "Vermicelli"
+  },
+  {
+    "crewWord": "Pane",
+    "spyWord": "Panino"
+  },
+  {
+    "crewWord": "Toast",
+    "spyWord": "Cracker"
+  },
+  {
+    "crewWord": "Formaggio",
+    "spyWord": "Burro"
+  },
+  {
+    "crewWord": "Panna",
+    "spyWord": "Latte"
+  },
+  {
+    "crewWord": "Yogurt",
+    "spyWord": "Kefir"
+  },
+  {
+    "crewWord": "Gelato",
+    "spyWord": "Sorbetto"
+  },
+  {
+    "crewWord": "Gelato artigianale",
+    "spyWord": "Frozen yogurt"
+  },
+  {
+    "crewWord": "Budino",
+    "spyWord": "Crema"
+  },
+  {
+    "crewWord": "Marmellata",
+    "spyWord": "Confettura"
+  },
+  {
+    "crewWord": "Miele",
+    "spyWord": "Sciroppo"
+  },
+  {
+    "crewWord": "Zucchero",
+    "spyWord": "Stevia"
+  },
+  {
+    "crewWord": "Sale",
+    "spyWord": "Spezie"
+  },
+  {
+    "crewWord": "Pepe",
+    "spyWord": "Paprika"
+  },
+  {
+    "crewWord": "Basilico",
+    "spyWord": "Origano"
+  },
+  {
+    "crewWord": "Cannella",
+    "spyWord": "Noce moscata"
+  },
+  {
+    "crewWord": "Vaniglia",
+    "spyWord": "Mandorla"
+  },
+  {
+    "crewWord": "Menta",
+    "spyWord": "Liquirizia"
+  },
+  {
+    "crewWord": "Limone",
+    "spyWord": "Lime"
+  },
+  {
+    "crewWord": "Arancia",
+    "spyWord": "Pompelmo"
+  },
+  {
+    "crewWord": "Mela",
+    "spyWord": "Pera"
+  },
+  {
+    "crewWord": "Pesca",
+    "spyWord": "Prugna"
+  },
+  {
+    "crewWord": "Ciliegia",
+    "spyWord": "Frutto di bosco"
+  },
+  {
+    "crewWord": "Fragola",
+    "spyWord": "Lampone"
+  },
+  {
+    "crewWord": "Mirtillo",
+    "spyWord": "Mora"
+  },
+  {
+    "crewWord": "Uva",
+    "spyWord": "Uvetta"
+  },
+  {
+    "crewWord": "Anguria",
+    "spyWord": "Melone"
+  },
+  {
+    "crewWord": "Ananas",
+    "spyWord": "Mango"
+  },
+  {
+    "crewWord": "Banana",
+    "spyWord": "Platano"
+  },
+  {
+    "crewWord": "Cocco",
+    "spyWord": "Avocado"
+  },
+  {
+    "crewWord": "Kiwi",
+    "spyWord": "Frutto della passione"
+  },
+  {
+    "crewWord": "Caffè",
+    "spyWord": "Espresso"
+  },
+  {
+    "crewWord": "Caffellatte",
+    "spyWord": "Cappuccino"
+  },
+  {
+    "crewWord": "Tè",
+    "spyWord": "Matcha"
+  },
+  {
+    "crewWord": "Cioccolata calda",
+    "spyWord": "Mocaccino"
+  },
+  {
+    "crewWord": "Bibita",
+    "spyWord": "Acqua frizzante"
+  },
+  {
+    "crewWord": "Cola",
+    "spyWord": "Birra alla radice"
+  },
+  {
+    "crewWord": "Birra",
+    "spyWord": "Sidro"
+  },
+  {
+    "crewWord": "Vino",
+    "spyWord": "Spumante"
+  },
+  {
+    "crewWord": "Whisky",
+    "spyWord": "Brandy"
+  },
+  {
+    "crewWord": "Vodka",
+    "spyWord": "Gin"
+  },
+  {
+    "crewWord": "Rum",
+    "spyWord": "Tequila"
+  },
+  {
+    "crewWord": "Martini",
+    "spyWord": "Margarita"
+  },
+  {
+    "crewWord": "Mojito",
+    "spyWord": "Daiquiri"
+  },
+  {
+    "crewWord": "Frullato",
+    "spyWord": "Milkshake"
+  },
+  {
+    "crewWord": "Acqua",
+    "spyWord": "Acqua di cocco"
+  },
+  {
+    "crewWord": "Brodo",
+    "spyWord": "Fondo"
+  },
+  {
+    "crewWord": "Sugo",
+    "spyWord": "Salsa"
+  },
+  {
+    "crewWord": "Ketchup",
+    "spyWord": "Senape"
+  },
+  {
+    "crewWord": "Maionese",
+    "spyWord": "Aioli"
+  },
+  {
+    "crewWord": "Salsa",
+    "spyWord": "Guacamole"
+  },
+  {
+    "crewWord": "Crema spalmabile",
+    "spyWord": "Paté"
+  },
+  {
+    "crewWord": "Patatine",
+    "spyWord": "Popcorn"
+  },
+  {
+    "crewWord": "Pretzel",
+    "spyWord": "Crostoni"
+  },
+  {
+    "crewWord": "Mix di frutta secca",
+    "spyWord": "Granola"
+  },
+  {
+    "crewWord": "Cereali",
+    "spyWord": "Porridge"
+  },
+  {
+    "crewWord": "Barretta",
+    "spyWord": "Barretta proteica"
+  },
+  {
+    "crewWord": "Minestra",
+    "spyWord": "Chowder"
+  },
+  {
+    "crewWord": "Chili",
+    "spyWord": "Gumbo"
+  },
+  {
+    "crewWord": "Paella",
+    "spyWord": "Jambalaya"
+  },
+  {
+    "crewWord": "Lasagne",
+    "spyWord": "Cannelloni"
+  },
+  {
+    "crewWord": "Ravioli",
+    "spyWord": "Gnocchi"
+  },
+  {
+    "crewWord": "Raviolo",
+    "spyWord": "Wonton"
+  },
+  {
+    "crewWord": "Involtino primavera",
+    "spyWord": "Involtino"
+  },
+  {
+    "crewWord": "Samosa",
+    "spyWord": "Pakora"
+  },
+  {
+    "crewWord": "Kebab",
+    "spyWord": "Shawarma"
+  },
+  {
+    "crewWord": "Gyros",
+    "spyWord": "Souvlaki"
+  },
+  {
+    "crewWord": "Pho",
+    "spyWord": "Banh Mi"
+  },
+  {
+    "crewWord": "Pad Thai",
+    "spyWord": "Riso fritto"
+  },
+  {
+    "crewWord": "Teriyaki",
+    "spyWord": "Tempura"
+  },
+  {
+    "crewWord": "Kimchi",
+    "spyWord": "Crauti"
+  },
+  {
+    "crewWord": "Insalata di cavolo",
+    "spyWord": "Coleslaw"
+  },
+  {
+    "crewWord": "Caesar",
+    "spyWord": "Cobb"
+  },
+  {
+    "crewWord": "Greek salad",
+    "spyWord": "Caprese"
+  },
+  {
+    "crewWord": "Bruschetta",
+    "spyWord": "Crostino"
+  },
+  {
+    "crewWord": "Fonduta",
+    "spyWord": "Raclette"
+  },
+  {
+    "crewWord": "Tagliere",
+    "spyWord": "Antipasto"
+  },
+  {
+    "crewWord": "Buffet",
+    "spyWord": "Banchetto"
+  },
+  {
+    "crewWord": "Pranzo",
+    "spyWord": "Cena"
+  },
+  {
+    "crewWord": "Antipasto",
+    "spyWord": "Portata"
+  },
+  {
+    "crewWord": "Dolce",
+    "spyWord": "Pasticceria"
+  },
+  {
+    "crewWord": "Caramella",
+    "spyWord": "Gomma"
+  },
+  {
+    "crewWord": "Lecca-lecca",
+    "spyWord": "Gomma da masticare"
+  },
+  {
+    "crewWord": "Biscotto",
+    "spyWord": "Frollino"
+  },
+  {
+    "crewWord": "Macaron",
+    "spyWord": "Éclair"
+  },
+  {
+    "crewWord": "Tiramisù",
+    "spyWord": "Cheesecake"
+  },
+  {
+    "crewWord": "Cannolo",
+    "spyWord": "Baklava"
+  },
+  {
+    "crewWord": "Crêpe",
+    "spyWord": "Crêpe Suzette"
+  },
+  {
+    "crewWord": "Fudge",
+    "spyWord": "Toffee"
+  },
+  {
+    "crewWord": "Tartufo",
+    "spyWord": "Pralina"
+  },
+  {
+    "crewWord": "Marshmallow",
+    "spyWord": "Meringa"
+  },
+  {
+    "crewWord": "Panna montata",
+    "spyWord": "Glassa"
+  },
+  {
+    "crewWord": "Vegano",
+    "spyWord": "Vegetariano"
+  },
+  {
+    "crewWord": "Piccante",
+    "spyWord": "Mite"
+  },
+  {
+    "crewWord": "Dolce",
+    "spyWord": "Salato"
+  },
+  {
+    "crewWord": "Fritto",
+    "spyWord": "Al forno"
+  },
+  {
+    "crewWord": "Fresco",
+    "spyWord": "Surgelato"
+  },
+  {
+    "crewWord": "Panetteria",
+    "spyWord": "Gastronomia"
+  },
+  {
+    "crewWord": "Asporto",
+    "spyWord": "Consegna"
+  },
+  {
+    "crewWord": "Picnic",
+    "spyWord": "Potluck"
+  },
+  {
+    "crewWord": "Food truck",
+    "spyWord": "Chiosco"
+  },
+  {
+    "crewWord": "Dim sum",
+    "spyWord": "Hot pot"
+  },
+  {
+    "crewWord": "Tapas",
+    "spyWord": "Meze"
+  },
+  {
+    "crewWord": "Tofu",
+    "spyWord": "Tempeh"
+  },
+  {
+    "crewWord": "Salsa di soia",
+    "spyWord": "Tamari"
+  },
+  {
+    "crewWord": "Salsa piccante",
+    "spyWord": "Sriracha"
+  },
+  {
+    "crewWord": "Olio d'oliva",
+    "spyWord": "Olio di semi"
+  },
+  {
+    "crewWord": "Farina",
+    "spyWord": "Farina di mais"
+  },
+  {
+    "crewWord": "Marinata",
+    "spyWord": "Salamoia"
+  },
+  {
+    "crewWord": "Prosciutto crudo",
+    "spyWord": "Salame"
+  },
+  {
+    "crewWord": "Calamari",
+    "spyWord": "Polpo"
+  },
+  {
+    "crewWord": "Gazpacho",
+    "spyWord": "Bisque"
+  },
+  {
+    "crewWord": "Vongola",
+    "spyWord": "Cozza"
+  },
+  {
+    "crewWord": "Scallop",
+    "spyWord": "Abalone"
+  },
+  {
+    "crewWord": "Halibut",
+    "spyWord": "Merluzzo"
+  },
+  {
+    "crewWord": "Trota",
+    "spyWord": "Persico"
+  },
+  {
+    "crewWord": "Anatra",
+    "spyWord": "Oca"
+  },
+  {
+    "crewWord": "Agnello",
+    "spyWord": "Montone"
+  },
+  {
+    "crewWord": "Cervo",
+    "spyWord": "Bisonte"
+  },
+  {
+    "crewWord": "Quaglia",
+    "spyWord": "Fagiano"
+  },
+  {
+    "crewWord": "Uovo",
+    "spyWord": "Uovo di quaglia"
+  },
+  {
+    "crewWord": "Tuorlo",
+    "spyWord": "Albume"
+  },
+  {
+    "crewWord": "Strapazzata",
+    "spyWord": "In camicia"
+  },
+  {
+    "crewWord": "Sodo",
+    "spyWord": "Alla coque"
+  },
+  {
+    "crewWord": "Frittata",
+    "spyWord": "Quiche"
+  },
+  {
+    "crewWord": "Baguette",
+    "spyWord": "Ciabatta"
+  },
+  {
+    "crewWord": "Pane a lievitazione naturale",
+    "spyWord": "Segale"
+  },
+  {
+    "crewWord": "Pita",
+    "spyWord": "Naan"
+  },
+  {
+    "crewWord": "Tortilla",
+    "spyWord": "Wrap"
+  },
+  {
+    "crewWord": "Polenta",
+    "spyWord": "Grits"
+  },
+  {
+    "crewWord": "Couscous",
+    "spyWord": "Bulgur"
+  },
+  {
+    "crewWord": "Orzo",
+    "spyWord": "Miglio"
+  },
+  {
+    "crewWord": "Ceci",
+    "spyWord": "Fava"
+  },
+  {
+    "crewWord": "Edamame",
+    "spyWord": "Taccola"
+  },
+  {
+    "crewWord": "Carciofo",
+    "spyWord": "Asparago"
+  },
+  {
+    "crewWord": "Barbabietola",
+    "spyWord": "Ravanello"
+  },
+  {
+    "crewWord": "Rapa",
+    "spyWord": "Pastinaca"
+  },
+  {
+    "crewWord": "Porro",
+    "spyWord": "Scalogno"
+  },
+  {
+    "crewWord": "Cavolo riccio",
+    "spyWord": "Spinacio"
+  },
+  {
+    "crewWord": "Rucola",
+    "spyWord": "Lattuga"
+  },
+  {
+    "crewWord": "Indivia",
+    "spyWord": "Scarola"
+  },
+  {
+    "crewWord": "Finocchio",
+    "spyWord": "Aneto"
+  },
+  {
+    "crewWord": "Coriandolo",
+    "spyWord": "Prezzemolo"
+  },
+  {
+    "crewWord": "Timo",
+    "spyWord": "Rosmarino"
+  },
+  {
+    "crewWord": "Salvia",
+    "spyWord": "Alloro"
+  },
+  {
+    "crewWord": "Cardamomo",
+    "spyWord": "Chiodo di garofano"
+  },
+  {
+    "crewWord": "Zenzero",
+    "spyWord": "Curcuma"
+  },
+  {
+    "crewWord": "Peperoncino",
+    "spyWord": "Jalapeño"
+  },
+  {
+    "crewWord": "Habanero",
+    "spyWord": "Serrano"
+  },
+  {
+    "crewWord": "Acero",
+    "spyWord": "Agave"
+  },
+  {
+    "crewWord": "Melassa",
+    "spyWord": "Treacle"
+  },
+  {
+    "crewWord": "Cacao",
+    "spyWord": "Cacao in polvere"
+  },
+  {
+    "crewWord": "Chicco di caffè",
+    "spyWord": "Chicco espresso"
+  },
+  {
+    "crewWord": "Chai",
+    "spyWord": "Camomilla"
+  },
+  {
+    "crewWord": "Tè freddo",
+    "spyWord": "Tè dolce"
+  },
+  {
+    "crewWord": "Granita",
+    "spyWord": "Slurpee"
+  },
+  {
+    "crewWord": "Punch",
+    "spyWord": "Sangria"
+  },
+  {
+    "crewWord": "Vin brulé",
+    "spyWord": "Punch caldo"
+  },
+  {
+    "crewWord": "Eggnog",
+    "spyWord": "Toddy"
+  },
+  {
+    "crewWord": "Sake",
+    "spyWord": "Soju"
+  },
+  {
+    "crewWord": "Mezcal",
+    "spyWord": "Pulque"
+  }
+]
