@@ -1,0 +1,23 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+context: |
+  FunSpace: in-person party game aggregator + playable games (Hangman, Impostor, Never Have I Ever, etc.).
+  No registration; frontend-only v1; localStorage via StoragePort abstraction (backend later).
+  Single shared phone is the default UX (pass-the-phone reveal loop); multi-device is future-only.
+  Games support variants via presets + validated config + composable rule modules.
+  Stack: Next.js (App Router), React, TypeScript, Tailwind, shadcn/ui, next-intl, XState, Zod.
+  i18n from day one; English (en) is the launch locale.
+  SEO required from day one (metadata, sitemap, robots).
+  Full product decisions: docs/product-vision.md
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours

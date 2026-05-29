@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "siteName": "FunSpace",
+    "defaultTitle": "FunSpace — Party Games for Friends",
+    "defaultDescription": "In-person party games you can play with a single phone. No signup required.",
+    "aboutTitle": "About FunSpace",
+    "aboutDescription": "Learn about FunSpace — in-person party games for friends, playable on one shared phone."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "heroTitle": "FunSpace",
+    "heroTagline": "Party games for friends, one phone",
+    "gamesHeading": "Games",
+    "gamesSubheading": "Pick a game and play together in the same room."
+  },
+  "about": {
+    "title": "About FunSpace",
+    "description": "FunSpace is a collection of in-person party games you can play with friends using a single shared phone. No accounts, no downloads — just open the site and play.",
+    "features": {
+      "title": "What we offer",
+      "catalog": "A growing catalog of word-based and social games",
+      "singlePhone": "Every game works on one shared device",
+      "noSignup": "No registration required"
+    }
+  },
+  "games": {
+    "comingSoon": "Coming soon",
+    "players": "{min}–{max} players",
+    "impostor": {
+      "name": "Impostor",
+      "description": "Find the impostor who doesn't know the secret word. Pass the phone to reveal roles privately."
+    },
+    "hangman": {
+      "name": "Hangman",
+      "description": "Guess the word letter by letter before the drawing is complete."
+    },
+    "neverHaveIEver": {
+      "name": "Never Have I Ever",
+      "description": "Read prompts aloud and learn surprising things about your friends."
+    }
+  },
+  "tags": {
+    "deduction": "Deduction",
+    "bluff": "Bluff",
+    "words": "Words",
+    "social": "Social",
+    "quick": "Quick"
+  }
+}
