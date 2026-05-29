@@ -34,7 +34,7 @@ jobs:
         run: npm run build
         env:
           GITHUB_PAGES: "true"
-          NEXT_PUBLIC_SITE_URL: https://gianfrancodemarco.github.io/funspace
+          NEXT_PUBLIC_SITE_URL: https://funspace.gianfrancodemarco.dev
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

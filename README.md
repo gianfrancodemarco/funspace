@@ -2,7 +2,7 @@
 
 In-person party games for friends — playable on a single shared phone. No signup required.
 
-**Live site:** [gianfrancodemarco.github.io/funspace/en](https://gianfrancodemarco.github.io/funspace/en)
+**Live site:** [funspace.gianfrancodemarco.dev/en](https://funspace.gianfrancodemarco.dev/en)
 
 [![CI](https://github.com/gianfrancodemarco/funspace/actions/workflows/ci.yml/badge.svg)](https://github.com/gianfrancodemarco/funspace/actions/workflows/ci.yml)
 [![Deploy](https://github.com/gianfrancodemarco/funspace/actions/workflows/deploy.yml/badge.svg)](https://github.com/gianfrancodemarco/funspace/actions/workflows/deploy.yml)
@@ -47,12 +47,12 @@ Pushes to **`main`** also deploy the static site to **GitHub Pages** via `.githu
 
 1. Open repository **Settings → Pages**
 2. Set **Source** to **GitHub Actions**
-3. Merge to `main` — the deploy workflow publishes to `https://gianfrancodemarco.github.io/funspace/`
+3. Merge to `main` — the deploy workflow publishes to [funspace.gianfrancodemarco.dev](https://funspace.gianfrancodemarco.dev)
 
 ### Local GitHub Pages build
 
 ```bash
-GITHUB_PAGES=true NEXT_PUBLIC_SITE_URL=https://gianfrancodemarco.github.io/funspace npm run build
+GITHUB_PAGES=true NEXT_PUBLIC_SITE_URL=https://funspace.gianfrancodemarco.dev npm run build
 ```
 
 Static output is written to `out/`. Serve locally with any static file server rooted at `out/`.
