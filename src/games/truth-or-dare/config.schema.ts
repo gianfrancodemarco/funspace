@@ -3,7 +3,6 @@ import { z } from "zod";
 export const TruthOrDareConfigSchema = z.object({
   promptPackIds: z.array(z.string()).min(1),
   promptMode: z.enum(["both", "truth_only", "dare_only", "random"]),
-  showPlayerPicker: z.boolean(),
   locale: z.string().min(2),
 });
 

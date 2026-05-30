@@ -56,7 +56,6 @@ export function TruthOrDareSetupView({
   const [presetId, setPresetId] = useState<TruthOrDarePresetId>("classic");
   const [selectedPackIds, setSelectedPackIds] = useState<string[]>([]);
   const [promptMode, setPromptMode] = useState<PromptMode>("both");
-  const [showPlayerPicker, setShowPlayerPicker] = useState(false);
   const [spicyConfirmed, setSpicyConfirmed] = useState(false);
   const [pendingSpicy, setPendingSpicy] = useState(false);
   const [showValidation, setShowValidation] = useState(false);
@@ -70,7 +69,6 @@ export function TruthOrDareSetupView({
   useEffect(() => {
     setSelectedPackIds(getDefaultPromptPackIds(locale));
     setPromptMode("both");
-    setShowPlayerPicker(false);
     setSpicyConfirmed(false);
     setPendingSpicy(false);
   }, [locale]);
@@ -80,7 +78,6 @@ export function TruthOrDareSetupView({
     if (presetConfig) {
       setSelectedPackIds(presetConfig.promptPackIds);
       setPromptMode(presetConfig.promptMode);
-      setShowPlayerPicker(presetConfig.showPlayerPicker);
       setSpicyConfirmed(false);
       setPendingSpicy(false);
     }
@@ -105,7 +102,6 @@ export function TruthOrDareSetupView({
       {
         promptPackIds: selectedPackIds,
         promptMode,
-        showPlayerPicker,
         locale,
       },
       selectedCount,
@@ -120,7 +116,6 @@ export function TruthOrDareSetupView({
     promptMode,
     selectedCount,
     selectedPackIds,
-    showPlayerPicker,
   ]);
 
   const canStart = validationKey === null;
@@ -177,7 +172,6 @@ export function TruthOrDareSetupView({
       gameConfig: {
         promptPackIds: selectedPackIds,
         promptMode,
-        showPlayerPicker,
         locale,
       } satisfies TruthOrDareConfig,
     });
@@ -282,21 +276,6 @@ export function TruthOrDareSetupView({
               </button>
             ))}
           </div>
-        </section>
-
-        <section className="space-y-3">
-          <label className="flex cursor-pointer items-center gap-3 rounded-xl border px-4 py-3">
-            <input
-              type="checkbox"
-              checked={showPlayerPicker}
-              onChange={() => {
-                setShowPlayerPicker((current) => !current);
-                setPresetId("custom");
-              }}
-              className="size-4 accent-[var(--primary)]"
-            />
-            <span className="font-medium">{t("playerPickerToggle")}</span>
-          </label>
         </section>
 
         <section className="space-y-3">

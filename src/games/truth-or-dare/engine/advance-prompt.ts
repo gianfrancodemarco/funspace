@@ -6,6 +6,35 @@ import type {
 
 export type AdvanceResult = "continue" | "complete";
 
+export function createInitialSkipCounts(
+  playerIds: string[],
+): Record<string, number> {
+  return Object.fromEntries(playerIds.map((id) => [id, 0]));
+}
+
+export function getCurrentPlayerId(
+  state: TruthOrDareGameState,
+): string | null {
+  if (state.turnOrder.length === 0) {
+    return null;
+  }
+
+  return state.turnOrder[state.currentTurnIndex] ?? null;
+}
+
+export function advanceTurn(
+  state: TruthOrDareGameState,
+): TruthOrDareGameState {
+  if (state.turnOrder.length === 0) {
+    return state;
+  }
+
+  return {
+    ...state,
+    currentTurnIndex: (state.currentTurnIndex + 1) % state.turnOrder.length,
+  };
+}
+
 export function isTypeAvailable(
   state: TruthOrDareGameState,
   type: PromptType,
@@ -144,6 +173,7 @@ export function createGameState(
   config: TruthOrDareConfig,
   truthDeck: string[],
   dareDeck: string[],
+  playerIds: string[],
 ): TruthOrDareGameState {
   const base: TruthOrDareGameState = {
     config,
@@ -153,7 +183,9 @@ export function createGameState(
     dareIndex: 0,
     truthsPlayed: 0,
     daresPlayed: 0,
-    skippedCount: 0,
+    turnOrder: [...playerIds],
+    currentTurnIndex: 0,
+    skipCountsByPlayerId: createInitialSkipCounts(playerIds),
     status: "playing",
     turnPhase: "choosing",
   };
@@ -189,11 +221,22 @@ export function advancePrompt(
   }
 
   const type = state.currentType;
+  const currentPlayerId = getCurrentPlayerId(state);
   let nextState: TruthOrDareGameState = {
     ...state,
     currentType: undefined,
-    skippedCount: state.skippedCount + (options.skipped ? 1 : 0),
   };
+
+  if (options.skipped && currentPlayerId) {
+    nextState = {
+      ...nextState,
+      skipCountsByPlayerId: {
+        ...state.skipCountsByPlayerId,
+        [currentPlayerId]:
+          (state.skipCountsByPlayerId[currentPlayerId] ?? 0) + 1,
+      },
+    };
+  }
 
   if (type === "truth") {
     nextState = {
@@ -208,6 +251,8 @@ export function advancePrompt(
       daresPlayed: state.daresPlayed + (options.skipped ? 0 : 1),
     };
   }
+
+  nextState = advanceTurn(nextState);
 
   if (isSessionExhausted(nextState)) {
     return {
@@ -229,15 +274,5 @@ export function endSession(state: TruthOrDareGameState): TruthOrDareGameState {
     status: "complete",
     turnPhase: "choosing",
     currentType: undefined,
-  };
-}
-
-export function selectPlayer(
-  state: TruthOrDareGameState,
-  playerId: string | undefined,
-): TruthOrDareGameState {
-  return {
-    ...state,
-    selectedPlayerId: playerId,
   };
 }

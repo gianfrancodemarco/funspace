@@ -45,6 +45,11 @@ Truth or Dare SHALL provide complete in-app rules via the shared game rules syst
 - **WHEN** a user opens Truth or Dare rules
 - **THEN** the rules explain that the app shows Truth or Dare prompts, the group decides who participates, and there is no app-tracked winner
 
+#### Scenario: Truth or Dare rules describe turn rotation
+
+- **WHEN** a user opens Truth or Dare rules
+- **THEN** the rules explain that the app enforces round-robin turns and tracks skips per player
+
 ### Requirement: Shared rules section structure
 
 The application SHALL provide a shared rules presentation component that renders game rules in a fixed section order: goal, roles, how to play, and win conditions. Each section SHALL use visually distinct styling (cards, icons, or equivalent hierarchy) so content is scannable on mobile — not plain uppercase headings with unstyled bullet lists.

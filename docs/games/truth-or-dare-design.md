@@ -1,6 +1,6 @@
 # Truth or Dare — Game Design
 
-Social prompt game for FunSpace. One phone surfaces Truth or Dare prompts; the group picks who answers or acts.
+Social prompt game for FunSpace. One phone surfaces Truth or Dare prompts; the app enforces round-robin turns and tracks skips per player.
 
 **Related:** [Product Vision](../product-vision.md) · [Never Have I Ever Design](./never-have-i-ever-design.md) · [Games Roadmap](../games-roadmap.md)
 
@@ -8,7 +8,7 @@ Social prompt game for FunSpace. One phone surfaces Truth or Dare prompts; the g
 
 ## 1. Game Summary
 
-Truth or Dare is a **social party game** for 3–20 players around one shared phone. Each turn the app offers a **Truth** or **Dare** prompt (or picks one at random). The group decides who must answer honestly or perform the dare in person. The app is the **prompt moderator**, not a referee.
+Truth or Dare is a **social party game** for 3–20 players around one shared phone. Each turn the app assigns the **active player** in round-robin order and offers a **Truth** or **Dare** prompt (or picks one at random). The active player answers or performs the dare in person. The app is the **prompt moderator** and **turn tracker**, not a referee for physical completion.
 
 No private information — **no reveal phase**.
 
@@ -21,7 +21,7 @@ No private information — **no reveal phase**.
 | Minimum players | **3** |
 | Maximum players | **20** |
 
-Players are selected from the shared roster. Optional player picker highlights who is up for the current turn — the group decides, not the app.
+Players are selected from the shared roster. Turn order follows session player order; the app highlights whose turn it is each round.
 
 ---
 
@@ -34,7 +34,7 @@ There is no app-tracked winner. A session ends when:
 | **End session** | A player taps End session during play |
 | **Deck exhausted** | All applicable truth and/or dare pools are used up for the selected mode |
 
-The resolve screen celebrates **session complete** and shows truths and dares played.
+The resolve screen celebrates **session complete**, shows truths and dares played, and lists **skip counts per player**.
 
 ---
 
@@ -50,25 +50,25 @@ SETUP → PLAY (shared screen) → RESOLVE
 2. Choose preset (Classic, Silly night, Dares only, All ages) or Custom
 3. Select prompt packs (Classic, Silly — multi-select; Spicy 18+ opt-in with confirmation)
 4. Choose prompt mode: Both, Truth only, Dare only, or Random
-5. Toggle optional player picker
-6. App builds and shuffles separate truth and dare decks from selected locale packs
+5. App builds and shuffles separate truth and dare decks from selected locale packs
 
 ### Play
 
+- **Turn banner** — always shows the active player (round-robin)
 - **Both mode:** Truth / Dare choice each turn, then prompt
 - **Truth only / Dare only:** Prompt drawn automatically each turn
 - **Random mode:** App picks truth or dare each turn from non-exhausted pools
-- Optional player picker row when enabled
 - Progress indicator (truths and dares played)
-- **Next** — advance after the group has responded
-- **Skip** — advance without playing (still consumes the prompt)
+- **Next** — advance prompt and pass turn to next player
+- **Skip** — consume prompt without playing, increment active player's skip count, advance turn
 - **End session** — finish early and go to resolve
 
 ### Resolve
 
 - Session complete headline with win end animation
 - Truths played and dares played counts
-- Rematch (same players/config, newly shuffled decks) or exit
+- Per-player skip counts
+- Rematch (same players/config, newly shuffled decks, reset skips) or exit
 
 ---
 
@@ -78,7 +78,6 @@ SETUP → PLAY (shared screen) → RESOLVE
 TruthOrDareConfig {
   promptPackIds: string[]       // selected pack IDs; default: all non-adult
   promptMode: "both" | "truth_only" | "dare_only" | "random"
-  showPlayerPicker: boolean
   locale: string                // en | it
 }
 ```
@@ -119,8 +118,9 @@ Minimum ~25 truths and ~25 dares per pack for v1.
 
 ## 7. Non-Goals (v1)
 
-- In-app enforcement of completing truths or dares
-- Scoring, leaderboards, or session history
+- In-app enforcement of physically completing truths or dares
+- Scoring, leaderboards, or session history persistence
 - User-authored custom prompts
 - Multi-device play
 - Timed dares or countdown UI
+- Shuffled turn order (follow-up enhancement)

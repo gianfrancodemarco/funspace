@@ -429,7 +429,6 @@
       "playersSubtitle": "Select {min}–{max} players from your saved roster.",
       "presetsTitle": "Game style",
       "modesTitle": "Prompt mode",
-      "playerPickerToggle": "Show player picker during play",
       "packsTitle": "Prompt packs",
       "adultBadge": "18+",
       "start": "Start game",
@@ -442,8 +441,8 @@
       },
       "presetTooltips": {
         "classic": "Classic safe truths and dares with free choice each turn.",
-        "sillyNight": "Classic and Silly packs with optional player picker.",
-        "daresOnly": "Dares only — no truths, with player picker.",
+        "sillyNight": "Classic and Silly packs for a fun mix.",
+        "daresOnly": "Dares only — no truths.",
         "allAges": "All non-adult packs — family-friendly mix.",
         "custom": "Pick your own packs, mode, and options."
       },
@@ -473,6 +472,7 @@
     },
     "play": {
       "choosePrompt": "Truth or Dare?",
+      "currentTurn": "{name}'s turn",
       "truth": "Truth",
       "dare": "Dare",
       "playerPickerLabel": "Who's up?",
@@ -489,6 +489,7 @@
     "resolve": {
       "complete": "Session complete!",
       "summary": "You played {truths} truths and {dares} dares.",
+      "skips": "{count, plural, =0 {0 skips} =1 {1 skip} other {# skips}}",
       "rematch": "Play again",
       "exit": "Back to games"
     },
@@ -502,18 +503,18 @@
         "roles": {
           "title": "How it works",
           "items": {
-            "group": "The group — decides who answers or acts each turn. Optional player picker is just a visual cue.",
-            "player": "The active player — answers the truth or performs the dare chosen for that turn."
+            "group": "The group — plays together at the table while the app moderates turns.",
+            "player": "The active player — whose turn it is to answer the truth or perform the dare."
           }
         },
         "howToPlay": {
           "title": "How to play",
           "steps": {
             "1": "Choose players, packs, and prompt mode, then start.",
-            "2": "Each turn, pick Truth or Dare (or let the app choose in random mode).",
-            "3": "The group picks who must answer or act — the app does not enforce turns.",
-            "4": "Tap Next for another prompt, Skip to move on, or End session when you're done.",
-            "5": "Rematch shuffles fresh truth and dare decks with the same settings."
+            "2": "Each turn, the app shows whose turn it is in round-robin order.",
+            "3": "Pick Truth or Dare (or let the app choose in random mode), then respond at the table.",
+            "4": "Tap Next after the prompt is done, or Skip to pass — skips are tracked per player.",
+            "5": "End session anytime, or keep going until prompts run out. Rematch shuffles fresh decks."
           }
         },
         "winConditions": {

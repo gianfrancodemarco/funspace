@@ -30,7 +30,6 @@ const bothModeSession: GameSession = {
       config: {
         promptPackIds: ["classic"],
         promptMode: "both",
-        showPlayerPicker: true,
         locale: "en",
       },
       truthDeck: ["What is your biggest fear?", "What is your guilty pleasure?"],
@@ -39,7 +38,9 @@ const bothModeSession: GameSession = {
       dareIndex: 0,
       truthsPlayed: 0,
       daresPlayed: 0,
-      skippedCount: 0,
+      turnOrder: ["p1", "p2", "p3"],
+      currentTurnIndex: 0,
+      skipCountsByPlayerId: { p1: 0, p2: 0, p3: 0 },
       status: "playing",
       turnPhase: "choosing",
     },
@@ -54,7 +55,6 @@ const randomModeSession: GameSession = {
       config: {
         promptPackIds: ["classic"],
         promptMode: "random",
-        showPlayerPicker: false,
         locale: "en",
       },
       turnPhase: "showing",
@@ -71,6 +71,7 @@ describe("TruthOrDarePlayView", () => {
       </NextIntlClientProvider>,
     );
 
+    expect(screen.getByText("Alex's turn")).toBeInTheDocument();
     expect(screen.getByText("Truth or Dare?")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Truth" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Dare" })).toBeInTheDocument();
@@ -89,8 +90,28 @@ describe("TruthOrDarePlayView", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "Next prompt" }));
     expect(send).toHaveBeenCalled();
+    expect(screen.getByText("Blake's turn")).toBeInTheDocument();
     expect(screen.getByText("Truth or Dare?")).toBeInTheDocument();
     expect(onComplete).not.toHaveBeenCalled();
+  });
+
+  it("tracks skip for the active player and advances turn", () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <TruthOrDarePlayView session={bothModeSession} onComplete={vi.fn()} />
+      </NextIntlClientProvider>,
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "Truth" }));
+    fireEvent.click(screen.getByRole("button", { name: "Skip" }));
+
+    const patchCalls = send.mock.calls.filter(
+      ([event]) => event.type === "PATCH_SECRETS",
+    );
+    const nextState =
+      patchCalls[patchCalls.length - 1]?.[0].secrets[TRUTH_OR_DARE_STATE_KEY];
+    expect(nextState.skipCountsByPlayerId.p1).toBe(1);
+    expect(screen.getByText("Blake's turn")).toBeInTheDocument();
   });
 
   it("shows a prompt directly in random mode", () => {
@@ -102,6 +123,7 @@ describe("TruthOrDarePlayView", () => {
 
     expect(screen.getByText("What is your biggest fear?")).toBeInTheDocument();
     expect(screen.getByText("Truth")).toBeInTheDocument();
+    expect(screen.getByText("Alex's turn")).toBeInTheDocument();
   });
 
   it("completes the session when ending early", () => {

@@ -3,15 +3,17 @@ export { buildDecks } from "./build-decks";
 export { shuffleDeck } from "./shuffle-deck";
 export {
   advancePrompt,
+  advanceTurn,
   beginNextTurn,
   choosePromptType,
   createGameState,
+  createInitialSkipCounts,
   endSession,
   getAvailableTypes,
+  getCurrentPlayerId,
   getCurrentPrompt,
   isSessionExhausted,
   isTypeAvailable,
   pickRandomType,
-  selectPlayer,
   type AdvanceResult,
 } from "./advance-prompt";

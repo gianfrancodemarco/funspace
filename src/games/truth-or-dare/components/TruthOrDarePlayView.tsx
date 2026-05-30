@@ -5,18 +5,16 @@ import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import type { GamePlayProps } from "@/core/game-shell";
-import { useGameShell } from "@/core/game-shell";
-import { cn } from "@/lib/utils";
+import { getPlayerName, useGameShell } from "@/core/game-shell";
 
 import {
   advancePrompt,
   choosePromptType,
   endSession,
+  getCurrentPlayerId,
   getCurrentPrompt,
   isTypeAvailable,
-  selectPlayer,
 } from "../engine";
-import type { PromptType } from "../types";
 import {
   getTruthOrDareState,
   TRUTH_OR_DARE_STATE_KEY,
@@ -43,28 +41,12 @@ export function TruthOrDarePlayView({ session, onComplete }: GamePlayProps) {
   );
 
   const handleChooseType = useCallback(
-    (type: PromptType) => {
+    (type: "truth" | "dare") => {
       setState((current) => {
         if (!current) {
           return current;
         }
         const nextState = choosePromptType(current, type);
-        patchState(nextState);
-        return nextState;
-      });
-    },
-    [patchState],
-  );
-
-  const handleSelectPlayer = useCallback(
-    (playerId: string) => {
-      setState((current) => {
-        if (!current) {
-          return current;
-        }
-        const nextPlayerId =
-          current.selectedPlayerId === playerId ? undefined : playerId;
-        const nextState = selectPlayer(current, nextPlayerId);
         patchState(nextState);
         return nextState;
       });
@@ -117,6 +99,10 @@ export function TruthOrDarePlayView({ session, onComplete }: GamePlayProps) {
   const prompt = getCurrentPrompt(state);
   const isChoosing =
     state.turnPhase === "choosing" && state.config.promptMode === "both";
+  const currentPlayerId = getCurrentPlayerId(state);
+  const currentPlayerName = currentPlayerId
+    ? getPlayerName(session, currentPlayerId)
+    : null;
 
   return (
     <div className="space-y-6">
@@ -127,29 +113,12 @@ export function TruthOrDarePlayView({ session, onComplete }: GamePlayProps) {
         })}
       </p>
 
-      {state.config.showPlayerPicker && (
-        <section className="space-y-2">
-          <p className="text-muted-foreground text-center text-sm">
-            {t("playerPickerLabel")}
+      {currentPlayerName && (
+        <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3 text-center">
+          <p className="text-primary text-sm font-semibold">
+            {t("currentTurn", { name: currentPlayerName })}
           </p>
-          <div className="flex flex-wrap justify-center gap-2">
-            {session.players.map((player) => (
-              <button
-                key={player.id}
-                type="button"
-                onClick={() => handleSelectPlayer(player.id)}
-                className={cn(
-                  "rounded-full border px-3 py-1.5 text-sm font-medium transition-colors",
-                  state.selectedPlayerId === player.id
-                    ? "border-primary bg-primary/10 text-primary"
-                    : "hover:bg-muted/50",
-                )}
-              >
-                {player.name}
-              </button>
-            ))}
-          </div>
-        </section>
+        </div>
       )}
 
       {isChoosing ? (

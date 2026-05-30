@@ -38,9 +38,14 @@ export function TruthOrDareResolveView({
         {session.players.map((player) => (
           <li
             key={player.id}
-            className="rounded-xl border px-4 py-3 font-medium"
+            className="flex items-center justify-between rounded-xl border px-4 py-3"
           >
-            {player.name}
+            <span className="font-medium">{player.name}</span>
+            <span className="text-muted-foreground text-sm">
+              {t("skips", {
+                count: state.skipCountsByPlayerId[player.id] ?? 0,
+              })}
+            </span>
           </li>
         ))}
       </ul>

@@ -429,7 +429,6 @@
       "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
       "presetsTitle": "Stile di gioco",
       "modesTitle": "Modalità prompt",
-      "playerPickerToggle": "Mostra selettore giocatore durante il gioco",
       "packsTitle": "Pacchetti prompt",
       "adultBadge": "18+",
       "start": "Inizia partita",
@@ -442,8 +441,8 @@
       },
       "presetTooltips": {
         "classic": "Verità e obblighi classici con scelta libera ogni turno.",
-        "sillyNight": "Pacchetti Classico e Pazza con selettore giocatore opzionale.",
-        "daresOnly": "Solo obblighi — niente verità, con selettore giocatore.",
+        "sillyNight": "Pacchetti Classico e Pazza per un mix divertente.",
+        "daresOnly": "Solo obblighi — niente verità.",
         "allAges": "Tutti i pacchetti non adulti — mix adatto a tutti.",
         "custom": "Scegli pacchetti, modalità e opzioni."
       },
@@ -473,6 +472,7 @@
     },
     "play": {
       "choosePrompt": "Obbligo o verità?",
+      "currentTurn": "Turno di {name}",
       "truth": "Verità",
       "dare": "Obbligo",
       "playerPickerLabel": "Chi tocca?",
@@ -489,6 +489,7 @@
     "resolve": {
       "complete": "Sessione completata!",
       "summary": "Hai giocato {truths} verità e {dares} obblighi.",
+      "skips": "{count, plural, =0 {0 saltati} =1 {1 saltato} other {# saltati}}",
       "rematch": "Gioca ancora",
       "exit": "Torna ai giochi"
     },
@@ -502,18 +503,18 @@
         "roles": {
           "title": "Come funziona",
           "items": {
-            "group": "Il gruppo — decide chi risponde o agisce ogni turno. Il selettore giocatore è solo un suggerimento visivo.",
-            "player": "Il giocatore attivo — risponde alla verità o esegue l'obbligo scelto per quel turno."
+            "group": "Il gruppo — gioca insieme al tavolo mentre l'app gestisce i turni.",
+            "player": "Il giocatore attivo — a cui tocca rispondere alla verità o eseguire l'obbligo."
           }
         },
         "howToPlay": {
           "title": "Come si gioca",
           "steps": {
             "1": "Scegli giocatori, pacchetti e modalità prompt, poi inizia.",
-            "2": "Ogni turno, scegli Verità o Obbligo (o lascia scegliere all'app in modalità casuale).",
-            "3": "Il gruppo sceglie chi deve rispondere o agire — l'app non impone i turni.",
-            "4": "Tocca Avanti per un altro prompt, Salta per proseguire, o Termina sessione quando avete finito.",
-            "5": "Rigiocare mescola nuovi mazzi di verità e obblighi con le stesse impostazioni."
+            "2": "Ogni turno, l'app indica a chi tocca in ordine rotatorio.",
+            "3": "Scegli Verità o Obbligo (o lascia scegliere all'app in modalità casuale), poi rispondete al tavolo.",
+            "4": "Tocca Avanti quando il prompt è finito, o Salta per passare — i salti sono contati per giocatore.",
+            "5": "Termina la sessione quando volete, o continuate finché finiscono i prompt. Rigiocare mescola mazzi nuovi."
           }
         },
         "winConditions": {

@@ -199,17 +199,12 @@ The application SHALL define i18n keys for Truth or Dare setup, play, resolve, p
 #### Scenario: Truth or Dare rules keys in both locales
 
 - **WHEN** a developer inspects message files for Truth or Dare rules
-- **THEN** `truthOrDare.rules` contains goal, roles, how-to-play steps, and session-end keys in both English and Italian
+- **THEN** `truthOrDare.rules` keys exist in both English and Italian
 
-#### Scenario: Spicy pack confirmation copy in both locales
+#### Scenario: Turn and skip strings in play and resolve
 
-- **WHEN** a developer inspects message files for the Spicy 18+ pack
-- **THEN** confirmation copy for enabling adult content exists in both English and Italian
-
-#### Scenario: Prompt mode labels in both locales
-
-- **WHEN** a developer inspects message files for Truth or Dare prompt modes
-- **THEN** labels for both, truth only, dare only, and random modes exist in both English and Italian
+- **WHEN** a developer inspects message files for Truth or Dare
+- **THEN** keys exist for active-player turn label (e.g. `truthOrDare.play.currentTurn`) and per-player skip display on resolve (e.g. `truthOrDare.resolve.skips`) in both locales
 
 ### Requirement: Impostor game translations
 

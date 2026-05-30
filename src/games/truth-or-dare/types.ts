@@ -6,7 +6,6 @@ export type TruthOrDareGameStatus = "playing" | "complete";
 export type TruthOrDareConfig = {
   promptPackIds: string[];
   promptMode: PromptMode;
-  showPlayerPicker: boolean;
   locale: string;
 };
 
@@ -18,11 +17,12 @@ export type TruthOrDareGameState = {
   dareIndex: number;
   truthsPlayed: number;
   daresPlayed: number;
-  skippedCount: number;
+  turnOrder: string[];
+  currentTurnIndex: number;
+  skipCountsByPlayerId: Record<string, number>;
   status: TruthOrDareGameStatus;
   turnPhase: TurnPhase;
   currentType?: PromptType;
-  selectedPlayerId?: string;
 };
 
 export const TRUTH_OR_DARE_STATE_KEY = "truthOrDareState";

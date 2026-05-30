@@ -15,8 +15,9 @@ export function initializeTruthOrDareState(
   const config = session.gameConfig as TruthOrDareConfig;
   const packs = getPromptDecksForLocale(config.locale);
   const { truthDeck, dareDeck } = buildDecks(packs, config.promptPackIds);
+  const playerIds = session.players.map((player) => player.id);
 
-  return createGameState(config, truthDeck, dareDeck);
+  return createGameState(config, truthDeck, dareDeck, playerIds);
 }
 
 export function assignTruthOrDareSecrets(

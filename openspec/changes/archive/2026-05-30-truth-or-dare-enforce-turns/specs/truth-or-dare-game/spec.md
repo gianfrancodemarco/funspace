@@ -1,54 +1,4 @@
-## Purpose
-
-Define Truth or Dare as a shared-screen social prompt game with separate truth and dare decks, prompt modes, and session flow.
-## Requirements
-### Requirement: Separate Truth and Dare deck selection
-
-The Truth or Dare game engine SHALL build two independent shuffled decks — one for truths and one for dares — from the union of selected locale-specific prompt packs at game start.
-
-#### Scenario: Truths from selected packs
-
-- **WHEN** a game starts with one or more prompt packs selected
-- **THEN** the engine merges all truths from those packs into a single shuffled truth deck without duplicates
-
-#### Scenario: Dares from selected packs
-
-- **WHEN** a game starts with one or more prompt packs selected
-- **THEN** the engine merges all dares from those packs into a single shuffled dare deck without duplicates
-
-#### Scenario: English prompt content
-
-- **WHEN** a game is played under `/en/games/truth-or-dare`
-- **THEN** prompts are drawn from English truth and dare decks
-
-#### Scenario: Italian prompt content
-
-- **WHEN** a game is played under `/it/games/truth-or-dare`
-- **THEN** prompts are drawn from Italian truth and dare decks
-
-### Requirement: Prompt mode configuration
-
-The Truth or Dare setup phase SHALL allow selecting a prompt mode that controls whether users choose Truth or Dare each turn, are restricted to one type, or receive a random assignment.
-
-#### Scenario: Both mode shows choice
-
-- **WHEN** a session is configured with prompt mode `both`
-- **THEN** each turn presents Truth and Dare choice controls before displaying a prompt
-
-#### Scenario: Truth only mode skips choice
-
-- **WHEN** a session is configured with prompt mode `truth_only`
-- **THEN** each turn draws directly from the truth deck without a Truth/Dare choice step
-
-#### Scenario: Dare only mode skips choice
-
-- **WHEN** a session is configured with prompt mode `dare_only`
-- **THEN** each turn draws directly from the dare deck without a Truth/Dare choice step
-
-#### Scenario: Random mode assigns type
-
-- **WHEN** a session is configured with prompt mode `random`
-- **THEN** each turn randomly assigns truth or dare from non-exhausted pools before displaying the prompt
+## MODIFIED Requirements
 
 ### Requirement: Prompt navigation during play
 
@@ -186,28 +136,7 @@ When a session ends, the resolve phase SHALL summarize the session and offer rem
 - **WHEN** the Truth or Dare resolve screen mounts
 - **THEN** the win end-animation variant plays above the session summary headline
 
-### Requirement: Truth or Dare shell integration
-
-Truth or Dare SHALL use the game shell with play and resolve phases only (no reveal phase).
-
-#### Scenario: No reveal phase
-
-- **WHEN** a user starts a Truth or Dare game from setup
-- **THEN** the shell proceeds directly to the play phase without a reveal phase
-
-### Requirement: Truth or Dare in-app rules
-
-Truth or Dare SHALL register rules content via the shared game rules system.
-
-#### Scenario: Rules key prefix registered
-
-- **WHEN** a developer inspects the Truth or Dare game definition
-- **THEN** `rulesKeyPrefix` is set to `truthOrDare.rules`
-
-#### Scenario: Rules explain verbal play
-
-- **WHEN** a user opens Truth or Dare rules during setup
-- **THEN** the rules explain that the app provides prompts, the group picks who answers or acts, and there is no app-tracked winner
+## ADDED Requirements
 
 ### Requirement: Round-robin turn order
 
@@ -227,4 +156,3 @@ The Truth or Dare engine SHALL initialize a turn order from session players at g
 
 - **WHEN** a Truth or Dare game starts
 - **THEN** every player in turn order has a skip count of zero
-
