@@ -51,6 +51,10 @@
       "name": "Question Impostor",
       "description": "Everyone gets a question — but the impostor's is different. Answer aloud and find who is faking it."
     },
+    "truthOrDare": {
+      "name": "Truth or Dare",
+      "description": "Pick Truth or Dare and let the app surface prompts — the group decides who answers or acts."
+    },
     "shellDemo": {
       "name": "Shell Demo",
       "description": "A minimal demo game to validate setup, reveal, play, and resolve."
@@ -399,6 +403,119 @@
           "items": {
             "civilians": "There is no winner — end whenever the group wants or when prompts run out.",
             "impostors": "Rematch shuffles a fresh deck with the same settings."
+          }
+        }
+      }
+    }
+  },
+  "truthOrDare": {
+    "presets": {
+      "classic": "Classic",
+      "sillyNight": "Silly night",
+      "daresOnly": "Dares only",
+      "allAges": "All ages",
+      "custom": "Custom"
+    },
+    "setup": {
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "playersTitle": "Choose players",
+      "playersSubtitle": "Select {min}–{max} players from your saved roster.",
+      "presetsTitle": "Game style",
+      "modesTitle": "Prompt mode",
+      "playerPickerToggle": "Show player picker during play",
+      "packsTitle": "Prompt packs",
+      "adultBadge": "18+",
+      "start": "Start game",
+      "presets": {
+        "classic": "Classic",
+        "sillyNight": "Silly night",
+        "daresOnly": "Dares only",
+        "allAges": "All ages",
+        "custom": "Custom"
+      },
+      "presetTooltips": {
+        "classic": "Classic safe truths and dares with free choice each turn.",
+        "sillyNight": "Classic and Silly packs with optional player picker.",
+        "daresOnly": "Dares only — no truths, with player picker.",
+        "allAges": "All non-adult packs — family-friendly mix.",
+        "custom": "Pick your own packs, mode, and options."
+      },
+      "modes": {
+        "both": "Truth or Dare",
+        "truth_only": "Truths only",
+        "dare_only": "Dares only",
+        "random": "Random"
+      },
+      "packs": {
+        "classic": "Classic",
+        "silly": "Silly",
+        "spicy": "Spicy"
+      },
+      "spicyConfirm": {
+        "message": "The Spicy pack includes adult-themed truths and dares. Only continue if everyone in the group is 18+ and comfortable.",
+        "confirm": "Include Spicy pack",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "emptyRoster": "Add players on the Players page before starting.",
+        "tooFew": "Select at least {min} players ({count} selected).",
+        "tooMany": "Select at most {max} players ({count} selected).",
+        "noPacks": "Select at least one prompt pack.",
+        "invalidConfig": "Invalid game configuration."
+      }
+    },
+    "play": {
+      "choosePrompt": "Truth or Dare?",
+      "truth": "Truth",
+      "dare": "Dare",
+      "playerPickerLabel": "Who's up?",
+      "instructions": "Answer honestly or perform the dare in person — the app only provides prompts.",
+      "progress": "{truths} truths · {dares} dares played",
+      "typeBadge": {
+        "truth": "Truth",
+        "dare": "Dare"
+      },
+      "next": "Next prompt",
+      "skip": "Skip",
+      "endSession": "End session"
+    },
+    "resolve": {
+      "complete": "Session complete!",
+      "summary": "You played {truths} truths and {dares} dares.",
+      "rematch": "Play again",
+      "exit": "Back to games"
+    },
+    "rules": {
+      "title": "How to play Truth or Dare",
+      "sections": {
+        "goal": {
+          "title": "Goal",
+          "body": "Take turns answering honest questions or performing dares. The app shows prompts — the real game happens at the table."
+        },
+        "roles": {
+          "title": "How it works",
+          "items": {
+            "group": "The group — decides who answers or acts each turn. Optional player picker is just a visual cue.",
+            "player": "The active player — answers the truth or performs the dare chosen for that turn."
+          }
+        },
+        "howToPlay": {
+          "title": "How to play",
+          "steps": {
+            "1": "Choose players, packs, and prompt mode, then start.",
+            "2": "Each turn, pick Truth or Dare (or let the app choose in random mode).",
+            "3": "The group picks who must answer or act — the app does not enforce turns.",
+            "4": "Tap Next for another prompt, Skip to move on, or End session when you're done.",
+            "5": "Rematch shuffles fresh truth and dare decks with the same settings."
+          }
+        },
+        "winConditions": {
+          "title": "Ending the session",
+          "items": {
+            "civilians": "There is no winner — end whenever the group wants or when prompts run out.",
+            "impostors": "Rematch shuffles fresh decks with the same settings."
           }
         }
       }

@@ -5,6 +5,7 @@ const gameAccentBorderClasses: Record<GameAccentColor, string> = {
   hangman: "border-t-sky-500",
   "never-have-i-ever": "border-t-pink-500",
   "question-impostor": "border-t-violet-500",
+  "truth-or-dare": "border-t-rose-500",
 };
 
 export function getGameAccentBorderClass(accentColor: GameAccentColor): string {

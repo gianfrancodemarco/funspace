@@ -63,3 +63,8 @@ When a resolve screen represents a completed social session with no losing side,
 
 - **WHEN** a Never Have I Ever session ends and the resolve screen mounts
 - **THEN** the resolve screen displays the win animation variant above the session summary headline
+
+#### Scenario: Win animation on Truth or Dare session complete
+
+- **WHEN** a Truth or Dare session reaches the resolve phase
+- **THEN** the resolve view renders `GameEndAnimation` with variant `win` above the session summary

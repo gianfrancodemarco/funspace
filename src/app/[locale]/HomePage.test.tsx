@@ -21,10 +21,12 @@ function GameCardTest({ game }: { game: (typeof games)[number] }) {
   };
 
   return (
-    <article aria-disabled="true">
+    <article aria-disabled={game.status === "coming-soon"}>
       <h3>{t(game.nameKey)}</h3>
       <p>{t(game.descriptionKey)}</p>
-      <span>{t("games.comingSoon")}</span>
+      {game.status === "coming-soon" && (
+        <span>{t("games.comingSoon")}</span>
+      )}
     </article>
   );
 }
@@ -53,6 +55,7 @@ describe("Homepage content", () => {
     expect(screen.getByText("Hangman")).toBeInTheDocument();
     expect(screen.getByText("Never Have I Ever")).toBeInTheDocument();
     expect(screen.getByText("Question Impostor")).toBeInTheDocument();
-    expect(screen.getAllByText("Coming soon")).toHaveLength(4);
+    expect(screen.getByText("Truth or Dare")).toBeInTheDocument();
+    expect(screen.queryAllByText("Coming soon")).toHaveLength(0);
   });
 });

@@ -41,4 +41,14 @@ export const games: GameMeta[] = [
     status: "playable",
     accentColor: "question-impostor",
   },
+  {
+    id: "truth-or-dare",
+    nameKey: "games.truthOrDare.name",
+    descriptionKey: "games.truthOrDare.description",
+    tags: ["social", "quick"],
+    minPlayers: 3,
+    maxPlayers: 20,
+    status: "playable",
+    accentColor: "truth-or-dare",
+  },
 ];

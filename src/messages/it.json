@@ -51,6 +51,10 @@
       "name": "Impostore con domande",
       "description": "Tutti hanno una domanda, ma l'impostore ne ha una diversa. Rispondete ad alta voce e scoprite chi sta bluffando."
     },
+    "truthOrDare": {
+      "name": "Obbligo o verità",
+      "description": "Scegli Obbligo o Verità — l'app mostra i prompt e il gruppo decide chi risponde o agisce."
+    },
     "shellDemo": {
       "name": "Demo Shell",
       "description": "Un gioco demo minimo per validare setup, rivelazione, gioco e conclusione."
@@ -399,6 +403,119 @@
           "items": {
             "civilians": "Non c'è un vincitore — finite quando volete o quando finiscono i prompt.",
             "impostors": "Rigiocare mescola un mazzo nuovo con le stesse impostazioni."
+          }
+        }
+      }
+    }
+  },
+  "truthOrDare": {
+    "presets": {
+      "classic": "Classico",
+      "sillyNight": "Serata pazza",
+      "daresOnly": "Solo obblighi",
+      "allAges": "Tutte le età",
+      "custom": "Personalizzato"
+    },
+    "setup": {
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai ai Giocatori",
+      "playersTitle": "Scegli i giocatori",
+      "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "presetsTitle": "Stile di gioco",
+      "modesTitle": "Modalità prompt",
+      "playerPickerToggle": "Mostra selettore giocatore durante il gioco",
+      "packsTitle": "Pacchetti prompt",
+      "adultBadge": "18+",
+      "start": "Inizia partita",
+      "presets": {
+        "classic": "Classico",
+        "sillyNight": "Serata pazza",
+        "daresOnly": "Solo obblighi",
+        "allAges": "Tutte le età",
+        "custom": "Personalizzato"
+      },
+      "presetTooltips": {
+        "classic": "Verità e obblighi classici con scelta libera ogni turno.",
+        "sillyNight": "Pacchetti Classico e Pazza con selettore giocatore opzionale.",
+        "daresOnly": "Solo obblighi — niente verità, con selettore giocatore.",
+        "allAges": "Tutti i pacchetti non adulti — mix adatto a tutti.",
+        "custom": "Scegli pacchetti, modalità e opzioni."
+      },
+      "modes": {
+        "both": "Obbligo o verità",
+        "truth_only": "Solo verità",
+        "dare_only": "Solo obblighi",
+        "random": "Casuale"
+      },
+      "packs": {
+        "classic": "Classico",
+        "silly": "Pazza",
+        "spicy": "Piccante"
+      },
+      "spicyConfirm": {
+        "message": "Il pacchetto Piccante include verità e obblighi per adulti. Continua solo se tutti nel gruppo hanno 18+ anni e sono a loro agio.",
+        "confirm": "Includi pacchetto Piccante",
+        "cancel": "Annulla"
+      },
+      "validation": {
+        "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+        "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+        "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati).",
+        "noPacks": "Seleziona almeno un pacchetto prompt.",
+        "invalidConfig": "Configurazione di gioco non valida."
+      }
+    },
+    "play": {
+      "choosePrompt": "Obbligo o verità?",
+      "truth": "Verità",
+      "dare": "Obbligo",
+      "playerPickerLabel": "Chi tocca?",
+      "instructions": "Rispondi onestamente o esegui l'obbligo di persona — l'app fornisce solo i prompt.",
+      "progress": "{truths} verità · {dares} obblighi giocati",
+      "typeBadge": {
+        "truth": "Verità",
+        "dare": "Obbligo"
+      },
+      "next": "Prossimo prompt",
+      "skip": "Salta",
+      "endSession": "Termina sessione"
+    },
+    "resolve": {
+      "complete": "Sessione completata!",
+      "summary": "Hai giocato {truths} verità e {dares} obblighi.",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    },
+    "rules": {
+      "title": "Come si gioca a Obbligo o verità",
+      "sections": {
+        "goal": {
+          "title": "Obiettivo",
+          "body": "A turno rispondete con sincerità o eseguite obblighi. L'app mostra i prompt — il gioco vero avviene al tavolo."
+        },
+        "roles": {
+          "title": "Come funziona",
+          "items": {
+            "group": "Il gruppo — decide chi risponde o agisce ogni turno. Il selettore giocatore è solo un suggerimento visivo.",
+            "player": "Il giocatore attivo — risponde alla verità o esegue l'obbligo scelto per quel turno."
+          }
+        },
+        "howToPlay": {
+          "title": "Come si gioca",
+          "steps": {
+            "1": "Scegli giocatori, pacchetti e modalità prompt, poi inizia.",
+            "2": "Ogni turno, scegli Verità o Obbligo (o lascia scegliere all'app in modalità casuale).",
+            "3": "Il gruppo sceglie chi deve rispondere o agire — l'app non impone i turni.",
+            "4": "Tocca Avanti per un altro prompt, Salta per proseguire, o Termina sessione quando avete finito.",
+            "5": "Rigiocare mescola nuovi mazzi di verità e obblighi con le stesse impostazioni."
+          }
+        },
+        "winConditions": {
+          "title": "Fine sessione",
+          "items": {
+            "civilians": "Non c'è un vincitore — finite quando volete o quando finiscono i prompt.",
+            "impostors": "Rigiocare mescola mazzi nuovi con le stesse impostazioni."
           }
         }
       }

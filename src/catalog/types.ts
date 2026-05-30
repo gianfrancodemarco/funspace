@@ -4,7 +4,8 @@ export type GameAccentColor =
   | "impostor"
   | "hangman"
   | "never-have-i-ever"
-  | "question-impostor";
+  | "question-impostor"
+  | "truth-or-dare";
 
 export interface GameMeta {
   id: string;

@@ -4,6 +4,7 @@ import { hangmanDefinition } from "./hangman";
 import { impostorDefinition } from "./impostor";
 import { neverHaveIEverDefinition } from "./never-have-i-ever";
 import { questionImpostorDefinition } from "./question-impostor";
+import { truthOrDareDefinition } from "./truth-or-dare";
 import { shellDemoDefinition } from "./shell-demo";
 
 const registry = new Map<string, GameRegistryEntry>([
@@ -54,6 +55,16 @@ const registry = new Map<string, GameRegistryEntry>([
       definition: {
         ...questionImpostorDefinition,
         phases: [...questionImpostorDefinition.phases],
+      },
+    },
+  ],
+  [
+    truthOrDareDefinition.id,
+    {
+      kind: "playable",
+      definition: {
+        ...truthOrDareDefinition,
+        phases: [...truthOrDareDefinition.phases],
       },
     },
   ],

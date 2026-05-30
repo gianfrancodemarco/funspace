@@ -1,0 +1,118 @@
+import { describe, expect, it, vi } from "vitest";
+import { fireEvent, render, screen } from "@testing-library/react";
+import { NextIntlClientProvider } from "next-intl";
+
+import type { GameSession } from "@/core/game-shell";
+import { TruthOrDarePlayView } from "@/games/truth-or-dare/components/TruthOrDarePlayView";
+import { TRUTH_OR_DARE_STATE_KEY } from "@/games/truth-or-dare/types";
+import messages from "@/messages/en.json";
+
+const send = vi.fn();
+
+vi.mock("@/core/game-shell", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/core/game-shell")>();
+  return {
+    ...actual,
+    useGameShell: () => ({ send }),
+  };
+});
+
+const bothModeSession: GameSession = {
+  gameId: "truth-or-dare",
+  players: [
+    { id: "p1", name: "Alex" },
+    { id: "p2", name: "Blake" },
+    { id: "p3", name: "Casey" },
+  ],
+  shuffledOrder: ["p1", "p2", "p3"],
+  secrets: {
+    [TRUTH_OR_DARE_STATE_KEY]: {
+      config: {
+        promptPackIds: ["classic"],
+        promptMode: "both",
+        showPlayerPicker: true,
+        locale: "en",
+      },
+      truthDeck: ["What is your biggest fear?", "What is your guilty pleasure?"],
+      dareDeck: ["Do a dance for 10 seconds."],
+      truthIndex: 0,
+      dareIndex: 0,
+      truthsPlayed: 0,
+      daresPlayed: 0,
+      skippedCount: 0,
+      status: "playing",
+      turnPhase: "choosing",
+    },
+  },
+};
+
+const randomModeSession: GameSession = {
+  ...bothModeSession,
+  secrets: {
+    [TRUTH_OR_DARE_STATE_KEY]: {
+      ...(bothModeSession.secrets[TRUTH_OR_DARE_STATE_KEY] as object),
+      config: {
+        promptPackIds: ["classic"],
+        promptMode: "random",
+        showPlayerPicker: false,
+        locale: "en",
+      },
+      turnPhase: "showing",
+      currentType: "truth",
+    },
+  },
+};
+
+describe("TruthOrDarePlayView", () => {
+  it("shows Truth and Dare choice in both mode", () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <TruthOrDarePlayView session={bothModeSession} onComplete={vi.fn()} />
+      </NextIntlClientProvider>,
+    );
+
+    expect(screen.getByText("Truth or Dare?")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Truth" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Dare" })).toBeInTheDocument();
+  });
+
+  it("shows the prompt after choosing truth and advances on next", () => {
+    const onComplete = vi.fn();
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <TruthOrDarePlayView session={bothModeSession} onComplete={onComplete} />
+      </NextIntlClientProvider>,
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "Truth" }));
+    expect(screen.getByText("What is your biggest fear?")).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole("button", { name: "Next prompt" }));
+    expect(send).toHaveBeenCalled();
+    expect(screen.getByText("Truth or Dare?")).toBeInTheDocument();
+    expect(onComplete).not.toHaveBeenCalled();
+  });
+
+  it("shows a prompt directly in random mode", () => {
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <TruthOrDarePlayView session={randomModeSession} onComplete={vi.fn()} />
+      </NextIntlClientProvider>,
+    );
+
+    expect(screen.getByText("What is your biggest fear?")).toBeInTheDocument();
+    expect(screen.getByText("Truth")).toBeInTheDocument();
+  });
+
+  it("completes the session when ending early", () => {
+    const onComplete = vi.fn();
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <TruthOrDarePlayView session={bothModeSession} onComplete={onComplete} />
+      </NextIntlClientProvider>,
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "End session" }));
+    expect(onComplete).toHaveBeenCalled();
+  });
+});
