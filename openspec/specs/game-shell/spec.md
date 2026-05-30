@@ -1,9 +1,7 @@
 ## Purpose
 
 Define shared game lifecycle, session model, phase UI, game registry, and launch routes for FunSpace games.
-
 ## Requirements
-
 ### Requirement: Game phase lifecycle
 
 The game shell SHALL support a shared phase lifecycle: setup, optional reveal, play, resolve, and optional rematch.
@@ -124,3 +122,42 @@ The game shell resolve phase SHALL support an optional shared outcome animation 
 
 - **WHEN** a game uses the shared resolve animation on its resolve view
 - **THEN** outcome headline, details, and action buttons remain visible and usable after the resolve phase transition
+
+### Requirement: Game-specific setup form
+
+The game shell SHALL support an optional game-specific setup component on `GameDefinition` for games that need configuration beyond player selection.
+
+#### Scenario: Custom setup rendered
+
+- **WHEN** a registered game provides a `SetupView` component
+- **THEN** the shell renders that component during the setup phase instead of the generic player select
+
+#### Scenario: Generic setup fallback
+
+- **WHEN** a registered game does not provide a `SetupView` component
+- **THEN** the shell renders the generic player selection setup
+
+#### Scenario: Game config passed on start
+
+- **WHEN** a game-specific setup form starts a session
+- **THEN** the shell stores optional game configuration alongside the session for use by assignSecrets and play views
+
+### Requirement: Setup phase rules access
+
+When a playable game definition includes a `rulesKeyPrefix`, the game shell setup phase SHALL display a rules entry point before or alongside the setup form.
+
+#### Scenario: Rules available during Impostor setup
+
+- **WHEN** a user opens Impostor setup
+- **THEN** a control to view game rules is visible on the setup screen
+
+#### Scenario: Rules not shown during other phases
+
+- **WHEN** a user is in reveal, play, or resolve phase
+- **THEN** the rules entry point is not displayed in the shell chrome
+
+#### Scenario: Default setup view supports rules
+
+- **WHEN** a playable game uses the default player selection setup and defines `rulesKeyPrefix`
+- **THEN** the rules entry point is still available without a custom SetupView
+

@@ -28,7 +28,7 @@ The homepage SHALL display a grid of game preview cards sourced from the catalog
 #### Scenario: Game cards rendered
 
 - **WHEN** the user views the homepage
-- **THEN** at least three game preview cards are displayed (Impostor, Hangman, Never Have I Ever)
+- **THEN** at least four game preview cards are displayed (Impostor, Hangman, Never Have I Ever, Question Impostor)
 
 #### Scenario: Game card shows metadata
 
@@ -123,4 +123,32 @@ The Truth or Dare catalog entry SHALL have `status: "playable"` and its homepage
 
 - **WHEN** a user taps the Truth or Dare card on the homepage
 - **THEN** they navigate to a playable Truth or Dare game at `/[locale]/games/truth-or-dare`
+
+### Requirement: Playable game indicator
+
+The homepage SHALL distinguish playable games from coming-soon games on catalog preview cards.
+
+#### Scenario: Playable game has no coming-soon badge
+
+- **WHEN** a catalog game has `status: "playable"`
+- **THEN** the card does not display a coming-soon badge
+
+#### Scenario: Playable game links to full game
+
+- **WHEN** a user taps a playable game card
+- **THEN** they navigate to the playable game at `/[locale]/games/[gameId]`
+
+### Requirement: Question Impostor playable on homepage
+
+The Question Impostor catalog entry SHALL have `status: "playable"` and its homepage card SHALL NOT display a coming-soon badge.
+
+#### Scenario: Question Impostor card without coming soon
+
+- **WHEN** a user views the homepage
+- **THEN** the Question Impostor game card does not show a coming-soon badge
+
+#### Scenario: Question Impostor card links to playable game
+
+- **WHEN** a user taps the Question Impostor card on the homepage
+- **THEN** they navigate to a playable Question Impostor game at `/[locale]/games/question-impostor`
 
