@@ -7,6 +7,7 @@ import { GameRulesPanel } from "@/components/game-rules/GameRulesPanel";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogHeader,
   DialogTitle,
@@ -32,15 +33,27 @@ export function GameRulesTrigger({
           {tChrome("openRules")}
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-h-[85vh] overflow-y-auto">
-        <DialogHeader>
-          <DialogTitle>{tRules("title")}</DialogTitle>
+      <DialogContent className="flex max-h-[85vh] flex-col gap-0 overflow-hidden rounded-2xl p-0 sm:max-w-lg">
+        <DialogHeader className="shrink-0 border-b px-6 py-4 pr-12 text-left">
+          <div className="flex items-center gap-2">
+            <BookOpen className="text-primary size-5 shrink-0" aria-hidden />
+            <DialogTitle>{tRules("title")}</DialogTitle>
+          </div>
         </DialogHeader>
-        <GameRulesPanel
-          rulesKeyPrefix={rulesKeyPrefix}
-          roleKeys={rulesRoleKeys}
-          stepCount={rulesStepCount}
-        />
+        <div className="min-h-0 flex-1 overflow-y-auto px-6 py-4">
+          <GameRulesPanel
+            rulesKeyPrefix={rulesKeyPrefix}
+            roleKeys={rulesRoleKeys}
+            stepCount={rulesStepCount}
+          />
+        </div>
+        <div className="shrink-0 border-t px-6 py-4">
+          <DialogClose asChild>
+            <Button type="button" variant="secondary" className="w-full">
+              {tChrome("gotIt")}
+            </Button>
+          </DialogClose>
+        </div>
       </DialogContent>
     </Dialog>
   );

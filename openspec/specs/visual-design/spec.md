@@ -1,9 +1,7 @@
 ## Purpose
 
 Define vibrant UI tokens, typography, spacing, and accessible contrast for FunSpace.
-
 ## Requirements
-
 ### Requirement: Vibrant brand color system
 
 The application SHALL define a cohesive color palette with a violet primary brand color and multi-hue accent colors, applied via CSS custom properties in both light and dark modes.
@@ -63,3 +61,18 @@ The resolve phase SHALL use visually distinct motion for successful versus faile
 
 - **WHEN** a resolve screen uses the loss animation variant
 - **THEN** the headline area uses a muted motion treatment without celebratory particles
+
+### Requirement: Rules modal matches vibrant UI system
+
+The rules modal SHALL use FunSpace design tokens: rounded-xl/2xl surfaces, primary-tinted accents, card-style section grouping, and comfortable mobile padding — consistent with game setup cards and catalog UI.
+
+#### Scenario: Modal uses rounded card surfaces
+
+- **WHEN** a user opens the rules modal
+- **THEN** the dialog and inner section groups use rounded corners (`rounded-xl` or larger), not flat document-style blocks
+
+#### Scenario: Primary accent on rules chrome
+
+- **WHEN** a user views step indicators or the goal highlight in the rules modal
+- **THEN** primary violet tokens are used for accents, not neutral gray alone
+

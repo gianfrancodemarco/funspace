@@ -62,7 +62,8 @@
   },
   "gameRules": {
     "openRules": "How to play",
-    "close": "Close"
+    "close": "Close",
+    "gotIt": "Got it"
   },
   "gameShell": {
     "backToHome": "Back to games",

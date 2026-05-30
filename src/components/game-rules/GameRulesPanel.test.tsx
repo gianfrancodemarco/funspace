@@ -27,21 +27,19 @@ describe("GameRulesPanel", () => {
     expect(screen.getByText("Win conditions")).toBeInTheDocument();
   });
 
-  it("renders role items and numbered steps", () => {
+  it("renders role items with bold labels and numbered step badges", () => {
     renderPanel();
 
+    expect(screen.getByText("Civilian")).toBeInTheDocument();
     expect(
-      screen.getByText(/Civilian — knows the secret word/),
+      screen.getByText(/knows the secret word and tries to find the impostors/),
     ).toBeInTheDocument();
-    expect(
-      screen.getByText(/Impostor — does not know the word/),
-    ).toBeInTheDocument();
-    expect(
-      screen.getByText(/Spy \(optional\) — gets a similar decoy word/),
-    ).toBeInTheDocument();
+    expect(screen.getByText("Impostor")).toBeInTheDocument();
+    expect(screen.getByText("Spy (optional)")).toBeInTheDocument();
     expect(
       screen.getByText("Choose players and options, then start the game."),
     ).toBeInTheDocument();
+    expect(screen.getByText("1")).toBeInTheDocument();
     expect(
       screen.getByText(
         /Civilians \(and any spy\) win when all impostors have been eliminated/,

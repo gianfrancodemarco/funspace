@@ -62,7 +62,8 @@
   },
   "gameRules": {
     "openRules": "Come si gioca",
-    "close": "Chiudi"
+    "close": "Chiudi",
+    "gotIt": "Ho capito"
   },
   "gameShell": {
     "backToHome": "Torna ai giochi",
