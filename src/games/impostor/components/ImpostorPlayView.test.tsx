@@ -43,7 +43,7 @@ describe("ImpostorPlayView", () => {
       </NextIntlClientProvider>,
     );
 
-    fireEvent.click(screen.getByRole("button", { name: /Giulia/i }));
+    fireEvent.click(screen.getAllByRole("button", { name: "Eliminate" })[1]!);
     fireEvent.click(screen.getByRole("button", { name: "Confirm elimination" }));
 
     expect(send).toHaveBeenCalledWith(
@@ -52,5 +52,39 @@ describe("ImpostorPlayView", () => {
       }),
     );
     expect(onComplete).toHaveBeenCalledOnce();
+  });
+
+  it("lets a player check their role during play", () => {
+    const session = {
+      gameId: "impostor",
+      players: [
+        { id: "a", name: "Marco" },
+        { id: "b", name: "Giulia" },
+        { id: "c", name: "Luca" },
+      ],
+      shuffledOrder: ["a", "b", "c"],
+      secrets: {
+        [IMPOSTOR_STATE_KEY]: {
+          roles: { a: "civilian", b: "impostor", c: "civilian" },
+          wordPair: { crewWord: "Pizza", spyWord: "Pasta" },
+          alivePlayerIds: ["a", "b", "c"],
+          eliminatedPlayerIds: [],
+        },
+      },
+    };
+
+    render(
+      <NextIntlClientProvider locale="en" messages={messages}>
+        <ImpostorPlayView session={session} onComplete={vi.fn()} />
+      </NextIntlClientProvider>,
+    );
+
+    fireEvent.click(screen.getAllByRole("button", { name: "Check role" })[1]!);
+    fireEvent.click(screen.getByRole("button", { name: "Reveal" }));
+    expect(screen.getByText("You are the Impostor")).toBeVisible();
+
+    fireEvent.click(screen.getByRole("button", { name: "Back to game" }));
+    expect(screen.getByText("Giulia")).toBeInTheDocument();
+    expect(screen.getAllByRole("button", { name: "Eliminate" })).toHaveLength(3);
   });
 });

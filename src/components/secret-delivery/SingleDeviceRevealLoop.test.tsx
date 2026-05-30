@@ -34,20 +34,23 @@ function renderLoop(onComplete = vi.fn()) {
 }
 
 describe("SingleDeviceRevealLoop", () => {
-  it("progresses through handoff and reveal for each player", () => {
+  it("reveals and confirms each player on the same screen", () => {
     const onComplete = vi.fn();
     renderLoop(onComplete);
 
-    expect(screen.getByText(/Pass the phone to Marco/i)).toBeInTheDocument();
+    expect(screen.getByText("Marco")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Reveal" })).toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole("button", { name: "I'm ready" }));
-    expect(screen.getByText("Secret for Marco")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Reveal" }));
+    expect(screen.getByText("Secret for Marco")).toBeVisible();
+    expect(screen.getByRole("button", { name: "Got it" })).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: "Got it" }));
-    expect(screen.getByText(/Pass the phone to Giulia/i)).toBeInTheDocument();
+    expect(screen.getByText("Giulia")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Reveal" })).toBeInTheDocument();
 
-    fireEvent.click(screen.getByRole("button", { name: "I'm ready" }));
-    expect(screen.getByText("Secret for Giulia")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Reveal" }));
+    expect(screen.getByText("Secret for Giulia")).toBeVisible();
 
     fireEvent.click(screen.getByRole("button", { name: "Finish reveal" }));
 
