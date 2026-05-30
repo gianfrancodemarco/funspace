@@ -55,6 +55,10 @@
       "name": "Truth or Dare",
       "description": "Pick Truth or Dare and let the app surface prompts — the group decides who answers or acts."
     },
+    "wouldYouRather": {
+      "name": "Would You Rather",
+      "description": "Two options on screen — debate as a group and pick verbally. The app moderates, you decide."
+    },
     "shellDemo": {
       "name": "Shell Demo",
       "description": "A minimal demo game to validate setup, reveal, play, and resolve."
@@ -521,6 +525,107 @@
           "title": "Ending the session",
           "items": {
             "civilians": "There is no winner — end whenever the group wants or when prompts run out.",
+            "impostors": "Rematch shuffles fresh decks with the same settings."
+          }
+        }
+      }
+    }
+  },
+  "wouldYouRather": {
+    "presets": {
+      "classic": "Classic",
+      "partyMix": "Party mix",
+      "allAges": "All ages",
+      "custom": "Custom"
+    },
+    "packs": {
+      "classic": "Classic",
+      "gross": "Gross",
+      "hypothetical": "Hypothetical",
+      "spicy": "Spicy"
+    },
+    "setup": {
+      "loading": "Loading players…",
+      "emptyRoster": "Add players on the Players page before starting a game.",
+      "goToPlayers": "Go to Players",
+      "playersTitle": "Choose players",
+      "playersSubtitle": "Select {min}–{max} players from your saved roster.",
+      "presetsTitle": "Dilemma style",
+      "packsTitle": "Dilemma packs",
+      "adultBadge": "18+",
+      "start": "Start game",
+      "presets": {
+        "classic": "Classic",
+        "partyMix": "Party mix",
+        "allAges": "All ages",
+        "custom": "Custom"
+      },
+      "presetTooltips": {
+        "classic": "Light everyday trade-offs only — great for any group.",
+        "partyMix": "Classic, Gross, and Hypothetical packs together.",
+        "allAges": "All non-adult packs — family-friendly mix.",
+        "custom": "Pick your own dilemma packs."
+      },
+      "packs": {
+        "classic": "Classic",
+        "gross": "Gross",
+        "hypothetical": "Hypothetical",
+        "spicy": "Spicy"
+      },
+      "spicyConfirm": {
+        "message": "The Spicy pack includes adult-themed dilemmas. Only continue if everyone in the group is 18+ and comfortable.",
+        "confirm": "Include Spicy pack",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "emptyRoster": "Add players on the Players page before starting.",
+        "tooFew": "Select at least {min} players ({count} selected).",
+        "tooMany": "Select at most {max} players ({count} selected).",
+        "noPacks": "Select at least one dilemma pack.",
+        "invalidConfig": "Invalid game configuration."
+      }
+    },
+    "play": {
+      "title": "Would you rather…",
+      "or": "or",
+      "instructions": "Debate as a group, then tap the option you picked to continue.",
+      "chooseOption": "Choose: {option}",
+      "progress": "Dilemma {current} of {total}",
+      "endSession": "End session"
+    },
+    "resolve": {
+      "complete": "Session complete!",
+      "dilemmasPlayed": "You played through {count} dilemmas.",
+      "rematch": "Play again",
+      "exit": "Back to games"
+    },
+    "rules": {
+      "title": "How to play Would You Rather",
+      "sections": {
+        "goal": {
+          "title": "Goal",
+          "body": "Debate fun trade-offs as a group. The app shows two options — the real game happens at the table."
+        },
+        "roles": {
+          "title": "How it works",
+          "items": {
+            "group": "The group — debates and picks A or B verbally. No in-app voting.",
+            "reader": "The reader — reads each dilemma aloud from the shared phone."
+          }
+        },
+        "howToPlay": {
+          "title": "How to play",
+          "steps": {
+            "1": "Choose players and dilemma packs, then start.",
+            "2": "Read both options on screen aloud to the group.",
+            "3": "Debate and pick A or B — house rules decide how you vote.",
+            "4": "Tap the option the group picked to move on, or End session anytime. Rematch shuffles fresh dilemmas."
+          }
+        },
+        "winConditions": {
+          "title": "Ending the session",
+          "items": {
+            "civilians": "There is no winner — end whenever the group wants or when dilemmas run out.",
             "impostors": "Rematch shuffles fresh decks with the same settings."
           }
         }

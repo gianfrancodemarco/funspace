@@ -51,4 +51,14 @@ export const games: GameMeta[] = [
     status: "playable",
     accentColor: "truth-or-dare",
   },
+  {
+    id: "would-you-rather",
+    nameKey: "games.wouldYouRather.name",
+    descriptionKey: "games.wouldYouRather.description",
+    tags: ["social", "quick"],
+    minPlayers: 3,
+    maxPlayers: 20,
+    status: "playable",
+    accentColor: "would-you-rather",
+  },
 ];

@@ -50,6 +50,25 @@ Truth or Dare SHALL provide complete in-app rules via the shared game rules syst
 - **WHEN** a user opens Truth or Dare rules
 - **THEN** the rules explain that the app enforces round-robin turns and tracks skips per player
 
+### Requirement: Would You Rather rules content
+
+Would You Rather SHALL provide complete in-app rules via the shared game rules system using the `wouldYouRather.rules` translation namespace.
+
+#### Scenario: Would You Rather rules accessible from setup
+
+- **WHEN** a user opens Would You Rather setup
+- **THEN** a how-to-play control is available that opens the Would You Rather rules dialog
+
+#### Scenario: Would You Rather rules describe verbal debate
+
+- **WHEN** a user opens Would You Rather rules
+- **THEN** the rules explain that the app shows two options per dilemma, the group debates and chooses verbally at the table, and there is no app-tracked winner
+
+#### Scenario: Would You Rather rules describe tap-to-advance and end session
+
+- **WHEN** a user opens Would You Rather rules
+- **THEN** the rules explain that tapping the chosen option moves to the next dilemma and End session finishes early
+
 ### Requirement: Shared rules section structure
 
 The application SHALL provide a shared rules presentation component that renders game rules in a fixed section order: goal, roles, how to play, and win conditions. Each section SHALL use visually distinct styling (cards, icons, or equivalent hierarchy) so content is scannable on mobile — not plain uppercase headings with unstyled bullet lists.

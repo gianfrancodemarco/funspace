@@ -206,6 +206,25 @@ The application SHALL define i18n keys for Truth or Dare setup, play, resolve, p
 - **WHEN** a developer inspects message files for Truth or Dare
 - **THEN** keys exist for active-player turn label (e.g. `truthOrDare.play.currentTurn`) and per-player skip display on resolve (e.g. `truthOrDare.resolve.skips`) in both locales
 
+### Requirement: Would You Rather translations
+
+The application SHALL define i18n keys for Would You Rather setup, play, resolve, dilemma packs, and rules in both English and Italian message files.
+
+#### Scenario: Would You Rather keys in English
+
+- **WHEN** a developer inspects `messages/en.json`
+- **THEN** keys exist under `wouldYouRather` for setup, play, resolve, packs, and rules sections
+
+#### Scenario: Would You Rather keys in Italian
+
+- **WHEN** a developer inspects `messages/it.json`
+- **THEN** the same `wouldYouRather` keys exist with Italian translations
+
+#### Scenario: Catalog keys in both locales
+
+- **WHEN** a developer inspects message files
+- **THEN** `games.wouldYouRather.name` and `games.wouldYouRather.description` exist in English and Italian
+
 ### Requirement: Impostor game translations
 
 The application SHALL define i18n keys for Impostor game UI in both English and Italian message files.

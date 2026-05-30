@@ -68,3 +68,8 @@ When a resolve screen represents a completed social session with no losing side,
 
 - **WHEN** a Truth or Dare session reaches the resolve phase
 - **THEN** the resolve view renders `GameEndAnimation` with variant `win` above the session summary
+
+#### Scenario: Win animation on Would You Rather session complete
+
+- **WHEN** a Would You Rather session reaches the resolve phase
+- **THEN** the resolve view renders `GameEndAnimation` with variant `win` above the session summary

@@ -2,9 +2,9 @@
 
 Living document for **candidate games**, prioritization, and fit with the platform. Not a commitment order — revisit as games ship and patterns emerge.
 
-**Related:** [Product Vision](./product-vision.md) · [Impostor Design](./games/impostor-design.md) · [Question Impostor Design](./games/question-impostor-design.md) · [Hangman Design](./games/hangman-design.md) · [Never Have I Ever Design](./games/never-have-i-ever-design.md)
+**Related:** [Product Vision](./product-vision.md) · [Impostor Design](./games/impostor-design.md) · [Question Impostor Design](./games/question-impostor-design.md) · [Hangman Design](./games/hangman-design.md) · [Never Have I Ever Design](./games/never-have-i-ever-design.md) · [Truth or Dare Design](./games/truth-or-dare-design.md) · [Would You Rather Design](./games/would-you-rather-design.md)
 
-*Last updated: 2026-05-29*
+*Last updated: 2026-05-30*
 
 ---
 
@@ -16,6 +16,8 @@ Living document for **candidate games**, prioritization, and fit with the platfo
 | **Hangman** | 2–8 | play → resolve | Word / cooperative | Word lists (en, it) |
 | **Never Have I Ever** | 3–20 | play → resolve | Social / prompt | Prompt decks (en, it) |
 | **Question Impostor** | 3–20 | reveal → play → resolve | Deduction / questions | Question packs (en, it) |
+| **Truth or Dare** | 3–20 | play → resolve | Social / prompt | Truth & dare decks (en, it) |
+| **Would You Rather** | 3–20 | play → resolve | Social / dilemma | Dilemma decks (en, it) |
 
 ---
 
@@ -59,8 +61,6 @@ FunSpace is **one shared phone**, **frontend-only**, **no accounts**. Games that
 
 | ID | Game | Why now | Effort | Reuses |
 |----|------|---------|--------|--------|
-| `truth-or-dare` | **Truth or Dare** | Named in product vision; same shape as NHIE | **M** | Prompt deck pipeline, 18+ pack gating, presets |
-| `would-you-rather` | **Would You Rather** | Minimal engine; strong party appeal | **S** | NHIE play UI pattern (next/skip/end) |
 | `taboo` | **Taboo** (*Non dire*) | Word game gap; reuses word packs | **M** | Word packs, reveal for clue-giver, turn rotation |
 | `charades-prompts` | **Charades Prompts** | App as category/word picker; zero referee logic | **S** | Word lists or dedicated act-out deck |
 
@@ -96,32 +96,15 @@ FunSpace is **one shared phone**, **frontend-only**, **no accounts**. Games that
 
 ## Game briefs (candidates)
 
-### Truth or Dare (`truth-or-dare`) — P0
+### Truth or Dare (`truth-or-dare`) — shipped
 
-**Pitch:** Classic party game — app shows Truth or Dare prompts; group picks who answers or acts.
-
-| | |
-|---|---|
-| **Players** | 3–20 |
-| **Phases** | setup → play → resolve |
-| **Shell fit** | Same as NHIE — moderator only |
-| **Content** | Separate Truth and Dare decks; themed packs (Classic, Spicy 18+, Silly) |
-| **Settings** | Pack multi-select, truth/dare/both mode, optional “pick random” |
-| **Differentiator vs NHIE** | Binary choice per turn (truth **or** dare); optional player picker UI |
+See [Truth or Dare Design](./games/truth-or-dare-design.md).
 
 ---
 
-### Would You Rather (`would-you-rather`) — P0
+### Would You Rather (`would-you-rather`) — shipped
 
-**Pitch:** Two options on screen — group debates and votes verbally.
-
-| | |
-|---|---|
-| **Players** | 3–20 |
-| **Phases** | setup → play → resolve |
-| **Content** | Paired-option prompt deck (Classic, Gross, Hypothetical, 18+) |
-| **Settings** | Pack filter, skip allowed |
-| **Effort driver** | Content curation (quality > quantity) |
+See [Would You Rather Design](./games/would-you-rather-design.md).
 
 ---
 

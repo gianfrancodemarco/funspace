@@ -55,6 +55,10 @@
       "name": "Obbligo o verità",
       "description": "Scegli Obbligo o Verità — l'app mostra i prompt e il gruppo decide chi risponde o agisce."
     },
+    "wouldYouRather": {
+      "name": "Preferiresti",
+      "description": "Due opzioni sullo schermo — discutete in gruppo e scegliete a voce. L'app modera, decidete voi."
+    },
     "shellDemo": {
       "name": "Demo Shell",
       "description": "Un gioco demo minimo per validare setup, rivelazione, gioco e conclusione."
@@ -521,6 +525,107 @@
           "title": "Fine sessione",
           "items": {
             "civilians": "Non c'è un vincitore — finite quando volete o quando finiscono i prompt.",
+            "impostors": "Rigiocare mescola mazzi nuovi con le stesse impostazioni."
+          }
+        }
+      }
+    }
+  },
+  "wouldYouRather": {
+    "presets": {
+      "classic": "Classico",
+      "partyMix": "Mix party",
+      "allAges": "Tutte le età",
+      "custom": "Personalizzato"
+    },
+    "packs": {
+      "classic": "Classico",
+      "gross": "Disgustoso",
+      "hypothetical": "Ipotetico",
+      "spicy": "Piccante"
+    },
+    "setup": {
+      "loading": "Caricamento giocatori…",
+      "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+      "goToPlayers": "Vai a Giocatori",
+      "playersTitle": "Scegli i giocatori",
+      "playersSubtitle": "Seleziona {min}–{max} giocatori dal roster salvato.",
+      "presetsTitle": "Stile dilemmi",
+      "packsTitle": "Pacchetti dilemmi",
+      "adultBadge": "18+",
+      "start": "Inizia partita",
+      "presets": {
+        "classic": "Classico",
+        "partyMix": "Mix party",
+        "allAges": "Tutte le età",
+        "custom": "Personalizzato"
+      },
+      "presetTooltips": {
+        "classic": "Solo scelte quotidiane leggere — adatto a qualsiasi gruppo.",
+        "partyMix": "Classico, Disgustoso e Ipotetico insieme.",
+        "allAges": "Tutti i pacchetti non adulti — mix per famiglie.",
+        "custom": "Scegli i tuoi pacchetti dilemmi."
+      },
+      "packs": {
+        "classic": "Classico",
+        "gross": "Disgustoso",
+        "hypothetical": "Ipotetico",
+        "spicy": "Piccante"
+      },
+      "spicyConfirm": {
+        "message": "Il pacchetto Piccante include dilemmi per adulti. Continua solo se tutti nel gruppo hanno 18+ anni e sono a loro agio.",
+        "confirm": "Includi pacchetto Piccante",
+        "cancel": "Annulla"
+      },
+      "validation": {
+        "emptyRoster": "Aggiungi giocatori nella pagina Giocatori prima di iniziare.",
+        "tooFew": "Seleziona almeno {min} giocatori ({count} selezionati).",
+        "tooMany": "Seleziona al massimo {max} giocatori ({count} selezionati).",
+        "noPacks": "Seleziona almeno un pacchetto dilemmi.",
+        "invalidConfig": "Configurazione di gioco non valida."
+      }
+    },
+    "play": {
+      "title": "Preferiresti…",
+      "or": "oppure",
+      "instructions": "Discutete in gruppo, poi tocca l'opzione scelta per continuare.",
+      "chooseOption": "Scegli: {option}",
+      "progress": "Dilemma {current} di {total}",
+      "endSession": "Termina sessione"
+    },
+    "resolve": {
+      "complete": "Sessione completata!",
+      "dilemmasPlayed": "Avete affrontato {count} dilemmi.",
+      "rematch": "Gioca ancora",
+      "exit": "Torna ai giochi"
+    },
+    "rules": {
+      "title": "Come si gioca a Preferiresti",
+      "sections": {
+        "goal": {
+          "title": "Obiettivo",
+          "body": "Discutete dilemmi divertenti in gruppo. L'app mostra due opzioni — il gioco vero avviene al tavolo."
+        },
+        "roles": {
+          "title": "Come funziona",
+          "items": {
+            "group": "Il gruppo — discute e sceglie A o B a voce. Nessuna votazione nell'app.",
+            "reader": "Il lettore — legge ad alta voce ogni dilemma dal telefono condiviso."
+          }
+        },
+        "howToPlay": {
+          "title": "Come si gioca",
+          "steps": {
+            "1": "Scegli giocatori e pacchetti dilemmi, poi inizia.",
+            "2": "Leggi ad alta voce entrambe le opzioni sullo schermo.",
+            "3": "Discutete e scegliete A o B — le regole di casa decidono come votare.",
+            "4": "Tocca l'opzione scelta dal gruppo per andare avanti, o Termina sessione quando volete. Rigiocare mescola dilemmi nuovi."
+          }
+        },
+        "winConditions": {
+          "title": "Fine sessione",
+          "items": {
+            "civilians": "Non c'è un vincitore — finite quando volete o quando finiscono i dilemmi.",
             "impostors": "Rigiocare mescola mazzi nuovi con le stesse impostazioni."
           }
         }
